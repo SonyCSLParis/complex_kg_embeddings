@@ -8,12 +8,12 @@ from urllib.parse import unquote
 import click
 import pandas as pd
 
-REVS_TD = "./Rev/revs_td.csv"
-EXP_F = "ChronoGrapher/exps"
-DATA_F = "ChronoGrapher/data"
+REVS_TD = "./revs_td.csv"
+EXP_F = "exps"
+DATA_F = "data"
 COLUMNS = ["subject", "predicate", "object", "."]
 COLUMNS_TEXT = ["iri", "content"]
-SAMPLE_F = "ChronoGrapher/exps/Cambodian_Civil_War"
+SAMPLE_F = "exps/Cambodian_Civil_War"
 
 def filter_dates(df):
     """ rm timestamps """
@@ -21,14 +21,25 @@ def filter_dates(df):
     return df[~df["object"].str.contains("XMLSchema#date")]
 
 
-def get_files(options):
-    """ Get files to concat depending on options """
-    all_files = [x for x in os.listdir(SAMPLE_F) if x.endswith(".nt")]
+def get_files(options, role, role_syntax):
+    """ Get files to concat depending on options 
+    Options: `prop`, `subevent`, `text` """
+    all_files = [x for x in os.listdir(SAMPLE_F) if (x.endswith(".nt") or x.endswith(".txt"))]
+    if not role:
+        files_roles = []
+    else:
+        files_roles = [x for x in all_files if f"role_{role_syntax}" in x]
+        for o, val in options.items():
+            if not val:
+                files_roles = [x for x in files_roles if not o in x.replace(f"role_{role_syntax}", "")]
+
+    files_options = [x for x in all_files if "role" not in x]
     # Iterate over options
     for o, val in options.items():
         if not val:  # remove corresponding file
-            all_files = [x for x in all_files if not o in x]
-    return all_files
+            files_options = [x for x in files_options if not o in x]
+
+    return files_roles + files_options
 
 
 def prep_data_kg_only(df, file_names):
@@ -36,16 +47,43 @@ def prep_data_kg_only(df, file_names):
     data = {x: [] for x in ["train", "valid", "test"]}
     for _, row in df.iterrows():
         for fn in file_names:
-            try:
-                kg_p = os.path.join(EXP_F, row.event.split('/')[-1], fn)
-                curr_df = filter_dates(df=pd.read_csv(kg_p, sep=" ", header=None))
-                data[row.td].append(curr_df)
-            except pd.errors.EmptyDataError:
-                pass
+            kg_p = os.path.join(EXP_F, row.event.split('/')[-1], fn)
+            if os.path.exists(kg_p):
+                try:
+                    curr_df = filter_dates(df=pd.read_csv(kg_p, sep=" ", header=None))
+                    data[row.td].append(curr_df)
+                except pd.errors.EmptyDataError:
+                    pass
     for key, val in data.items():
         df = pd.concat(val)
         df.columns = COLUMNS
         data[key] = df.drop_duplicates()
+    return data
+
+
+def format_line_hypergraph(line):
+    """ format line to be compatible with data format for exps """
+    elements = line.split(" ")
+    relation = "_".join([x for i, x in enumerate(elements) if i%2 == 1])
+    nodes = "\t".join([x for i, x in enumerate(elements) if i%2 == 0])
+    return relation + "\t" + nodes
+
+
+def prep_data_hypergraph(df, file_names):
+    """ Prep data for hypergraphs """
+    data = {x: [] for x in ["train", "valid", "test"]}
+    for _, row in df.iterrows():
+        for fn in file_names:
+            kg_p = os.path.join(EXP_F, row.event.split('/')[-1], fn)
+            if os.path.exists(kg_p):
+                with open(kg_p, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        cleaned_line = line.rstrip()
+                        if cleaned_line.endswith(" ."):
+                            cleaned_line = cleaned_line[:-2]
+                        data[row.td].append(format_line_hypergraph(line=cleaned_line))
+    for key, val in data.items():
+        data[key] = [x for x in val if x.strip()]
     return data
 
 
@@ -90,24 +128,55 @@ def prep_data_kg_text(df, file_name):
 
 @click.command()
 @click.argument('save_fp')
-@click.option("--prop", help="Whether to include properties in narratives", default=0)
-@click.option("--subevent", help="Whether to include subevent in narratives", default=0)
-@click.option("--text", help="Whether to include text in narratives", default=0)
-def main(save_fp, prop, subevent, text):
+@click.option("--prop", help="Whether to include properties in narratives", 
+              default="0", type=click.Choice(["0", "1"]))
+@click.option("--subevent", help="Whether to include subevent in narratives",
+              default="0", type=click.Choice(["0", "1"]))
+@click.option("--text", help="Whether to include text in narratives",
+             default="0", type=click.Choice(["0", "1"]))
+@click.option("--role", help="Whether to include roles in narratives",
+              default="0", type=click.Choice(["0", "1"]))
+@click.option("--role_syntax", help="Syntax to use for roles", default=None,
+              type=click.Choice(["simple_rdf_prop", "hypergraph_bn", "hyper_relational_rdf_star", "simple_rdf_sp", "simple_rdf_reification"]))
+#@click.pass_context
+def main(save_fp, prop, subevent, text, role, role_syntax):
     """ Main prep data """
     options = {"prop": int(prop), "subevent": int(subevent), "text": int(text)}
-    files = get_files(options=options)
+    if role == "1" and not role_syntax:
+        raise click.BadParameter('If "--role" is provided, "--role_syntax" must also be provided.')
+    if role_syntax == "hypergraph_bn" and text == "1":
+        raise click.BadParameter("Text cannot be included if considering hypergraph syntax")
+    files = get_files(options=options, role=role, role_syntax=role_syntax)
+    print(files)
     if not os.path.exists(save_fp):
         os.makedirs(save_fp)
     if not options["text"]:  # KG only, no text
-        data = prep_data_kg_only(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
-        for key, val in data.items():
-            val.to_csv(os.path.join(save_fp, f"{key}.csv"), header=None, index=False, sep=" ")
+        if role_syntax == "hypergraph_bn":
+            data = prep_data_hypergraph(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
+            for key, val in data.items():
+                with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:
+                    f.write("\n".join(val))
+                f.close()
+        elif role_syntax == "hyper_relational_rdf_star":
+            pass
+        else:
+            data = prep_data_kg_only(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
+            for key, val in data.items():
+                val.to_csv(os.path.join(save_fp, f"{key}.csv"), header=None, index=False, sep=" ")
 
 
 if __name__ == '__main__':
-    # python ChronoGrapher/prep_data.py ./ChronoGrapher/data/kg_base
-    # python ChronoGrapher/prep_data.py ./ChronoGrapher/data/kg_base_prop --prop 1
+    # python prep_data.py ./data/kg_base
+    # python prep_data.py ./data/kg_base_prop --prop 1
+    # python prep_data.py ./data/kg_base_prop_role_simple_rdf_prop --prop 1 --role 1 --role_syntax simple_rdf_prop
+    # python prep_data.py ./data/kg_base_prop_role_simple_rdf_sp --prop 1 --role 1 --role_syntax simple_rdf_sp
+    # python prep_data.py ./data/kg_base_prop_role_simple_rdf_reification --prop 1 --role 1 --role_syntax simple_rdf_reification
+
+    # python prep_data.py ./data/kg_base_subevent_prop_role_simple_rdf_prop --prop 1 --subevent 1 --role 1 --role_syntax simple_rdf_prop
+    # python prep_data.py ./data/kg_base_subevent_prop_role_simple_rdf_sp --prop 1 --subevent 1 --role 1 --role_syntax simple_rdf_sp
+    # python prep_data.py ./data/kg_base_subevent_prop_role_simple_rdf_reification --prop 1 --subevent 1 --role 1 --role_syntax simple_rdf_reification
+
+    # python prep_data.py ./data/kg_base_prop_role_hypergraph_bn --prop 1 --role 1 --role_syntax hypergraph_bn
     main()
 
 # DATA_BASE_F = os.path.join(DATA_F, "basekg")
@@ -136,16 +205,16 @@ if __name__ == '__main__':
 # get_files(options={})
 
 # options = [
-#     {"prop": 0, "subevent": 0, "text": 0},
-#     {"prop": 1, "subevent": 0, "text": 0},
-#     {"prop": 0, "subevent": 1, "text": 0},
-#     {"prop": 0, "subevent": 0, "text": 1},
-#     {"prop": 1, "subevent": 1, "text": 0},
+#     #{"prop": 0, "subevent": 0, "text": 0},
+#     #{"prop": 1, "subevent": 0, "text": 0},
+#     # {"prop": 0, "subevent": 1, "text": 0},
+#     # {"prop": 0, "subevent": 0, "text": 1},
+#     # {"prop": 1, "subevent": 1, "text": 0},
 #     {"prop": 1, "subevent": 0, "text": 1},
-#     {"prop": 0, "subevent": 1, "text": 1},
-#     {"prop": 1, "subevent": 1, "text": 1},
+#     # {"prop": 0, "subevent": 1, "text": 1},
+#     # {"prop": 1, "subevent": 1, "text": 1},
 # ]
 # for option in options:
 #     print(option)
-#     get_files(options=option)
+#     print(get_files(options=option, role=1, role_syntax="simple_rdf_prop"))
 #     print("=====")

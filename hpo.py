@@ -96,7 +96,7 @@ class HPOExperiment:
             negative_sampler_kwargs_ranges=self.kwargs_ranges["negative_sampler"]
         )
         if save_dir:
-            result.save_to_directory(f"ChronoGrapher/hpo/{self.params['model']}")
+            result.save_to_directory(save_dir)
         return result
 
     def run_pipeline(self, params):
@@ -135,20 +135,23 @@ def main(folder_p, model, n_trials, save_fp):
     hpo_exp = HPOExperiment(
         folder_p=folder_p, split=[0.8, 0.1, 0.1],
         kwargs_ranges=KWARGS_RANGES, model=model, n_trials=int(n_trials))
-    save_dir = None if not save_fp else os.path.join(save_fp, model)
+    save_dir = None if not save_fp else os.path.join(save_fp, model, folder_p.split("/")[-1])
+    start_hpo = str(datetime.now())
     hpo_result = hpo_exp.run_hpo(save_dir=save_dir)
+    end_hpo = str(datetime.now())
     logs = start_logs(params=hpo_exp.params)
     pipeline_result = hpo_exp.run_pipeline(params=hpo_result.study.best_params)
     logs["end_pipeline"] = str(datetime.now())
+    logs.update({"start_hpo": start_hpo, "end_hpo": end_hpo})
 
     for metric in METRICS:
         print(f"{metric}: {pipeline_result.metric_results.get_metric(metric)}")
 
     if save_dir:  # save logs
         logs.update({x: pipeline_result.metric_results.get_metric(x) for x in METRICS})
-        with open(os.path.join(save_fp, model, "logs.json"), 'w', encoding='utf-8') as f:
+        with open(os.path.join(save_dir, "logs.json"), 'w', encoding='utf-8') as f:
             json.dump(logs, f, indent=4)
 
 if __name__ == '__main__':
-    # python ChronoGrapher/hpo.py ./ChronoGrapher/data/kg_base_prop transe 2 ./ChronoGrapher/hpo
+    # python hpo.py ./data/kg_base_prop_role_simple_rdf_prop transe 2 ./hpo
     main()

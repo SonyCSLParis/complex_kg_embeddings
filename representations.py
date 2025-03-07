@@ -63,7 +63,7 @@ class KGRepresentationsConverter:
     def link_two_cols(self, df, cols, pred):
         """ Link two cols in a df with a predicate
         cols[0] will be the subject and cols[1] the object """
-        res = df[cols].drop_duplicates()
+        res = df[cols].drop_duplicates().dropna()
         res["predicate"] = pred
         res = res.rename(columns={cols[0]: "subject", cols[1]: "object"})
         return res[self.triples_col]
@@ -95,7 +95,7 @@ class KGRepresentationsConverter:
             output[col] = output[col].apply(lambda x: f"<{x}>")
         return output
 
-    def to_simple_rdf_with_properties(self, graph):
+    def to_simple_rdf_prop(self, graph):
         """ Output ChronoGrapher -> Simple RDF (roles with properties) """
         res = query_return_csv(graph=graph, query=self.queries["simple_rdf_with_properties"])
 
@@ -106,7 +106,7 @@ class KGRepresentationsConverter:
 
         return self.get_output_from_subgraph(sg=sub_graphs)
 
-    def to_simple_rdf_with_sp(self, graph, cache):
+    def to_simple_rdf_sp(self, graph, cache):
         """ Output ChronoGrapher -> Singleton Property 
         cache: since properties need to be common across all kgs,
         caching meaning of single properties """
@@ -133,7 +133,7 @@ class KGRepresentationsConverter:
         sub_graphs.append(pd.DataFrame(data, columns=self.triples_col).drop_duplicates())
         return self.get_output_from_subgraph(sg=sub_graphs), cache
 
-    def to_simple_rdf_with_reification(self, graph, statement_nb):
+    def to_simple_rdf_reification(self, graph, statement_nb):
         """ Output ChronoGrapher -> Reification
         statement_nb: to ensure non-overlapping IDs across events """
         res = query_return_csv(graph=graph, query=self.queries["simple_rdf_with_properties"])
@@ -153,7 +153,7 @@ class KGRepresentationsConverter:
         sub_graphs.append(pd.DataFrame(data, columns=self.triples_col).drop_duplicates())
         return self.get_output_from_subgraph(sg=sub_graphs), statement_nb
 
-    def to_hypergraph_with_bn(self, graph):
+    def to_hypergraph_bn(self, graph):
         """ Output ChronoGrapher -> hypergraph with bn """
         res = query_return_csv(graph=graph, query=self.queries["simple_rdf_with_properties"])
         sub_graphs = self.init_sub_graphs(df=res)
@@ -169,7 +169,7 @@ class KGRepresentationsConverter:
         df = pd.DataFrame(data=data, columns=range(len(data[0])))
         return pd.concat([sub_graphs, df], ignore_index=True)
 
-    def to_hyper_relational_with_rdf_star(self, graph):
+    def to_hyper_relational_rdf_star(self, graph):
         """ Output ChronoGrapher -> hyper-relational with rdf-star """
         res = query_return_csv(graph=graph, query=self.queries["simple_rdf_with_properties"])
         sub_graphs = self.init_sub_graphs(df=res)
@@ -195,7 +195,7 @@ if __name__ == '__main__':
     DF = read_nt(file_p=FILE_P)
     CONVERTER = KGRepresentationsConverter()
 
-    # RES = CONVERTER.to_simple_rdf_with_properties(graph=GRAPH)
+    # RES = CONVERTER.to_simple_rdf_prop(graph=GRAPH)
     # ADD_TEXT = False
     # if ADD_TEXT:
     #     RES = CONVERTER.add_text(df=DF, output=RES)
@@ -203,7 +203,7 @@ if __name__ == '__main__':
     # print(RES.columns)
     # RES.to_csv("test.csv", header=None, index=False, sep=" ")
 
-    # RES, CACHE = CONVERTER.to_simple_rdf_with_sp(graph=GRAPH, cache={})
+    # RES, CACHE = CONVERTER.to_simple_rdf_sp(graph=GRAPH, cache={})
     # ADD_TEXT = True
     # if ADD_TEXT:
     #     RES = CONVERTER.add_text(df=DF, output=RES)
@@ -213,7 +213,7 @@ if __name__ == '__main__':
     # with open("logs.json", 'w', encoding='utf-8') as f:
     #     json.dump(CACHE, f, indent=4)
 
-    # RES, NB = CONVERTER.to_simple_rdf_with_reification(graph=GRAPH, statement_nb=1)
+    # RES, NB = CONVERTER.to_simple_rdf_reification(graph=GRAPH, statement_nb=1)
     # ADD_TEXT = False
     # if ADD_TEXT:
     #     RES = CONVERTER.add_text(df=DF, output=RES)
@@ -221,10 +221,10 @@ if __name__ == '__main__':
     # RES.to_csv("test.csv", header=None, index=False, sep=" ")
     # print(NB)
 
-    # RES = CONVERTER.to_hypergraph_with_bn(graph=GRAPH)
+    # RES = CONVERTER.to_hypergraph_bn(graph=GRAPH)
     # print(RES)
     # RES.to_csv("output.txt", sep=" ", header=False, index=False, na_rep="")
 
-    RES = CONVERTER.to_hyper_relational_with_rdf_star(graph=GRAPH)
+    RES = CONVERTER.to_hyper_relational_rdf_star(graph=GRAPH)
     print(RES)
     RES.to_csv("output.txt", sep=" ", header=False, index=False, na_rep="")

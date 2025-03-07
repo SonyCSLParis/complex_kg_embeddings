@@ -4,17 +4,18 @@ chronographer
 """
 import os
 import json
+import pickle
 import subprocess
 from datetime import datetime
 from urllib.parse import quote
 from tqdm import tqdm
 from loguru import logger
 import pandas as pd
-from rdflib import URIRef
+from rdflib import URIRef, Graph
 from src.framework import GraphSearchFramework
 from src.build_ng.frame_semantics import FrameSemanticsNGBuilder
 from src.build_ng.generic_kb_to_ng import KGConverter
-from utils import update_log, get_iteration, get_nodes, get_text, get_properties
+from utils import update_log, get_iteration, get_nodes, get_text, get_properties, save_json, save_pickle
 from kglab.helpers.variables import NS_NIF, PREFIX_NIF, NS_EX, PREFIX_EX, NS_RDF, PREFIX_RDF, \
         PREFIX_FRAMESTER_WSJ, NS_FRAMESTER_WSJ, \
             NS_FRAMESTER_FRAMENET_ABOX_GFE, PREFIX_FRAMESTER_FRAMENET_ABOX_GFE, \
@@ -30,15 +31,17 @@ PREFIX_TO_NS = {
     PREFIX_EARMARK: NS_EARMARK, PREFIX_XSD: NS_XSD,
     PREFIX_SKOS: NS_SKOS}
 
-EVENTS_DATES = "./Rev/revs_dates.csv"
-CONFIG_PATH = "ChronoGrapher/config_complexkg.json"
+EVENTS_DATES = "./revs_dates.csv"
+CONFIG_PATH = "config_complexkg.json"
 MODE = "search_type_node_no_metrics"
 NS = "all"
 WALK = "informed"
 CONVERTER = KGConverter(dataset="dbpedia")
 OLD_FOLDER = "../graph_search_framework/experiments"
-NEW_FOLDER = "ChronoGrapher/exps"
+NEW_FOLDER = "exps"
 FS_KG_BUILDER = FrameSemanticsNGBuilder()
+FRAME_KG_CACHE_P = "frame_kg_cache.pkl"
+
 
 if not os.path.exists(NEW_FOLDER):
     os.makedirs(NEW_FOLDER)
@@ -48,10 +51,11 @@ with open(CONFIG_PATH, "r", encoding="utf-8") as openfile_main:
 if "rdf_type" in CONFIG:
     CONFIG["rdf_type"] = list(CONFIG["rdf_type"].items())
 
-def save_log(logs, save_p):
-    """ save logs """
-    with open(save_p, 'w', encoding='utf-8') as f:
-        json.dump(logs, f, indent=4)
+if os.path.exists(FRAME_KG_CACHE_P):
+    with open(FRAME_KG_CACHE_P, 'rb') as f:
+        FRAME_KG_CACHE = pickle.load(f)
+else:
+    FRAME_KG_CACHE = {}
 
 def convert_generic_to_event_kg(df, sd, ed, save_p):
     """ Output of chronographer -> event-centric KG (simple) """
@@ -136,7 +140,7 @@ def build_frame_semantics(path):
     try:
         df = pd.read_csv(path, sep=" ", header=None)
     except pd.errors.EmptyDataError:
-        return pd.DataFrame()
+        return Graph()
     columns = ["subject", "predicate", "object", "."]
     df.columns = columns
     abstracts = df[df.predicate.str.contains("/abstract")]
@@ -146,7 +150,12 @@ def build_frame_semantics(path):
             event = name[1:-1]
             id_abstract = f"{event.split('/')[-1]}_Abstract{i}"
             graph.add((URIRef(quote(event, safe=":/")), URIRef("http://example.com/abstract"), URIRef(f"http://example.com/{quote(id_abstract)}")))
-            curr_graph = FS_KG_BUILDER(text_input=r["object"], id_abstract=id_abstract)
+            if r["object"] in FRAME_KG_CACHE:
+                curr_graph = FRAME_KG_CACHE[r["object"]]
+            else:
+                curr_graph = FS_KG_BUILDER(text_input=r["object"], id_abstract=id_abstract)
+                FRAME_KG_CACHE[r["object"]] = curr_graph
+                save_pickle(cache=FRAME_KG_CACHE, save_p=FRAME_KG_CACHE_P)
             graph += curr_graph
     return graph
 
@@ -171,7 +180,7 @@ def run_one_event(name, sd, ed, logs):
         convert_generic_to_event_kg(
             df=df, sd=sd, ed=ed, save_p=kg_base_p)
         logs = update_log(logs, "end_kg_base")
-        save_log(logs=logs, save_p=os.path.join(folder_p, "logs.json"))
+        save_json(data=logs, save_p=os.path.join(folder_p, "logs.json"))
 
     # Base KG (with properties)
     kg_base_prop_p = os.path.join(folder_p, "kg_base_prop.nt")
@@ -181,7 +190,7 @@ def run_one_event(name, sd, ed, logs):
         df = get_prop_from_base(path=kg_base_p, interface=CONVERTER.interface)
         df.to_csv(kg_base_prop_p, header=None, index=False, sep=" ")
         logs = update_log(logs, "end_kg_base_prop")
-        save_log(logs=logs, save_p=os.path.join(folder_p, "logs.json"))
+        save_json(data=logs, save_p=os.path.join(folder_p, "logs.json"))
 
     # Base KG + sub-events
     ## Graph search to retrieve sub-events
@@ -197,7 +206,7 @@ def run_one_event(name, sd, ed, logs):
         # Move exps
         move_exps(folder_p=folder_p)
         logs = update_log(logs, "end_cg")
-        save_log(logs=logs, save_p=os.path.join(folder_p, "logs.json"))
+        save_json(data=logs, save_p=os.path.join(folder_p, "logs.json"))
 
     iteration = get_iteration(folder=folder_p)
 
@@ -209,7 +218,7 @@ def run_one_event(name, sd, ed, logs):
         df = pd.read_csv(os.path.join(folder_p, f"{str(iteration)}-subgraph.csv"), index_col=0)
         convert_generic_to_event_kg(df=df, sd=sd, ed=ed, save_p=kg_base_subevent_p)
         logs = update_log(logs, "end_kg_base_subevent")
-        save_log(logs=logs, save_p=os.path.join(folder_p, "logs.json"))
+        save_json(data=logs, save_p=os.path.join(folder_p, "logs.json"))
 
     ## Base KG  + sub-events (with properties)
     kg_base_subevent_prop_p = os.path.join(folder_p, "kg_base_subevent_prop.nt")
@@ -219,7 +228,7 @@ def run_one_event(name, sd, ed, logs):
         df = get_prop_from_base(path=kg_base_subevent_p, interface=CONVERTER.interface)
         df.to_csv(kg_base_subevent_prop_p, header=None, index=False, sep=" ")
         logs = update_log(logs, "end_kg_base_subevent_prop")
-        save_log(logs=logs, save_p=os.path.join(folder_p, "logs.json"))
+        save_json(data=logs, save_p=os.path.join(folder_p, "logs.json"))
 
     # All the above (with text)
     for fn in ["kg_base", "kg_base_prop", "kg_base_subevent", "kg_base_subevent_prop"]:
@@ -231,7 +240,7 @@ def run_one_event(name, sd, ed, logs):
                 path=os.path.join(folder_p, f"{fn}.nt"), interface=CONVERTER.interface)
             df.to_csv(text_p, header=None, index=False, sep=" ")
             logs = update_log(logs, f"end_{fn}_text")
-            save_log(logs=logs, save_p=os.path.join(folder_p, "logs.json"))
+            save_json(data=logs, save_p=os.path.join(folder_p, "logs.json"))
 
     # All with text for (frame-based) roles
     for fn in ["kg_base", "kg_base_prop", "kg_base_subevent", "kg_base_subevent_prop"]:
@@ -243,7 +252,7 @@ def run_one_event(name, sd, ed, logs):
             graph = build_frame_semantics(path=text_p)
             graph.serialize(role_p, format="nt")
             logs = update_log(logs, f"end_{fn}_roles_text")
-            save_log(logs=logs, save_p=os.path.join(folder_p, "logs.json"))
+            save_json(data=logs, save_p=os.path.join(folder_p, "logs.json"))
 
     logs["end_all"] = str(datetime.now())
     return logs

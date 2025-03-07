@@ -5,7 +5,13 @@ from pykeen.pipeline import pipeline
 
 from utils import concat_nt_in_folder
 
-FOLDER_P = "./ChronoGrapher/data/kg_base_prop"
+# FOLDER_P = "./data/kg_base_prop_role_simple_rdf_prop"
+# FOLDER_P = "./data/kg_base_prop_role_simple_rdf_reification"
+# FOLDER_P = "./data/kg_base_prop_role_simple_rdf_sp"
+
+FOLDER_P = "./data/kg_base_subevent_prop_role_simple_rdf_prop"
+FOLDER_P = "./data/kg_base_subevent_prop_role_simple_rdf_reification"
+FOLDER_P = "./data/kg_base_subevent_prop_role_simple_rdf_sp"
 columns = ["subject", "predicate", "object", "."]
 
 triples = concat_nt_in_folder(folder_p=FOLDER_P, columns=columns)
