@@ -15,7 +15,9 @@ import torch
 from pykeen.hpo import hpo_pipeline
 from pykeen.pipeline import pipeline
 from pykeen.triples import TriplesFactory
+from pykeen.utils import resolve_device, set_random_seed
 from utils import concat_nt_in_folder
+
 
 SEED = 23
 COLUMNS = ["subject", "predicate", "object", "."]
@@ -82,6 +84,7 @@ class HPOExperiment:
         np.random.seed(SEED)
         torch.manual_seed(SEED)
         torch.cuda.manual_seed_all(SEED)
+        set_random_seed(SEED)
         result = hpo_pipeline(
             training=self.train, validation=self.valid, testing=self.valid,
             model=self.params["model"],
@@ -93,7 +96,8 @@ class HPOExperiment:
             loss_kwargs_ranges=self.kwargs_ranges["loss"],
             regularizer_kwargs_ranges=self.kwargs_ranges["regularizer"],
             optimizer_kwargs_ranges=self.kwargs_ranges["optimizer"],
-            negative_sampler_kwargs_ranges=self.kwargs_ranges["negative_sampler"]
+            negative_sampler_kwargs_ranges=self.kwargs_ranges["negative_sampler"],
+            device=resolve_device(),
         )
         if save_dir:
             result.save_to_directory(save_dir)

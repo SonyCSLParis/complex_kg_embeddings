@@ -3,6 +3,8 @@
 various utils
 """
 import os
+import json
+import pickle
 import pandas as pd
 from datetime import datetime
 from urllib.parse import quote, unquote
@@ -66,3 +68,32 @@ def concat_nt_in_folder(folder_p, columns):
     output = pd.concat(files)
     output.columns = columns
     return output
+
+def save_json(data, save_p):
+    """ save data as .json """
+    with open(save_p, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=4)
+
+def save_pickle(cache, save_p):
+    """ save pickle """
+    with open(save_p, 'wb') as f:
+        pickle.dump(cache, f)
+
+def load_pickle_cache(file_p, return_val):
+    """ if file exists, loads, else empty dict """
+    if os.path.exists(file_p):
+        with open(file_p, 'rb') as f:
+            cache = pickle.load(f)
+    else:
+        cache = return_val
+    return cache
+
+def load_json(file_p):
+    """ if file exists, loads, else empty dict """
+    if os.path.exists(file_p):
+        with open(file_p, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    else:
+        data = {}
+    return data
+

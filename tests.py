@@ -4,7 +4,7 @@ Various tests
 
 To run (from folder root):
 ```bash
-python -m unittest -v tests.py
+      python -m unittest -v tests.py
 ```
 """
 import os

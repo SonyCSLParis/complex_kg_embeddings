@@ -87,6 +87,30 @@ def prep_data_hypergraph(df, file_names):
     return data
 
 
+def prep_data_rdf_star(df, file_names):
+    """ Prep data for RDF* """
+    data = {x: [] for x in ["train", "valid", "test"]}
+    for _, row in df.iterrows():
+        for fn in file_names:
+            kg_p = os.path.join(EXP_F, row.event.split('/')[-1], fn)
+            if os.path.exists(kg_p):
+                if kg_p.endswith(".nt"):
+                    try:
+                        curr_df = filter_dates(df=pd.read_csv(kg_p, sep=" ", header=None))
+                        for _, curr_row in curr_df.iterrows():
+                            data[row.td].append(f"{curr_row.predicate}\t{curr_row.subject}\t{curr_row.object}")
+                    except pd.errors.EmptyDataError:
+                        pass
+                else:  # kg_p.endswith(".txt")
+                    with open(kg_p, 'r', encoding='utf-8') as f:
+                        for line in f:
+                            cleaned_line = line.rstrip()[:-2].replace("<< ", "").replace(" >>", "")
+                            data[row.td].append(format_line_hypergraph(line=cleaned_line))
+    for key, val in data.items():
+        data[key] = [x for x in val if x.strip()]
+    return data
+
+
 def update_w_missing_nodes(df, nodes):
     """ update descriptions and names with missing info """
     df.columns = COLUMNS_TEXT
@@ -158,7 +182,11 @@ def main(save_fp, prop, subevent, text, role, role_syntax):
                     f.write("\n".join(val))
                 f.close()
         elif role_syntax == "hyper_relational_rdf_star":
-            pass
+            data = prep_data_rdf_star(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
+            for key, val in data.items():
+                with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:
+                    f.write("\n".join(val))
+                f.close()
         else:
             data = prep_data_kg_only(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
             for key, val in data.items():
@@ -177,6 +205,8 @@ if __name__ == '__main__':
     # python prep_data.py ./data/kg_base_subevent_prop_role_simple_rdf_reification --prop 1 --subevent 1 --role 1 --role_syntax simple_rdf_reification
 
     # python prep_data.py ./data/kg_base_prop_role_hypergraph_bn --prop 1 --role 1 --role_syntax hypergraph_bn
+
+    # python prep_data.py ./data/kg_base_role_rdf_star --role 1 --role_syntax hyper_relational_rdf_star
     main()
 
 # DATA_BASE_F = os.path.join(DATA_F, "basekg")
