@@ -1,0 +1,94 @@
+<http://example.com/5_October_1910_revolution_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/5_October_1910_revolution_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Republican victory" .
+<http://example.com/5_October_1910_revolution_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/5_October_1910_revolution_Result0_0> .
+<http://example.com/5_October_1910_revolution_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/5_October_1910_revolution_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Republican victory" .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://example.com/hasOutcome> <http://example.com/5_October_1910_revolution_Result0> .
+<http://example.com/5_October_1910_revolution_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Republican victory" .
+<http://example.com/5_October_1910_revolution_Result0> <http://example.com/abstract> "Republican victory" .
+<http://example.com/5_October_1910_revolution_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/5_October_1910_revolution_Result0_0> .
+<http://example.com/5_October_1910_revolution_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/5_October_1910_revolution_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/5_October_1910_revolution_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/5_October_1910_revolution_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/5_October_1910_revolution_Result0_0_0_0> .
+<http://example.com/5_October_1910_revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/5_October_1910_revolution_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/5_October_1910_revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Republican" .
+<http://example.com/5_October_1910_revolution_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/5_October_1910_revolution_Result0_0> .
+<http://example.com/5_October_1910_revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/5_October_1910_revolution_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/5_October_1910_revolution_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Abolition of the monarchy and proclamation of the republic." .
+<http://example.com/5_October_1910_revolution_Result1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/5_October_1910_revolution_Result1_0> .
+<http://example.com/5_October_1910_revolution_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/5_October_1910_revolution_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Abolition of the monarchy and proclamation of the republic." .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://example.com/hasOutcome> <http://example.com/5_October_1910_revolution_Result1> .
+<http://example.com/5_October_1910_revolution_Result1> <http://www.w3.org/2000/01/rdf-schema#label> "Abolition of the monarchy and proclamation of the republic." .
+<http://example.com/5_October_1910_revolution_Result1> <http://example.com/abstract> "Abolition of the monarchy and proclamation of the republic." .
+<http://example.com/5_October_1910_revolution_Result1_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/5_October_1910_revolution_Result1_0> .
+<http://example.com/5_October_1910_revolution_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/5_October_1910_revolution_Result1_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Change_of_leadership> .
+<http://example.com/5_October_1910_revolution_Result1_0_0> <https://w3id.org/framester/wsj/onLemma> "Abolition" .
+<http://example.com/5_October_1910_revolution_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/5_October_1910_revolution_Result1_0_0_0> .
+<http://example.com/5_October_1910_revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/5_October_1910_revolution_Result1_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Old_leader> .
+<http://example.com/5_October_1910_revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the monarchy" .
+<http://example.com/5_October_1910_revolution_Result1_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/5_October_1910_revolution_Result1_0> .
+<http://example.com/5_October_1910_revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/5_October_1910_revolution_Result1_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/5_October_1910_revolution_Result1_0> .
+<http://example.com/5_October_1910_revolution_Result1_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/5_October_1910_revolution_Result1_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Statement> .
+<http://example.com/5_October_1910_revolution_Result1_0_1> <https://w3id.org/framester/wsj/onLemma> "proclamation" .
+<http://example.com/5_October_1910_revolution_Result1_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/5_October_1910_revolution_Result1_0_1_0> .
+<http://example.com/5_October_1910_revolution_Result1_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/5_October_1910_revolution_Result1_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Message> .
+<http://example.com/5_October_1910_revolution_Result1_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the republic" .
+<http://example.com/5_October_1910_revolution_Result1_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/5_October_1910_revolution_Result1_0> .
+<http://example.com/5_October_1910_revolution_Result1_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/5_October_1910_revolution_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/5_October_1910_revolution_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "King Manuel II is exiled and flees to England." .
+<http://example.com/5_October_1910_revolution_Result2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/5_October_1910_revolution_Result2_0> .
+<http://example.com/5_October_1910_revolution_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/5_October_1910_revolution_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "King Manuel II is exiled and flees to England." .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://example.com/hasOutcome> <http://example.com/5_October_1910_revolution_Result2> .
+<http://example.com/5_October_1910_revolution_Result2> <http://www.w3.org/2000/01/rdf-schema#label> "King Manuel II is exiled and flees to England." .
+<http://example.com/5_October_1910_revolution_Result2> <http://example.com/abstract> "King Manuel II is exiled and flees to England." .
+<http://example.com/5_October_1910_revolution_Result2_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/5_October_1910_revolution_Result2_0> .
+<http://example.com/5_October_1910_revolution_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/5_October_1910_revolution_Result2_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Leadership> .
+<http://example.com/5_October_1910_revolution_Result2_0_0> <https://w3id.org/framester/wsj/onLemma> "King" .
+<http://example.com/5_October_1910_revolution_Result2_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/5_October_1910_revolution_Result2_0_0_0> .
+<http://example.com/5_October_1910_revolution_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/5_October_1910_revolution_Result2_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Leader> .
+<http://example.com/5_October_1910_revolution_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Manuel II" .
+<http://example.com/5_October_1910_revolution_Result2_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/5_October_1910_revolution_Result2_0> .
+<http://example.com/5_October_1910_revolution_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/5_October_1910_revolution_Result2_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Manuel_II_of_Portugal> .
+<http://example.com/5_October_1910_revolution_Result2_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/5_October_1910_revolution_Result2_0> .
+<http://example.com/5_October_1910_revolution_Result2_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/5_October_1910_revolution_Result2_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Exclude_member> .
+<http://example.com/5_October_1910_revolution_Result2_0_1> <https://w3id.org/framester/wsj/onLemma> "exiled" .
+<http://example.com/5_October_1910_revolution_Result2_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/5_October_1910_revolution_Result2_0_1_0> .
+<http://example.com/5_October_1910_revolution_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/5_October_1910_revolution_Result2_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Member> .
+<http://example.com/5_October_1910_revolution_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "King Manuel II" .
+<http://example.com/5_October_1910_revolution_Result2_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/5_October_1910_revolution_Result2_0> .
+<http://example.com/5_October_1910_revolution_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/5_October_1910_revolution_Result2_0_1_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Manuel_II_of_Portugal> .
+<http://example.com/5_October_1910_revolution_Result2_0_2> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/5_October_1910_revolution_Result2_0> .
+<http://example.com/5_October_1910_revolution_Result2_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/5_October_1910_revolution_Result2_0_2> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Fleeing> .
+<http://example.com/5_October_1910_revolution_Result2_0_2> <https://w3id.org/framester/wsj/onLemma> "flees" .
+<http://example.com/5_October_1910_revolution_Result2_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/5_October_1910_revolution_Result2_0_2_0> .
+<http://example.com/5_October_1910_revolution_Result2_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/5_October_1910_revolution_Result2_0_2_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Self_mover> .
+<http://example.com/5_October_1910_revolution_Result2_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "King Manuel II" .
+<http://example.com/5_October_1910_revolution_Result2_0_2_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/5_October_1910_revolution_Result2_0> .
+<http://example.com/5_October_1910_revolution_Result2_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/5_October_1910_revolution_Result2_0_2_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Manuel_II_of_Portugal> .
+<http://example.com/5_October_1910_revolution_Result2_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/5_October_1910_revolution_Result2_0_2_1> .
+<http://example.com/5_October_1910_revolution_Result2_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/5_October_1910_revolution_Result2_0_2_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Goal> .
+<http://example.com/5_October_1910_revolution_Result2_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "to England" .
+<http://example.com/5_October_1910_revolution_Result2_0_2_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/5_October_1910_revolution_Result2_0> .
+<http://example.com/5_October_1910_revolution_Result2_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/5_October_1910_revolution_Result2_0_2_1> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/England> .

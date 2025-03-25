@@ -20,8 +20,10 @@ from kglab.helpers.variables import NS_NIF, PREFIX_NIF, NS_EX, PREFIX_EX, NS_RDF
                 NS_FRAMESTER_ABOX_FRAME, PREFIX_FRAMESTER_ABOX_FRAME, \
                         NS_EARMARK, PREFIX_EARMARK, NS_XSD, PREFIX_XSD, \
                             NS_SKOS, PREFIX_SKOS
-from kglab.helpers.kg_build import init_graph
+from utils import init_graph
 import concurrent.futures
+import multiprocessing
+multiprocessing.set_start_method('spawn', force=True)
 
 PREFIX_TO_NS = {
     PREFIX_NIF: NS_NIF, PREFIX_RDF: NS_RDF, PREFIX_EX: NS_EX,
@@ -33,52 +35,80 @@ PREFIX_TO_NS = {
 EVENTS_DATES = "./revs_dates.csv"
 NEW_FOLDER = "exps"
 FS_KG_BUILDER = FrameSemanticsNGBuilder()
-FRAME_KG_CACHE_P = "frame_kg_cache.pkl"
+FRAME_KG_CACHE_P = "cache/frame_graphs"
 
 
 if not os.path.exists(NEW_FOLDER):
     os.makedirs(NEW_FOLDER)
 
 
-def build_frame_semantics(path):
+def build_frame_semantics(path, max_workers):
     """ Build graph related to frame semantics
     `path`: {fn}_text.nt """
     try:
         df = pd.read_csv(path, sep=" ", header=None)
     except pd.errors.EmptyDataError:
         return Graph()
-    # try to load cache, else delete and create new one
-    if os.path.exists(FRAME_KG_CACHE_P):
-        try:
-            with open(FRAME_KG_CACHE_P, 'rb') as f:
-                cache = pickle.load(f)
-        except:
-                if os.path.exists(FRAME_KG_CACHE_P):
-                    subprocess.call(f"rm {FRAME_KG_CACHE_P}", shell=True)
-                cache = {}
-    else:
-        cache = {}
 
     columns = ["subject", "predicate", "object", "."]
     df.columns = columns
     abstracts = df[df.predicate.str.contains("/abstract")]
     graph = init_graph(prefix_to_ns=PREFIX_TO_NS)
-    for name, group in tqdm(abstracts.groupby("subject")):
+
+    tasks = []
+    for name, group in abstracts.groupby("subject"):
+    # for name, group in tqdm(abstracts.groupby("subject")):
+        # for i, r in group.reset_index(drop=True).iterrows():
+        #     event = name[1:-1]
+        #     id_abstract = f"{event.split('/')[-1]}_Abstract{i}"
+        #     graph.add((URIRef(quote(event, safe=":/")), URIRef("http://example.com/abstract"), URIRef(f"http://example.com/{quote(id_abstract)}")))
+
+        #     curr_graph = process_abstract(id_abstract=id_abstract)
+        #     graph += curr_graph
+        
+        #tasks = []
         for i, r in group.reset_index(drop=True).iterrows():
             event = name[1:-1]
             id_abstract = f"{event.split('/')[-1]}_Abstract{i}"
             graph.add((URIRef(quote(event, safe=":/")), URIRef("http://example.com/abstract"), URIRef(f"http://example.com/{quote(id_abstract)}")))
-            if r["object"] in cache:
-                curr_graph = cache[r["object"]]
-            else:
-                curr_graph = FS_KG_BUILDER(text_input=r["object"], id_abstract=id_abstract)
-                cache[r["object"]] = curr_graph
-                save_pickle(cache=cache, save_p=FRAME_KG_CACHE_P)
-            graph += curr_graph
+            tasks.append((id_abstract, r))
+
+    # Parallel execution
+    # with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = [executor.submit(process_abstract, id_, r) for id_, r in tasks]
+        results = []
+        for f in tqdm(concurrent.futures.as_completed(futures), 
+                      total=len(futures), desc="Processing abstracts"):
+            results.append(f.result())
+        #results = [f.result() for f in concurrent.futures.as_completed(futures)]
+        for g in results:
+            graph += g
+        #concurrent.futures.wait(futures)
     return graph
 
+def process_abstract(id_abstract, r):
+    """
+    Loads or builds an RDF graph for the given abstract ID.
 
-def run_one_event(name, sd, ed, logs):
+    If a cached graph exists, it is loaded; otherwise, a new graph is built and cached.
+
+    Args:
+        id_abstract (str): The abstract's identifier.
+
+    Returns:
+        rdflib.Graph: The RDF graph for the abstract.
+    """
+    if f"{id_abstract}.nt" in os.listdir(FRAME_KG_CACHE_P):
+        curr_graph = Graph()
+        curr_graph.parse(os.path.join(FRAME_KG_CACHE_P, f"{id_abstract}.nt"))
+    else:
+        curr_graph = FS_KG_BUILDER(text_input=r["object"], id_abstract=id_abstract)
+        curr_graph.serialize(os.path.join(FRAME_KG_CACHE_P, f"{id_abstract}.nt"), format="nt")
+    return curr_graph
+
+
+def run_one_event(name, sd, ed, logs, max_workers):
     """ Run all for one event """
     logs = update_log(logs, "start_all")
     folder_name = name.split('/')[-1]
@@ -94,9 +124,7 @@ def run_one_event(name, sd, ed, logs):
         if not os.path.exists(role_p):
             logger.info(f"Building {fn} + roles + text")
             logs = update_log(logs, f"start_{fn}_roles_text")
-            graph = build_frame_semantics(path=text_p)
-            if os.path.exits(FRAME_KG_CACHE_P):
-                subprocess.call(f"rm {FRAME_KG_CACHE_P}", shell=True)
+            graph = build_frame_semantics(path=text_p, max_workers=max_workers)
             graph.serialize(role_p, format="nt")
             logs = update_log(logs, f"end_{fn}_roles_text")
             save_json(data=logs, save_p=os.path.join(folder_p, "logs.json"))
@@ -105,7 +133,7 @@ def run_one_event(name, sd, ed, logs):
     return logs
 
 
-def process_event(row, logs_p, folder_out, index, nb_event):
+def process_event(row, logs_p, folder_out, index, nb_event, max_workers):
     """Processes an individual event and updates logs."""
     perc = round(100 * (index + 1) / nb_event, 2)
     logger.info(f"Processing event {row.event} ({index+1}/{nb_event}, {perc}%)")
@@ -116,32 +144,33 @@ def process_event(row, logs_p, folder_out, index, nb_event):
     else:
         curr_logs = {}
 
-    curr_logs = run_one_event(name=row.event, sd=row.start, ed=row.end, logs=curr_logs)
+    curr_logs = run_one_event(name=row.event, sd=row.start, ed=row.end, logs=curr_logs, max_workers=max_workers)
 
     with open(logs_p, 'w', encoding='utf-8') as f:
         json.dump(curr_logs, f, indent=4)
 
 
-def parallel_process(events_df, new_folder, max_workers=4):
+def process_events(events_df, new_folder, max_workers=4):
     """Runs event processing in parallel."""
     nb_event = events_df.shape[0]
 
     tasks = []
-    for index, row in events_df.iterrows():
+    for index, row in tqdm(events_df.iterrows(), total=events_df.shape[0]):
         folder_out = os.path.join(new_folder, row.event.split('/')[-1])
         logs_p = os.path.join(folder_out, "logs.json")
-        tasks.append((row, logs_p, folder_out, index, nb_event))
+        process_event(row, logs_p, folder_out, index, nb_event, max_workers)
+        #tasks.append((row, logs_p, folder_out, index, nb_event))
 
     # Parallel execution
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = [executor.submit(process_event, row, logs_p, folder_out, index, nb_event) for row, logs_p, folder_out, index, nb_event in tasks]
-        concurrent.futures.wait(futures)
+    # with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+    #     futures = [executor.submit(process_event, row, logs_p, folder_out, index, nb_event) for row, logs_p, folder_out, index, nb_event in tasks]
+    #     concurrent.futures.wait(futures)
 
 
 
 if __name__ == '__main__':
     events = pd.read_csv(EVENTS_DATES, index_col=0)
-    parallel_process(events, NEW_FOLDER, max_workers=32)
+    process_events(events, NEW_FOLDER, max_workers=32)
         
 
 

@@ -3,9 +3,12 @@
 various utils
 """
 import os
+import io
 import json
 import pickle
+import requests
 import pandas as pd
+from rdflib import Graph
 from datetime import datetime
 from urllib.parse import quote, unquote
 
@@ -97,3 +100,35 @@ def load_json(file_p):
         data = {}
     return data
 
+def read_nt(file_p):
+    """ Read .nt file as a csv """
+    columns=["subject", "predicate", "object", "."]
+    try:
+        df = pd.read_csv(file_p, sep=' ', header=None)
+        df.columns = columns
+    except pd.errors.EmptyDataError:
+        df = pd.DataFrame(columns=columns)
+    return df
+
+def run_request(endpoint, header, query):
+    """ SPARQL query """
+    response = requests.get(
+        endpoint, headers=header,
+        params={"query": query}, timeout=3600)
+    data = pd.read_csv(io.StringIO(response.content.decode('utf-8')))
+    return data
+
+def init_graph(prefix_to_ns):
+    """
+    Initialize an RDF graph and bind namespaces.
+
+    Args:
+        prefix_to_ns (dict): A dictionary where keys are namespace prefixes (str) and values are namespace URIs (str).
+
+    Returns:
+        Graph: An RDF graph with the specified namespaces bound.
+    """
+    graph = Graph()
+    for (prefix, ns) in prefix_to_ns.items():
+        graph.bind(prefix, ns)
+    return graph

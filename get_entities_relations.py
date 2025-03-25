@@ -38,6 +38,18 @@ def save_info_hypermln(content: Set[str], save_p: str) -> None:
     with open(save_p, "w", encoding="utf-8") as file:
         file.write("\n".join(f"{i}\t{elt}" for i, elt in enumerate(content)) + "\n")
 
+def save_info_kg_ilc(content: Set[str], save_p: str) -> None:
+    """Save elements to a file, each line formatted as:
+    
+    {elt_id}\t{elt}
+    
+    Args:
+        content (set[str]): A set of elements to save.
+        save_p (str): Path to save the file.
+    """
+    with open(save_p, "w", encoding="utf-8") as file:
+        file.write("\n".join(f"{elt}\t{i}" for i, elt in enumerate(content)) + "\n")
+
 
 def save_info_hahe(entities: Set[str], relations: Set[str], save_p: str) -> None:
     """Save entities and relations to a file, formatted as:
@@ -95,21 +107,26 @@ def reformat_data_hahe(folder: str) -> None:
 @click.command()
 @click.argument("folder")
 @click.argument("dataset",
-                default="hypermln", type=click.Choice(["hypermln", "hahe"]))
-def main(folder, dataset):
+                default="hypermln", type=click.Choice(["hypermln", "hahe", "kg_ilc"]))
+@click.argument("extension", default="txt", type=click.Choice(["txt", "dict"]))
+def main(folder, dataset, extension):
     """ main: get relations/entities and save them """
     entities, relations = extract_entity_relations(folder=folder)
     print(f"# Entities: {len(entities)} | # Relations: {len(relations)}")
 
     if dataset == "hypermln":
-        save_info_hypermln(entities, os.path.join(folder, "entities.dict"))
-        save_info_hypermln(relations, os.path.join(folder, "relations.dict"))
+        save_info_hypermln(entities, os.path.join(folder, f"entities.{extension}"))
+        save_info_hypermln(relations, os.path.join(folder, f"relations.{extension}"))
+    
+    if dataset == "kg_ilc":
+        save_info_kg_ilc(entities, os.path.join(folder, f"entities.{extension}"))
+        save_info_kg_ilc(relations, os.path.join(folder, f"relations.{extension}"))
     
     if dataset == "hahe":
         new_rel = {x for x in relations if ">_<" in x}
         relations.update({f"{x}_0" for x in new_rel})
         print(f"# Entities: {len(entities)} | # Relations (updated): {len(relations)}")
-        save_info_hahe(entities, relations, os.path.join(folder, "vocab.txt"))
+        save_info_hahe(entities, relations, os.path.join(folder, f"vocab.{extension}"))
         reformat_data_hahe(folder)
 
 if __name__ == '__main__':

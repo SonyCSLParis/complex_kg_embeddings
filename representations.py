@@ -5,6 +5,7 @@ Converting the output of ChronoGrapher into different formats
 import json
 from rdflib import Graph
 import pandas as pd
+from utils import read_nt
 
 def get_columns_from_query(query):
     """ column names from sparql query """
@@ -13,19 +14,16 @@ def get_columns_from_query(query):
     return res
 
 
-def read_nt(file_p):
-    """ Read .nt file as a csv """
-    df = pd.read_csv(file_p, sep=' ', header=None)
-    df.columns = ["subject", "predicate", "object", "."]
-    return df
-
-
 def query_return_csv(graph, query):
     """ (SELECT) query to be returned as .csv """
     res = graph.query(query)
     res = pd.DataFrame(res)
-    res.columns = get_columns_from_query(query=query)
-    return res
+    columns = get_columns_from_query(query=query)
+    if res.shape[0] == 0:
+        return pd.DataFrame(columns=columns)
+    else:
+        res.columns = columns
+        return res
 
 
 class KGRepresentationsConverter:
@@ -46,7 +44,7 @@ class KGRepresentationsConverter:
         self.queries = {
             "simple_rdf_with_properties": """
             SELECT DISTINCT ?event ?sub_event ?frame ?role ?role_type ?entity WHERE {
-            ?event ex:abstract ?abstract .
+            ?event ?pred ?abstract .
             ?abstract nif:sentence ?sentence .
             ?sub_event wsj:fromDocument ?sentence ;
                     a wsj:CorpusEntry ;
@@ -54,6 +52,7 @@ class KGRepresentationsConverter:
                     wsj:withmappedrole ?role .
             ?role wsj:withfnfe ?role_type .
             OPTIONAL {?role skos:related ?entity}
+            VALUES ?pred {ex:abstract ex:hasOutcome}
             }
             """
         }
@@ -76,11 +75,15 @@ class KGRepresentationsConverter:
         df = df[~df.object.str.startswith("<")]
         return pd.concat([output, df])
 
-    def init_sub_graphs(self, df):
+    def init_sub_graphs(self, df, mode):
         """ Sub graphs common to all representation types """
         sub_graphs = []
-        sub_graphs.append(self.link_two_cols(
-            df=df, cols=["sub_event", "event"], pred=f"{self.prefixes['sem']}subEventOf"))
+        if mode == "role":
+            sub_graphs.append(self.link_two_cols(
+                df=df, cols=["sub_event", "event"], pred=f"{self.prefixes['sem']}subEventOf"))
+        if mode == "causation":
+            sub_graphs.append(self.link_two_cols(
+                df=df, cols=["event", "sub_event"], pred=f"{self.prefixes['ex']}hasOutcome"))
         sub_graphs.append(self.link_two_cols(
             df=df, cols=["sub_event", "frame"], pred=f"{self.prefixes['rdf']}type"))
         sub_graphs.append(self.link_two_cols(
@@ -95,23 +98,23 @@ class KGRepresentationsConverter:
             output[col] = output[col].apply(lambda x: f"<{x}>")
         return output
 
-    def to_simple_rdf_prop(self, graph):
+    def to_simple_rdf_prop(self, graph, mode: str = "role"):
         """ Output ChronoGrapher -> Simple RDF (roles with properties) """
         res = query_return_csv(graph=graph, query=self.queries["simple_rdf_with_properties"])
 
-        sub_graphs = self.init_sub_graphs(df=res)
+        sub_graphs = self.init_sub_graphs(df=res, mode=mode)
         sub_graphs.append(
             res[["sub_event", "role_type", "role"]].drop_duplicates().rename(
                 columns={"sub_event": "subject", "role_type": "predicate", "role": "object"}))
 
         return self.get_output_from_subgraph(sg=sub_graphs)
 
-    def to_simple_rdf_sp(self, graph, cache):
+    def to_simple_rdf_sp(self, graph, cache, mode: str = "role"):
         """ Output ChronoGrapher -> Singleton Property 
         cache: since properties need to be common across all kgs,
         caching meaning of single properties """
         res = query_return_csv(graph=graph, query=self.queries["simple_rdf_with_properties"])
-        sub_graphs = self.init_sub_graphs(df=res)
+        sub_graphs = self.init_sub_graphs(df=res, mode=mode)
 
         data = []
         if cache:
@@ -133,11 +136,11 @@ class KGRepresentationsConverter:
         sub_graphs.append(pd.DataFrame(data, columns=self.triples_col).drop_duplicates())
         return self.get_output_from_subgraph(sg=sub_graphs), cache
 
-    def to_simple_rdf_reification(self, graph, statement_nb):
+    def to_simple_rdf_reification(self, graph, statement_nb, mode: str = "role"):
         """ Output ChronoGrapher -> Reification
         statement_nb: to ensure non-overlapping IDs across events """
         res = query_return_csv(graph=graph, query=self.queries["simple_rdf_with_properties"])
-        sub_graphs = self.init_sub_graphs(df=res)
+        sub_graphs = self.init_sub_graphs(df=res, mode=mode)
 
         data = []
         for _, row in res[["sub_event", "role_type", "role"]].drop_duplicates().iterrows():
@@ -153,10 +156,10 @@ class KGRepresentationsConverter:
         sub_graphs.append(pd.DataFrame(data, columns=self.triples_col).drop_duplicates())
         return self.get_output_from_subgraph(sg=sub_graphs), statement_nb
 
-    def to_hypergraph_bn(self, graph):
+    def to_hypergraph_bn(self, graph, mode: str = "role"):
         """ Output ChronoGrapher -> hypergraph with bn """
         res = query_return_csv(graph=graph, query=self.queries["simple_rdf_with_properties"])
-        sub_graphs = self.init_sub_graphs(df=res)
+        sub_graphs = self.init_sub_graphs(df=res, mode=mode)
         sub_graphs = self.get_output_from_subgraph(sg=sub_graphs)[self.triples_col]
         sub_graphs.columns = range(sub_graphs.shape[1])
 
@@ -166,13 +169,13 @@ class KGRepresentationsConverter:
                 (f"<{row.sub_event}>", f"<{self.prefixes['sem']}hasActor>", f"<{row.role}>", 
                     f"<{self.prefixes['sem']}hasRole>", f"<{row.role_type}>")
             )
-        df = pd.DataFrame(data=data, columns=range(len(data[0])))
+        df = pd.DataFrame(data=data, columns=range(5))
         return pd.concat([sub_graphs, df], ignore_index=True)
 
-    def to_hyper_relational_rdf_star(self, graph):
+    def to_hyper_relational_rdf_star(self, graph, mode: str = "role"):
         """ Output ChronoGrapher -> hyper-relational with rdf-star """
         res = query_return_csv(graph=graph, query=self.queries["simple_rdf_with_properties"])
-        sub_graphs = self.init_sub_graphs(df=res)
+        sub_graphs = self.init_sub_graphs(df=res, mode=mode)
         sub_graphs = self.get_output_from_subgraph(sg=sub_graphs)
         sub_graphs.columns = range(sub_graphs.shape[1])
 
@@ -182,14 +185,14 @@ class KGRepresentationsConverter:
                 ("<<", f"<{row.sub_event}>", f"<{self.prefixes['sem']}hasActor>", f"<{row.role}>", ">>",
                     f"<{self.prefixes['sem']}hasRole>", f"<{row.role_type}>", ".")
             )
-        df = pd.DataFrame(data=data, columns=range(len(data[0])))
+        df = pd.DataFrame(data=data, columns=range(8))
         return pd.concat([sub_graphs, df], ignore_index=True)
 
 
 
 if __name__ == '__main__':
     FILE_P = "frame_ng.nt"
-    FILE_P = "ChronoGrapher/kg_test/cg_output.nt"
+    FILE_P = "kg_test/cg_output.nt"
     GRAPH = Graph()
     GRAPH.parse(FILE_P)
     DF = read_nt(file_p=FILE_P)
