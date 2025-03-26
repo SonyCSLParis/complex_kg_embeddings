@@ -267,8 +267,9 @@ def remove_overlapping_data_list(data_dict):
               default="0", type=click.Choice(["0", "1"]))
 @click.option("--syntax", help="Syntax to use for roles", default=None,
               type=click.Choice(["simple_rdf_prop", "hypergraph_bn", "hyper_relational_rdf_star", "simple_rdf_sp", "simple_rdf_reification"]))
+@click.option('--save_data', is_flag=True, default=True, help="Whether save data or not")
 #@click.pass_context
-def main(save_fp, prop, subevent, text, role, causation, syntax):
+def main(save_fp, prop, subevent, text, role, causation, syntax, save_data):
     """ Main prep data """
     options = {"prop": int(prop), "subevent": int(subevent), "text": int(text)}
     if (role == "1" or causation == "1") and not syntax:
@@ -283,22 +284,25 @@ def main(save_fp, prop, subevent, text, role, causation, syntax):
         if syntax == "hypergraph_bn":
             data = prep_data_hypergraph(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
             data = remove_overlapping_data_list(data_dict=data)
-            for key, val in data.items():
-                with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:
-                    f.write("\n".join(val))
-                f.close()
+            if save_data:
+                for key, val in data.items():
+                    with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:
+                        f.write("\n".join(val))
+                    f.close()
         elif syntax == "hyper_relational_rdf_star":
             data = prep_data_rdf_star(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
             data = remove_overlapping_data_list(data_dict=data)
-            for key, val in data.items():
-                with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:
-                    f.write("\n".join(val))
-                f.close()
+            if save_data:
+                for key, val in data.items():
+                    with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:
+                        f.write("\n".join(val))
+                    f.close()
         else:
             data = prep_data_kg_only(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
             data = remove_overlapping_data_df(data_dict=data)
-            for key, val in data.items():
-                val.to_csv(os.path.join(save_fp, f"{key}.csv"), header=None, index=False, sep=" ")
+            if save_data:
+                for key, val in data.items():
+                    val.to_csv(os.path.join(save_fp, f"{key}.csv"), header=None, index=False, sep=" ")
 
 
 if __name__ == '__main__':

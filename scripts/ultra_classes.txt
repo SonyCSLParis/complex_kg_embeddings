@@ -1,0 +1,400 @@
+class NarrativeDatasetProp0Subevent0Role0Causation0SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_0_role_0_causation_0_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent0Role0Causation1SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_0_role_0_causation_1_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent0Role0Causation1SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_0_role_0_causation_1_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent0Role0Causation1SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_0_role_0_causation_1_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent0Role1Causation0SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_0_role_1_causation_0_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent0Role1Causation0SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_0_role_1_causation_0_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent0Role1Causation0SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_0_role_1_causation_0_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent0Role1Causation1SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_0_role_1_causation_1_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent0Role1Causation1SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_0_role_1_causation_1_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent0Role1Causation1SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_0_role_1_causation_1_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent1Role0Causation0SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_1_role_0_causation_0_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent1Role0Causation1SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_1_role_0_causation_1_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent1Role0Causation1SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_1_role_0_causation_1_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent1Role0Causation1SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_1_role_0_causation_1_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent1Role1Causation0SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_1_role_1_causation_0_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent1Role1Causation0SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_1_role_1_causation_0_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent1Role1Causation0SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_1_role_1_causation_0_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent1Role1Causation1SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_1_role_1_causation_1_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent1Role1Causation1SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_1_role_1_causation_1_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp0Subevent1Role1Causation1SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_0_subevent_1_role_1_causation_1_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent0Role0Causation0SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_0_role_0_causation_0_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent0Role0Causation1SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_0_role_0_causation_1_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent0Role0Causation1SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_0_role_0_causation_1_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent0Role0Causation1SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_0_role_0_causation_1_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent0Role1Causation0SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_0_role_1_causation_0_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent0Role1Causation0SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_0_role_1_causation_0_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent0Role1Causation0SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_0_role_1_causation_0_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent0Role1Causation1SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_0_role_1_causation_1_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent0Role1Causation1SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_0_role_1_causation_1_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent0Role1Causation1SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_0_role_1_causation_1_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent1Role0Causation0SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_1_role_0_causation_0_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent1Role0Causation1SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_1_role_0_causation_1_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent1Role0Causation1SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_1_role_0_causation_1_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent1Role0Causation1SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_1_role_0_causation_1_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent1Role1Causation0SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_1_role_1_causation_0_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent1Role1Causation0SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_1_role_1_causation_0_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent1Role1Causation0SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_1_role_1_causation_0_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent1Role1Causation1SyntaxSimpleRdfReification(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_1_role_1_causation_1_syntax_simple_rdf_reification"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent1Role1Causation1SyntaxSimpleRdfSp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_1_role_1_causation_1_syntax_simple_rdf_sp"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
+class NarrativeDatasetProp1Subevent1Role1Causation1SyntaxSimpleRdfProp(TransductiveDataset):
+    urls = []
+    name = "kg_base_prop_1_subevent_1_role_1_causation_1_syntax_simple_rdf_prop"
+    @property
+    def raw_file_names(self):
+        return [
+            "train.txt",
+            "valid.txt",
+            "test.txt",
+        ]
