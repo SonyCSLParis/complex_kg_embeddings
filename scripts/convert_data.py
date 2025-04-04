@@ -24,5 +24,5 @@ def main(input_f, output_f):
 
 
 if __name__ == '__main__':
-    # python scripts/convert_data.py ./data ~/git/ULTRA/kg-datasets/
+    # python scripts/convert_data.py ./data/inductive ~/git/ULTRA/kg-datasets/NarrativeInductiveDataset
     main()

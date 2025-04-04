@@ -7,6 +7,9 @@ import csv
 from urllib.parse import unquote
 import click
 import pandas as pd
+from utils_inductive import split_data_inductive_random, update_df, update_df_hr
+from sklearn.model_selection import train_test_split
+
 
 REVS_TD = "./revs_td.csv"
 EXP_F = "exps"
@@ -106,12 +109,12 @@ def prep_data_rdf_star(df, file_names):
         for fn in file_names:
             kg_p = os.path.join(EXP_F, row.event.split('/')[-1], fn)
             if os.path.exists(kg_p):
-                if kg_p.endswith(".nt"):
+                if kg_p.endswith(".nt"):  # regular KG (simple rdf)
                     try:
                         curr_df = filter_dates(df=pd.read_csv(kg_p, sep=" ", header=None))
                         curr_df = filter_literals(df=curr_df)
                         for _, curr_row in curr_df.iterrows():
-                            data[row.td].append(f"{curr_row.predicate}\t{curr_row.subject}\t{curr_row.object}")
+                            data[f"{row.td}"].append(f"{curr_row.subject} {curr_row.predicate} {curr_row.object}")
                     except pd.errors.EmptyDataError:
                         pass
                 else:  # kg_p.endswith(".txt")
@@ -119,7 +122,7 @@ def prep_data_rdf_star(df, file_names):
                         for line in f:
                             cleaned_line = line.rstrip()[:-2].replace("<< ", "").replace(" >>", "")
                             if '"' not in cleaned_line:
-                                data[row.td].append(format_line_hypergraph(line=cleaned_line))
+                                data[f"{row.td}"].append(cleaned_line)
     for key, val in data.items():
         data[key] = [x for x in val if x.strip()]
     return data
@@ -253,6 +256,49 @@ def remove_overlapping_data_list(data_dict):
     return filtered_data
 
 
+def split_data_inductive(data):
+    output = {"train": update_df(df=data["train"])}
+    graph = pd.DataFrame(columns=COLUMNS)
+    for k in ["valid", "test"]:
+        inf_graph, inf_pred = split_data_inductive_random(df=data[k])
+        graph = pd.concat([graph, inf_graph])
+        output[f"inference_{k}"] = inf_pred
+    output["inference_graph"] = graph
+    return output
+
+def format_df_hr(df):
+    return df.astype(str).apply(','.join, axis=1).tolist()
+
+def split_data_inductive_hr(data):
+    data_reg, data_hr = {}, {}
+    for key, val in data.items():
+        lines_reg = [x.split(" ") for x in val if len(x.split(" ")) == 3]
+        lines_hr = [x.split(" ") for x in val if len(x.split(" ")) > 3]
+        data_reg[key] = pd.DataFrame(lines_reg, columns=COLUMNS[:3])
+        data_hr[key] = pd.DataFrame(lines_hr, columns=["event", "hasActor", "actor", "hasRole", "role"])
+    
+    for k, v in data_hr.items():
+        curr_df = update_df_hr(df=v)
+        data_reg[k].to_csv(f"test_{k}.csv", sep=" ", header=None, index=False)
+        data_reg[k] = pd.concat([data_reg[k], curr_df]).drop_duplicates()
+    
+    splitted_data = split_data_inductive(data=data_reg)
+
+    output = {
+        "transductive_train": format_df_hr(data_reg["train"]) + format_df_hr(data_hr["train"]),
+    }
+    inf_graph = []
+    for k in ["valid", "test"]:
+        graph, pred = train_test_split(data_hr[k], test_size=0.4, random_state=23)
+        inf_graph.extend(format_df_hr(graph))
+        inf_graph.extend(format_df_hr(splitted_data[f"inference_{k}"]))
+        key = "inductive_val" if k == "valid" else "inductive_ts"
+        output[key] = format_df_hr(pred)
+    output["inductive_train"] = inf_graph
+
+    return output
+
+
 @click.command()
 @click.argument('save_fp')
 @click.option("--prop", help="Whether to include properties in narratives", 
@@ -267,9 +313,11 @@ def remove_overlapping_data_list(data_dict):
               default="0", type=click.Choice(["0", "1"]))
 @click.option("--syntax", help="Syntax to use for roles", default=None,
               type=click.Choice(["simple_rdf_prop", "hypergraph_bn", "hyper_relational_rdf_star", "simple_rdf_sp", "simple_rdf_reification"]))
-@click.option('--save_data', is_flag=True, default=True, help="Whether save data or not")
+@click.option('--save_data/--no-save_data', is_flag=True, default=True, help="Whether save data or not")
+@click.option('--inductive_split/--no-inductive_split', is_flag=True, default=True,
+              help="Whether to split data for inductive learning or not")
 #@click.pass_context
-def main(save_fp, prop, subevent, text, role, causation, syntax, save_data):
+def main(save_fp, prop, subevent, text, role, causation, syntax, save_data, inductive_split):
     """ Main prep data """
     options = {"prop": int(prop), "subevent": int(subevent), "text": int(text)}
     if (role == "1" or causation == "1") and not syntax:
@@ -292,6 +340,7 @@ def main(save_fp, prop, subevent, text, role, causation, syntax, save_data):
         elif syntax == "hyper_relational_rdf_star":
             data = prep_data_rdf_star(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
             data = remove_overlapping_data_list(data_dict=data)
+            data = split_data_inductive_hr(data=data)
             if save_data:
                 for key, val in data.items():
                     with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:
@@ -301,6 +350,8 @@ def main(save_fp, prop, subevent, text, role, causation, syntax, save_data):
             data = prep_data_kg_only(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
             data = remove_overlapping_data_df(data_dict=data)
             if save_data:
+                if inductive_split:
+                    data = split_data_inductive(data=data)
                 for key, val in data.items():
                     val.to_csv(os.path.join(save_fp, f"{key}.csv"), header=None, index=False, sep=" ")
 
@@ -320,43 +371,3 @@ if __name__ == '__main__':
 
     # python prep_data.py ./data/kg_base_role_rdf_star --role 1 --syntax hyper_relational_rdf_star
     main()
-
-# DATA_BASE_F = os.path.join(DATA_F, "basekg")
-# if not os.path.exists(DATA_BASE_F):
-#     os.makedirs(DATA_BASE_F)
-# data = prep_data_kg_only(df=pd.read_csv(REVS_TD, index_col=0), file_name="base_kg.nt")
-# for key, val in data.items():
-#     val.to_csv(os.path.join(DATA_BASE_F, f"{key}.csv"), header=None, index=False, sep=" ")
-
-# DATA_BASE_PROP_F = os.path.join(DATA_F, "basekg_prop")
-# if not os.path.exists(DATA_BASE_PROP_F):
-#     os.makedirs(DATA_BASE_PROP_F)
-# data = prep_data_kg_only(df=pd.read_csv(REVS_TD, index_col=0), file_name="base_kg_prop.nt")
-# for key, val in data.items():
-#     val.to_csv(os.path.join(DATA_BASE_PROP_F, f"{key}.csv"), header=None, index=False, sep=" ")
-
-# DATA_BASE_TEXT_F = os.path.join(DATA_F, "basekg_text")
-# if not os.path.exists(DATA_BASE_TEXT_F):
-#     os.makedirs(DATA_BASE_TEXT_F)
-# data, des, names = prep_data_kg_text(df=pd.read_csv(REVS_TD, index_col=0), file_name="base_kg_text.nt")
-# for key, val in data.items():
-#     val[COLUMNS[:3]].to_csv(os.path.join(DATA_BASE_TEXT_F, f"{key}.txt"), header=None, index=False, sep="\t", quoting=csv.QUOTE_NONE, escapechar="\\")
-# des.to_csv(os.path.join(DATA_BASE_TEXT_F, "FB15k_mid2description.txt"), header=None, index=False, sep="\t")
-# names.to_csv(os.path.join(DATA_BASE_TEXT_F, "FB15k_mid2name.txt"), header=None, index=False, sep="\t")
-
-# get_files(options={})
-
-# options = [
-#     #{"prop": 0, "subevent": 0, "text": 0},
-#     #{"prop": 1, "subevent": 0, "text": 0},
-#     # {"prop": 0, "subevent": 1, "text": 0},
-#     # {"prop": 0, "subevent": 0, "text": 1},
-#     # {"prop": 1, "subevent": 1, "text": 0},
-#     {"prop": 1, "subevent": 0, "text": 1},
-#     # {"prop": 0, "subevent": 1, "text": 1},
-#     # {"prop": 1, "subevent": 1, "text": 1},
-# ]
-# for option in options:
-#     print(option)
-#     print(get_files(options=option, role=1, syntax="simple_rdf_prop"))
-#     print("=====")
