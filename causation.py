@@ -284,6 +284,8 @@ class KGCausationRepresentationsConverter(KGRepresentationsConverter):
         res = graph.query(self.queries["causation_no_frame"])
         df = pd.DataFrame(data=res)
         df.columns = range(df.shape[1])
+        for col in df.columns:
+            df[col] = df[col].apply(lambda x: f"<{x}>")
         return pd.concat([output, df], ignore_index=True)
     
     def to_hyper_relational_rdf_star(self, graph, mode: str = "causation"):
@@ -292,6 +294,10 @@ class KGCausationRepresentationsConverter(KGRepresentationsConverter):
         res = graph.query(self.queries["causation_no_frame"])
         df = pd.DataFrame(data=res)
         df.columns = range(df.shape[1])
+        for col in df.columns:
+            df[col] = df[col].apply(lambda x: f"<{x}>")
+        col_nb = df.shape[1]
+        df[col_nb] = "."
         return pd.concat([output, df], ignore_index=True)
     
     

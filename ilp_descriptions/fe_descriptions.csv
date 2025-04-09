@@ -1,0 +1,1187 @@
+,fe,description
+0,https://w3id.org/framester/framenet/abox/gfe/Abundant_entities,Entities that are present in large quantities or in abundance within an event or context.
+1,https://w3id.org/framester/framenet/abox/gfe/Accessory,"clothing that is worn or carried, but not part of your main clothing"
+2,https://w3id.org/framester/framenet/abox/gfe/Accuracy,the quality of being near to the true value
+3,https://w3id.org/framester/framenet/abox/gfe/Action,something done (usually as opposed to something said)
+4,https://w3id.org/framester/framenet/abox/gfe/Activity,any specific behavior
+5,https://w3id.org/framester/framenet/abox/gfe/Actor,a theatrical performer
+6,https://w3id.org/framester/framenet/abox/gfe/Added_set,A collection of elements or entities that are introduced or included in a situation or process.
+7,https://w3id.org/framester/framenet/abox/gfe/Addictant,An entity that causes or contributes to addiction or dependency within a scenario.
+8,https://w3id.org/framester/framenet/abox/gfe/Address,(computer science) the code that identifies where a piece of information is stored
+9,https://w3id.org/framester/framenet/abox/gfe/Addressee,one to whom something is addressed
+10,https://w3id.org/framester/framenet/abox/gfe/Adequacy,the quality of being able to meet a need satisfactorily:
+11,https://w3id.org/framester/framenet/abox/gfe/Affected_party,The entity directly impacted or influenced by an event or action.
+12,https://w3id.org/framester/framenet/abox/gfe/Affliction,a state of great suffering and distress due to adversity
+13,https://w3id.org/framester/framenet/abox/gfe/Age,how long something has existed
+14,https://w3id.org/framester/framenet/abox/gfe/Agent,an active and efficient cause; capable of producing a certain effect
+15,https://w3id.org/framester/framenet/abox/gfe/AggregateProperty, A characteristic or attribute that results from the combination or summation of individual components or entities.
+16,https://w3id.org/framester/framenet/abox/gfe/Agreement,the statement (oral or written) of an exchange of promises
+17,https://w3id.org/framester/framenet/abox/gfe/Ailment,an often persistent bodily disorder or disease; a cause for complaining
+18,https://w3id.org/framester/framenet/abox/gfe/Alignment_mismatch,"A situation where elements or components do not align or correspond correctly, creating inconsistencies or conflicts."
+19,https://w3id.org/framester/framenet/abox/gfe/Allowed_category,A classification of elements or actions that are permitted within a given context or framework.
+20,https://w3id.org/framester/framenet/abox/gfe/Amount_of_discussion,"The extent or degree of verbal exchange in an event or process, often measured by quantity or intensity."
+21,https://w3id.org/framester/framenet/abox/gfe/Amount_of_information,The total quantity of information conveyed or shared within a given context.
+22,https://w3id.org/framester/framenet/abox/gfe/Amount_of_work,"The total effort, tasks, or activities required or performed within an event or process."
+23,https://w3id.org/framester/framenet/abox/gfe/Anchor,a mechanical device that prevents a vessel from moving
+24,https://w3id.org/framester/framenet/abox/gfe/Angle,the space between two lines or planes that intersect; the inclination of one line to another; measured in degrees or radians
+25,https://w3id.org/framester/framenet/abox/gfe/Appraisal,the classification of someone or something with respect to its worth
+26,https://w3id.org/framester/framenet/abox/gfe/Area,a particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography)
+27,https://w3id.org/framester/framenet/abox/gfe/Artifact,a man-made object taken as a whole
+28,https://w3id.org/framester/framenet/abox/gfe/Artist,a person whose creative work shows sensitivity and imagination
+29,https://w3id.org/framester/framenet/abox/gfe/Asset,a useful or valuable quality
+30,https://w3id.org/framester/framenet/abox/gfe/Assets,anything of material value or usefulness that is owned by a person or company
+31,https://w3id.org/framester/framenet/abox/gfe/Attachment,a feeling of affection for a person or an institution
+32,https://w3id.org/framester/framenet/abox/gfe/Attack,(military) an offensive against an enemy (using weapons)
+33,https://w3id.org/framester/framenet/abox/gfe/Attacked,launch an attack or assault on; begin hostilities or start warfare with
+34,https://w3id.org/framester/framenet/abox/gfe/Attribute,a construct whereby objects or individuals can be distinguished
+35,https://w3id.org/framester/framenet/abox/gfe/Audience,a gathering of spectators or listeners at a (usually public) performance
+36,https://w3id.org/framester/framenet/abox/gfe/Authenticity,undisputed credibility
+37,https://w3id.org/framester/framenet/abox/gfe/Authorities,the organization that is the governing authority of a political unit
+38,https://w3id.org/framester/framenet/abox/gfe/Authority,the power or right to give orders or make decisions
+39,https://w3id.org/framester/framenet/abox/gfe/Baggage,cases used to carry belongings when traveling
+40,https://w3id.org/framester/framenet/abox/gfe/Barrier,a structure or object that impedes free movement
+41,https://w3id.org/framester/framenet/abox/gfe/Base_position,"The starting or reference point from which further actions, decisions, or measurements are made."
+42,https://w3id.org/framester/framenet/abox/gfe/Basis,a relation that provides the foundation for something
+43,https://w3id.org/framester/framenet/abox/gfe/Basis_of_order,The fundamental principles or criteria that determine the organization or arrangement of elements within a system.
+44,https://w3id.org/framester/framenet/abox/gfe/Behavior,manner of acting or controlling yourself
+45,https://w3id.org/framester/framenet/abox/gfe/Beneficiary,the recipient of funds or other benefits
+46,https://w3id.org/framester/framenet/abox/gfe/Binding_principle,A fundamental rule or law that imposes obligation or enforces certain actions within a given context.
+47,https://w3id.org/framester/framenet/abox/gfe/Body_location,"The specific physical location or region of a body (human, animal, or other entity) within an event or situation."
+48,https://w3id.org/framester/framenet/abox/gfe/Body_part,any part of an organism such as an organ or extremity
+49,https://w3id.org/framester/framenet/abox/gfe/Boundary,the line or plane indicating the limit or extent of something
+50,https://w3id.org/framester/framenet/abox/gfe/Business,a commercial or industrial enterprise and the people who constitute it
+51,https://w3id.org/framester/framenet/abox/gfe/Business_Name,The formal designation or title by which a business or organization is recognized or identified.
+52,https://w3id.org/framester/framenet/abox/gfe/Buyer,a person who buys
+53,https://w3id.org/framester/framenet/abox/gfe/Calculator,an expert at calculation (or at operating calculating machines)
+54,https://w3id.org/framester/framenet/abox/gfe/Capture,the act of forcibly dispossessing an owner of property
+55,https://w3id.org/framester/framenet/abox/gfe/Carrier,someone whose employment involves carrying something
+56,https://w3id.org/framester/framenet/abox/gfe/Case,an occurrence of something
+57,https://w3id.org/framester/framenet/abox/gfe/Category,a collection of things sharing a common attribute
+58,https://w3id.org/framester/framenet/abox/gfe/Cause,events that provide the generative force that is the origin of something
+59,https://w3id.org/framester/framenet/abox/gfe/Cause_of_shine,The source or reason for something emitting light or appearing bright in a given context.
+60,https://w3id.org/framester/framenet/abox/gfe/Change_agent,"An entity or factor that brings about or facilitates a transformation or shift in a system, behavior, or state."
+61,https://w3id.org/framester/framenet/abox/gfe/Character_of_end_state,The defining attributes or qualities of the final condition or result of an event or process.
+62,https://w3id.org/framester/framenet/abox/gfe/Characteristic,a prominent attribute or aspect of something
+63,https://w3id.org/framester/framenet/abox/gfe/Characterization,a graphic or vivid verbal description
+64,https://w3id.org/framester/framenet/abox/gfe/Charge,an impetuous rush toward someone or something
+65,https://w3id.org/framester/framenet/abox/gfe/Child,a young person of either sex
+66,https://w3id.org/framester/framenet/abox/gfe/Circumstance,a condition that accompanies or influences some event or activity
+67,https://w3id.org/framester/framenet/abox/gfe/Circumstances,your overall circumstances or condition in life (including everything that happens to you)
+68,https://w3id.org/framester/framenet/abox/gfe/Class,a collection of things sharing a common attribute
+69,https://w3id.org/framester/framenet/abox/gfe/Co_Variable,"A variable that is related or associated with another, often in a joint or simultaneous manner within an event or process."
+70,https://w3id.org/framester/framenet/abox/gfe/Co_participant,"An entity that participates alongside others in an event, action, or situation."
+71,https://w3id.org/framester/framenet/abox/gfe/Co_resident,"An entity that shares the same location or environment as another, particularly in the context of living or residing together."
+72,https://w3id.org/framester/framenet/abox/gfe/Co_theme,An entity that shares or participates in the same thematic role or subject matter within an event or situation.
+73,https://w3id.org/framester/framenet/abox/gfe/Code,a set of rules or principles or laws (especially written ones)
+74,https://w3id.org/framester/framenet/abox/gfe/Cognate_event,"An event related to or occurring alongside another event, typically sharing a common origin or theme."
+75,https://w3id.org/framester/framenet/abox/gfe/Cognizer,"The entity perceiving or recognizing an event, action, or situation."
+76,https://w3id.org/framester/framenet/abox/gfe/Color_qualifier,A descriptor that defines the characteristics or attributes of color within a given context.
+77,https://w3id.org/framester/framenet/abox/gfe/Communicative_act,"An action or utterance intended to convey information, intention, or emotion in communication."
+78,https://w3id.org/framester/framenet/abox/gfe/Company,an institution created to conduct business
+79,https://w3id.org/framester/framenet/abox/gfe/Comparand,An entity or item used for comparison against another to evaluate similarities or differences.
+80,https://w3id.org/framester/framenet/abox/gfe/Comparison_set,A group of entities or items considered together for the purpose of comparison.
+81,https://w3id.org/framester/framenet/abox/gfe/Compeller,An entity or force that induces or forces another entity to act or behave in a particular way.
+82,https://w3id.org/framester/framenet/abox/gfe/Compensation,something (such as money) given or received as payment or reparation (as for a service or loss or injury)
+83,https://w3id.org/framester/framenet/abox/gfe/Competing_consideration,An alternative factor or concern that competes for attention or priority in decision-making.
+84,https://w3id.org/framester/framenet/abox/gfe/Competition,a business relation in which two parties compete to gain customers
+85,https://w3id.org/framester/framenet/abox/gfe/Competitor,the contestant you hope to defeat
+86,https://w3id.org/framester/framenet/abox/gfe/Completeness,the state of being complete and entire; having everything that is needed
+87,https://w3id.org/framester/framenet/abox/gfe/Complex,a conceptual whole made up of complicated and related parts
+88,https://w3id.org/framester/framenet/abox/gfe/Component_entities,The individual entities that make up or contribute to a larger system or whole.
+89,https://w3id.org/framester/framenet/abox/gfe/Components,an abstract part of something
+90,https://w3id.org/framester/framenet/abox/gfe/Concessive,of or pertaining to concession
+91,https://w3id.org/framester/framenet/abox/gfe/Condition,a state at a particular time
+92,https://w3id.org/framester/framenet/abox/gfe/Configuration,an arrangement of parts or elements
+93,https://w3id.org/framester/framenet/abox/gfe/Connected_item,An object or entity that is linked or associated with another item in a specific context
+94,https://w3id.org/framester/framenet/abox/gfe/Connected_locations,Locations that are spatially or contextually linked or related in some way.
+95,https://w3id.org/framester/framenet/abox/gfe/Connection,a relation between things or events (as in the case of one causing the other or sharing features with it)
+96,https://w3id.org/framester/framenet/abox/gfe/Connections,a relation between things or events (as in the case of one causing the other or sharing features with it)
+97,https://w3id.org/framester/framenet/abox/gfe/Consecutive,one after the other
+98,https://w3id.org/framester/framenet/abox/gfe/Consequences,a phenomenon that follows and is caused by some previous phenomenon
+99,https://w3id.org/framester/framenet/abox/gfe/Constituent_parts,The basic components or elements that collectively form a larger whole.
+100,https://w3id.org/framester/framenet/abox/gfe/Consumer,a person who uses goods or services
+101,https://w3id.org/framester/framenet/abox/gfe/Container,any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)
+102,https://w3id.org/framester/framenet/abox/gfe/Container_portal,An opening or access point through which an entity can enter or exit a container.
+103,https://w3id.org/framester/framenet/abox/gfe/Container_possessor,The entity that owns or controls a container and its contents.
+104,https://w3id.org/framester/framenet/abox/gfe/Containing_event,An event that encompasses or includes another event within its broader context.
+105,https://w3id.org/framester/framenet/abox/gfe/Containing_text,A body of text that includes or surrounds another text or segment within it.
+106,https://w3id.org/framester/framenet/abox/gfe/Content,everything that is included in a collection and that is held or included in something
+107,https://w3id.org/framester/framenet/abox/gfe/Context,discourse that surrounds a language unit and helps to determine its interpretation
+108,https://w3id.org/framester/framenet/abox/gfe/Context_of_acquaintance,The background or environment in which an entity becomes familiar with another entity.
+109,https://w3id.org/framester/framenet/abox/gfe/Contract_basis,The foundational terms or conditions that form the basis of a formal agreement or contract.
+110,https://w3id.org/framester/framenet/abox/gfe/Contrast,"the opposition or dissimilarity of things that are compared; ,"
+111,https://w3id.org/framester/framenet/abox/gfe/Contrast_set,A group of items or entities used to highlight differences between them within a given context.
+112,https://w3id.org/framester/framenet/abox/gfe/Contrastive_context,A situation or environment that emphasizes the differences between entities or events.
+113,https://w3id.org/framester/framenet/abox/gfe/Conveyed_emotion,The emotional state or feeling communicated by an entity during an event or action.
+114,https://w3id.org/framester/framenet/abox/gfe/Conviction,an unshakable belief in something without need for proof or evidence
+115,https://w3id.org/framester/framenet/abox/gfe/Coordinated_event,Events that are planned or occur together in a synchronized manner.
+116,https://w3id.org/framester/framenet/abox/gfe/Copy,a reproduction of a written record (e.g. of a legal or school record)
+117,https://w3id.org/framester/framenet/abox/gfe/Correlated_event,Events that are related or associated due to a shared influence or cause.
+118,https://w3id.org/framester/framenet/abox/gfe/Count,the total number counted
+119,https://w3id.org/framester/framenet/abox/gfe/Counter_actor,An entity that opposes or acts in contrast to another entity within a given event or situation.
+120,https://w3id.org/framester/framenet/abox/gfe/Countertransfer,"The transfer of something in response to a previous transfer, often in a reciprocal or opposing manner."
+121,https://w3id.org/framester/framenet/abox/gfe/Country_of_origin,the country where you were born
+122,https://w3id.org/framester/framenet/abox/gfe/Course,education imparted in a series of lessons or meetings
+123,https://w3id.org/framester/framenet/abox/gfe/Court,an assembly (including one or more judges) to conduct judicial business
+124,https://w3id.org/framester/framenet/abox/gfe/Creator,terms referring to the Judeo-Christian God
+125,https://w3id.org/framester/framenet/abox/gfe/Crime,(criminal law) an act punishable by law; usually considered an evil act
+126,https://w3id.org/framester/framenet/abox/gfe/Crime_jurisdiction,The legal authority or area within which a crime is considered to fall under a specific legal system.
+127,https://w3id.org/framester/framenet/abox/gfe/Criterion,a basis for comparison; a reference point against which other things can be evaluated
+128,https://w3id.org/framester/framenet/abox/gfe/Current_jurisdiction,"The jurisdiction or legal authority currently overseeing an event, action, or issue."
+129,https://w3id.org/framester/framenet/abox/gfe/Dangerous_entity,An entity that poses a potential threat or harm to others within a given context.
+130,https://w3id.org/framester/framenet/abox/gfe/Dangerous_situation,A scenario or event that presents risks or threats to the entities involved.
+131,https://w3id.org/framester/framenet/abox/gfe/Debtor,a person who owes a creditor; someone who has the obligation of paying a debt
+132,https://w3id.org/framester/framenet/abox/gfe/Deceased,someone who is no longer alive
+133,https://w3id.org/framester/framenet/abox/gfe/Decision,the act of making up your mind about something
+134,https://w3id.org/framester/framenet/abox/gfe/Decoration_descriptor,A term or attribute that describes the decorative features or qualities of an object or space.
+135,https://w3id.org/framester/framenet/abox/gfe/Dedicated_entity,An entity that is specifically assigned or devoted to a particular purpose or function.
+136,https://w3id.org/framester/framenet/abox/gfe/Dedicated_type,A classification or category of entity that is exclusively designed or set aside for a specific role or purpose.
+137,https://w3id.org/framester/framenet/abox/gfe/Defense,(military) military action or resources protecting a country against potential enemies
+138,https://w3id.org/framester/framenet/abox/gfe/Degree,a position on a scale of intensity or amount or quality
+139,https://w3id.org/framester/framenet/abox/gfe/Degree_of_involvement,The level or extent to which an entity participates or is engaged in a particular event or action.
+140,https://w3id.org/framester/framenet/abox/gfe/Delivery_device,An object or mechanism used to transfer or convey something to a destination.
+141,https://w3id.org/framester/framenet/abox/gfe/Dependent,a person who relies on another person for support (especially financial support)
+142,https://w3id.org/framester/framenet/abox/gfe/Dependent_entity,An entity whose existence or action is reliant on another entity or condition.
+143,https://w3id.org/framester/framenet/abox/gfe/Dependent_individual,An individual whose actions or state are influenced by or contingent upon another.
+144,https://w3id.org/framester/framenet/abox/gfe/Dependent_situation,A situation that arises or persists only due to the existence or occurrence of another event or condition.
+145,https://w3id.org/framester/framenet/abox/gfe/Dependent_state,A state that is determined or sustained by an external entity or condition.
+146,https://w3id.org/framester/framenet/abox/gfe/Dependent_variable,(statistics) a variable in a logical or mathematical expression whose value depends on the independent variable
+147,https://w3id.org/framester/framenet/abox/gfe/Depictive,depicted in a recognizable manner
+148,https://w3id.org/framester/framenet/abox/gfe/Described_entity,"An entity that is depicted, represented, or characterized in a particular way within a context."
+149,https://w3id.org/framester/framenet/abox/gfe/Descriptor,the phonological or orthographic sound or appearance of a word that can be used to describe or identify something
+150,https://w3id.org/framester/framenet/abox/gfe/Desirable_situation,A situation that is regarded as favorable or preferred within a given context.
+151,https://w3id.org/framester/framenet/abox/gfe/Desired_state,A specific condition or outcome that is sought or intended in an event or action.
+152,https://w3id.org/framester/framenet/abox/gfe/Determinant,a determining or causal element or factor
+153,https://w3id.org/framester/framenet/abox/gfe/Deviation,a variation that deviates from the standard or norm
+154,https://w3id.org/framester/framenet/abox/gfe/Device,an instrumentality invented for a particular purpose
+155,https://w3id.org/framester/framenet/abox/gfe/Differentiating_fact,A fact or element that distinguishes one entity or situation from another.
+156,https://w3id.org/framester/framenet/abox/gfe/Dimension,the magnitude of something in a particular direction (especially length or width or height)
+157,https://w3id.org/framester/framenet/abox/gfe/Direction,a line leading to a place or point
+158,https://w3id.org/framester/framenet/abox/gfe/Discourse_salient_country,A country that is particularly emphasized or relevant in a discourse or conversation.
+159,https://w3id.org/framester/framenet/abox/gfe/Distance,the property created by the space between two objects or points
+160,https://w3id.org/framester/framenet/abox/gfe/Distributor,someone who markets merchandise
+161,https://w3id.org/framester/framenet/abox/gfe/Domain,a particular environment or walk of life
+162,https://w3id.org/framester/framenet/abox/gfe/Domain_of_relevance,"The specific context or area in which particular entities, events, or concepts are significant or applicable."
+163,https://w3id.org/framester/framenet/abox/gfe/Donor,person who makes a gift of property
+164,https://w3id.org/framester/framenet/abox/gfe/Driver,the operator of a motor vehicle
+165,https://w3id.org/framester/framenet/abox/gfe/Duration,the period of time during which something continues
+166,https://w3id.org/framester/framenet/abox/gfe/Duration_of_endstate,The length of time during which a final condition or state persists after an event or action.
+167,https://w3id.org/framester/framenet/abox/gfe/Duration_of_final_state,The time period in which the ultimate condition or state of an event remains unchanged.
+168,https://w3id.org/framester/framenet/abox/gfe/Duration_of_state,The amount of time for which a particular state or condition is sustained.
+169,https://w3id.org/framester/framenet/abox/gfe/Duty,the social force that binds you to the courses of action demanded by that force; ; - John D.Rockefeller Jr
+170,https://w3id.org/framester/framenet/abox/gfe/Economy,the system of production and distribution and consumption
+171,https://w3id.org/framester/framenet/abox/gfe/Effect,a phenomenon that follows and is caused by some previous phenomenon
+172,https://w3id.org/framester/framenet/abox/gfe/Egg,animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes; especially the thin-shelled reproductive body laid by e.g. female birds
+173,https://w3id.org/framester/framenet/abox/gfe/Elapsed_time,the time that elapses while some event is occurring
+174,https://w3id.org/framester/framenet/abox/gfe/Electricity,a physical phenomenon associated with stationary or moving electrons and protons
+175,https://w3id.org/framester/framenet/abox/gfe/Element,an abstract part of something
+176,https://w3id.org/framester/framenet/abox/gfe/Emission,the act of emitting; causing to flow forth
+177,https://w3id.org/framester/framenet/abox/gfe/Emitter,the electrode in a transistor where electrons originate
+178,https://w3id.org/framester/framenet/abox/gfe/Emotion,any strong feeling
+179,https://w3id.org/framester/framenet/abox/gfe/Empathy_target,The entity or individual to whom empathy is directed or applied in a given context.
+180,https://w3id.org/framester/framenet/abox/gfe/Employee,a worker who is hired to perform a job
+181,https://w3id.org/framester/framenet/abox/gfe/Employer,a person or firm that employs workers
+182,https://w3id.org/framester/framenet/abox/gfe/Enabled_action,An action that is made possible or facilitated by a particular condition or entity.
+183,https://w3id.org/framester/framenet/abox/gfe/Enablement,The process or condition that allows an entity to perform a specific action or behavior.
+184,https://w3id.org/framester/framenet/abox/gfe/Enclosed_region,A spatial area or environment that is surrounded or contained by boundaries.
+185,https://w3id.org/framester/framenet/abox/gfe/End_point,a place where something ends or is complete
+186,https://w3id.org/framester/framenet/abox/gfe/End_time,The point in time when an event or state concludes or ceases.
+187,https://w3id.org/framester/framenet/abox/gfe/Endpoints,a place where something ends or is complete
+188,https://w3id.org/framester/framenet/abox/gfe/Entities,that which is perceived or known or inferred to have its own distinct existence (living or nonliving)
+189,https://w3id.org/framester/framenet/abox/gfe/Entity,that which is perceived or known or inferred to have its own distinct existence (living or nonliving)
+190,https://w3id.org/framester/framenet/abox/gfe/Entity1,The first entity in a relationship or interaction.
+191,https://w3id.org/framester/framenet/abox/gfe/Entity2,The second entity in a relationship or interaction.
+192,https://w3id.org/framester/framenet/abox/gfe/Entry_path,The route or means by which an entity enters a space or context.
+193,https://w3id.org/framester/framenet/abox/gfe/Epistemic_stance,"The position or attitude an individual takes regarding the certainty, belief, or knowledge about an event or proposition."
+194,https://w3id.org/framester/framenet/abox/gfe/Equivalence,a state of being essentially equal or equivalent; equally balanced
+195,https://w3id.org/framester/framenet/abox/gfe/Ethnicity,an ethnic quality or affiliation resulting from racial or cultural ties
+196,https://w3id.org/framester/framenet/abox/gfe/Evaluation,act of ascertaining or fixing the value or worth of
+197,https://w3id.org/framester/framenet/abox/gfe/Evaluee,The entity being evaluated or assessed within a given context.
+198,https://w3id.org/framester/framenet/abox/gfe/Event,something that happens at a given place and time
+199,https://w3id.org/framester/framenet/abox/gfe/Event_description,A narrative or representation that outlines the details and components of an event.
+200,https://w3id.org/framester/framenet/abox/gfe/Evidence,your basis for belief or disbelief; knowledge on which to base belief
+201,https://w3id.org/framester/framenet/abox/gfe/Examination,the act of examining something closely (as for mistakes)
+202,https://w3id.org/framester/framenet/abox/gfe/Excess,a quantity much larger than is needed
+203,https://w3id.org/framester/framenet/abox/gfe/Existing_member,"An entity that is already part of a group, system, or category."
+204,https://w3id.org/framester/framenet/abox/gfe/Expected_entity,An entity anticipated to participate in or occur within a specific context.
+205,https://w3id.org/framester/framenet/abox/gfe/Expected_event,An event that is anticipated to happen based on prior information or conditions.
+206,https://w3id.org/framester/framenet/abox/gfe/Experience,the accumulation of knowledge or skill that results from direct participation in events or activities
+207,https://w3id.org/framester/framenet/abox/gfe/Experiencer,"The entity that perceives, feels, or undergoes an experience in a particular event or situation."
+208,https://w3id.org/framester/framenet/abox/gfe/Explanation,a statement that makes something comprehensible by describing the relevant structure or operation or circumstances etc.
+209,https://w3id.org/framester/framenet/abox/gfe/Exporting_area,"A region or zone from which goods, services, or information are sent or transferred to another."
+210,https://w3id.org/framester/framenet/abox/gfe/Expression,the feelings expressed on a person's face
+211,https://w3id.org/framester/framenet/abox/gfe/Expressor,"The entity that conveys or communicates an emotion, thought, or intention in a given context."
+212,https://w3id.org/framester/framenet/abox/gfe/Exterior,the region that is outside of something
+213,https://w3id.org/framester/framenet/abox/gfe/External_cause,A factor or force outside of an entity that triggers or influences an event or condition.
+214,https://w3id.org/framester/framenet/abox/gfe/Facility,a building or place that provides a particular service or is used for a particular industry
+215,https://w3id.org/framester/framenet/abox/gfe/Fact,a piece of information about circumstances that exist or events that have occurred
+216,https://w3id.org/framester/framenet/abox/gfe/Factor,anything that contributes causally to a result
+217,https://w3id.org/framester/framenet/abox/gfe/Factory,a plant consisting of one or more buildings with facilities for manufacturing
+218,https://w3id.org/framester/framenet/abox/gfe/Fastener,a person who fastens or makes fast
+219,https://w3id.org/framester/framenet/abox/gfe/Father,a male parent (also used as a term of address to your father)
+220,https://w3id.org/framester/framenet/abox/gfe/Feature,a prominent attribute or aspect of something
+221,https://w3id.org/framester/framenet/abox/gfe/Fidelity,accuracy with which an electronic system reproduces the sound or image of its input signal
+222,https://w3id.org/framester/framenet/abox/gfe/Field,a piece of land cleared of trees and usually enclosed
+223,https://w3id.org/framester/framenet/abox/gfe/Fight,a hostile meeting of opposing military forces in the course of a war
+224,https://w3id.org/framester/framenet/abox/gfe/Figure,a diagram or picture illustrating textual material
+225,https://w3id.org/framester/framenet/abox/gfe/Final_category,The last classification or category that an entity or event is assigned to after a process or transformation.
+226,https://w3id.org/framester/framenet/abox/gfe/Final_correlate,The final entity or condition that is associated or corresponds with another in a process or event.
+227,https://w3id.org/framester/framenet/abox/gfe/Final_state,The ultimate condition or outcome after a series of events or actions.
+228,https://w3id.org/framester/framenet/abox/gfe/Final_value,"The concluding measurement, quantity, or quality of an entity after a process or event."
+229,https://w3id.org/framester/framenet/abox/gfe/Fixed_location,A location that remains constant and does not change over time.
+230,https://w3id.org/framester/framenet/abox/gfe/Flame,the process of combustion of inflammable materials producing heat and light and (often) smoke
+231,https://w3id.org/framester/framenet/abox/gfe/Focal_entity,The primary entity of focus within a specific context or event.
+232,https://w3id.org/framester/framenet/abox/gfe/Focal_participant,The main participant in an event or scenario that is the primary focus of attention.
+233,https://w3id.org/framester/framenet/abox/gfe/Following_distance,The spatial gap or distance maintained between entities as they move or interact.
+234,https://w3id.org/framester/framenet/abox/gfe/Force,a powerful effect or influence
+235,https://w3id.org/framester/framenet/abox/gfe/Form,the phonological or orthographic sound or appearance of a word that can be used to describe or identify something
+236,https://w3id.org/framester/framenet/abox/gfe/Formational_cause,The cause or factor responsible for the formation or creation of something.
+237,https://w3id.org/framester/framenet/abox/gfe/Frequency,the number of occurrences within a given time period
+238,https://w3id.org/framester/framenet/abox/gfe/Frequency_of_use,The rate or regularity with which an entity or action is employed or utilized.
+239,https://w3id.org/framester/framenet/abox/gfe/Function,(mathematics) a mathematical relation such that each element of a given set (the domain of the function) is associated with an element of another set (the range of the function)
+240,https://w3id.org/framester/framenet/abox/gfe/Game,a contest with rules to determine a winner
+241,https://w3id.org/framester/framenet/abox/gfe/Goal,the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it
+242,https://w3id.org/framester/framenet/abox/gfe/Goods,benefit
+243,https://w3id.org/framester/framenet/abox/gfe/Governed,the body of people who are citizens of a particular government; --Declaration of Independence
+244,https://w3id.org/framester/framenet/abox/gfe/Governing_authority,"The entity or institution that holds the power to regulate, enforce, or manage certain actions or entities."
+245,https://w3id.org/framester/framenet/abox/gfe/Gradable_attribute,"An attribute that can be measured along a scale or spectrum, indicating varying degrees or intensities."
+246,https://w3id.org/framester/framenet/abox/gfe/Ground,the solid part of the earth's surface
+247,https://w3id.org/framester/framenet/abox/gfe/Grounds,your basis for belief or disbelief; knowledge on which to base belief
+248,https://w3id.org/framester/framenet/abox/gfe/Group,any number of entities (members) considered as a unit
+249,https://w3id.org/framester/framenet/abox/gfe/Guardian,a person who cares for persons or property
+250,https://w3id.org/framester/framenet/abox/gfe/Guest,a visitor to whom hospitality is extended
+251,https://w3id.org/framester/framenet/abox/gfe/Hair,a covering for the body (or parts of it) consisting of a dense growth of threadlike structures (as on the human head); helps to prevent heat loss
+252,https://w3id.org/framester/framenet/abox/gfe/Hair_Property,"A characteristic or trait associated with the hair of an entity, such as texture, color, or length."
+253,https://w3id.org/framester/framenet/abox/gfe/Handle,the appendage to an object that is designed to be held in order to use or move it
+254,https://w3id.org/framester/framenet/abox/gfe/Harmful_event,"An event that causes damage, injury, or negative impact to an entity or environment."
+255,https://w3id.org/framester/framenet/abox/gfe/Hiatus,an interruption in the intensity or amount of something
+256,https://w3id.org/framester/framenet/abox/gfe/Hiding_place,a place suitable for hiding something (such as yourself)
+257,https://w3id.org/framester/framenet/abox/gfe/Hindrance,something immaterial that interferes with or delays action or progress
+258,https://w3id.org/framester/framenet/abox/gfe/Holding_location,"The location where an entity or item is stored, kept, or held temporarily."
+259,https://w3id.org/framester/framenet/abox/gfe/Homeland,the country where you were born
+260,https://w3id.org/framester/framenet/abox/gfe/Honored_entity,"An entity that is recognized, respected, or celebrated for its actions or contributions in a specific context."
+261,https://w3id.org/framester/framenet/abox/gfe/Honoree,a recipient of honors in recognition of noteworthy accomplishments
+262,https://w3id.org/framester/framenet/abox/gfe/Host,a person who invites guests to a social event (such as a party in his or her own home) and who is responsible for them while they are there
+263,https://w3id.org/framester/framenet/abox/gfe/Host_location,The location or environment that hosts or accommodates another entity or group.
+264,https://w3id.org/framester/framenet/abox/gfe/Hot_Cold_source,An entity or factor that produces or is associated with extreme temperatures (either hot or cold).
+265,https://w3id.org/framester/framenet/abox/gfe/Illicit_organization,A group or entity engaged in illegal or unlawful activities within a particular context.
+266,https://w3id.org/framester/framenet/abox/gfe/Image,an iconic mental representation
+267,https://w3id.org/framester/framenet/abox/gfe/Impactors,Entities or factors that have a significant influence or effect on a situation or condition.
+268,https://w3id.org/framester/framenet/abox/gfe/Importing_area,"A region or zone that receives goods, services, or information from an external source."
+269,https://w3id.org/framester/framenet/abox/gfe/Impression,a vague idea in which some confidence is placed
+270,https://w3id.org/framester/framenet/abox/gfe/Increment,a process of becoming larger or longer or more numerous or more important
+271,https://w3id.org/framester/framenet/abox/gfe/Independent_variable,(statistics) a variable whose values are independent of changes in the values of other variables
+272,https://w3id.org/framester/framenet/abox/gfe/Individual,a human being
+273,https://w3id.org/framester/framenet/abox/gfe/Individuals,a human being
+274,https://w3id.org/framester/framenet/abox/gfe/Inference,the reasoning involved in drawing a conclusion or making a logical judgment on the basis of circumstantial evidence and prior conclusions rather than on the basis of direct observation
+275,https://w3id.org/framester/framenet/abox/gfe/Influencing_entity,An entity that exerts influence or control over another entity or event within a given context.
+276,https://w3id.org/framester/framenet/abox/gfe/Influencing_situation,A situation in which an entity or factor has a significant impact on the course or outcome of events.
+277,https://w3id.org/framester/framenet/abox/gfe/Influencing_variable,A variable that alters or affects the outcome or behavior of a situation or system.
+278,https://w3id.org/framester/framenet/abox/gfe/Information,a message received and understood
+279,https://w3id.org/framester/framenet/abox/gfe/Inherent_purpose,The fundamental or intrinsic goal or reason behind the existence or function of an entity or action.
+280,https://w3id.org/framester/framenet/abox/gfe/Initial_State,The starting condition or state of an entity or event before it undergoes any changes.
+281,https://w3id.org/framester/framenet/abox/gfe/Initial_category,The first classification or category assigned to an entity or event at the outset.
+282,https://w3id.org/framester/framenet/abox/gfe/Initial_correlate,The initial entity or condition that corresponds with another at the beginning of an event or process.
+283,https://w3id.org/framester/framenet/abox/gfe/Initial_set,The original collection of entities or elements present at the beginning of an event or scenario.
+284,https://w3id.org/framester/framenet/abox/gfe/Initial_size,The size or magnitude of an entity or event at the beginning of a process.
+285,https://w3id.org/framester/framenet/abox/gfe/Initial_state,The condition of an entity or event before it undergoes any changes or transformations.
+286,https://w3id.org/framester/framenet/abox/gfe/Initial_subevent,The first subevent or phase within a larger event or process.
+287,https://w3id.org/framester/framenet/abox/gfe/Initial_value,The starting value or measurement of an attribute or condition at the beginning of a process.
+288,https://w3id.org/framester/framenet/abox/gfe/Injured_party,someone injured or killed in an accident
+289,https://w3id.org/framester/framenet/abox/gfe/Injury,any physical damage to the body caused by violence or accident or fracture etc.
+290,https://w3id.org/framester/framenet/abox/gfe/Input,signal going into an electronic system
+291,https://w3id.org/framester/framenet/abox/gfe/Instance,an occurrence of something
+292,https://w3id.org/framester/framenet/abox/gfe/Instance_Prop,A specific property or characteristic associated with an instance of an entity or event.
+293,https://w3id.org/framester/framenet/abox/gfe/Institution,an organization founded and united for a specific purpose
+294,https://w3id.org/framester/framenet/abox/gfe/Instrument,a device that requires skill for proper use
+295,https://w3id.org/framester/framenet/abox/gfe/Insulator,a material such as glass or porcelain with negligible electrical or thermal conductivity
+296,https://w3id.org/framester/framenet/abox/gfe/Intended_event,An event that is planned or expected to happen as a result of certain actions or decisions.
+297,https://w3id.org/framester/framenet/abox/gfe/Intended_goal,The specific objective or outcome that is sought or desired by an agent in an event or action.
+298,https://w3id.org/framester/framenet/abox/gfe/Intended_perceiver,The individual or entity for whom a perception or experience is intended or directed.
+299,https://w3id.org/framester/framenet/abox/gfe/Intended_purpose,The specific aim or function that an action or entity is meant to fulfill.
+300,https://w3id.org/framester/framenet/abox/gfe/Intended_referent,"The entity or object that a statement, gesture, or communication is intended to refer to or represent."
+301,https://w3id.org/framester/framenet/abox/gfe/Interest,a sense of concern with and curiosity about someone or something
+302,https://w3id.org/framester/framenet/abox/gfe/Interested_party,"An entity or individual that has a vested interest or concern in a particular event, action, or decision."
+303,https://w3id.org/framester/framenet/abox/gfe/Interior,the region that is inside of something
+304,https://w3id.org/framester/framenet/abox/gfe/Interjection,an abrupt emphatic exclamation expressing emotion
+305,https://w3id.org/framester/framenet/abox/gfe/Intermediary,a negotiator who acts as a link between parties
+306,https://w3id.org/framester/framenet/abox/gfe/Internal_cause,A cause or factor originating within an entity that influences its behavior or condition.
+307,https://w3id.org/framester/framenet/abox/gfe/Interval,a definite length of time marked off by two instants
+308,https://w3id.org/framester/framenet/abox/gfe/Intoxicant,a liquor or brew containing alcohol as the active agent
+309,https://w3id.org/framester/framenet/abox/gfe/Invader,someone who enters by force in order to conquer
+310,https://w3id.org/framester/framenet/abox/gfe/Invasion_act,An action or event that involves the intrusion or unlawful entry into a space or territory.
+311,https://w3id.org/framester/framenet/abox/gfe/Issue,an important question that is in dispute and must be settled
+312,https://w3id.org/framester/framenet/abox/gfe/Item,a distinct part that can be specified separately in a group of things that could be enumerated on a list
+313,https://w3id.org/framester/framenet/abox/gfe/Item_2,The second item in a set or pair of related items.
+314,https://w3id.org/framester/framenet/abox/gfe/Item_Property,A characteristic or attribute associated with a specific item or object.
+315,https://w3id.org/framester/framenet/abox/gfe/Items,a distinct part that can be specified separately in a group of things that could be enumerated on a list
+316,https://w3id.org/framester/framenet/abox/gfe/Iteration,(computer science) a single execution of a set of instructions that are to be repeated
+317,https://w3id.org/framester/framenet/abox/gfe/Iterations,(computer science) a single execution of a set of instructions that are to be repeated
+318,https://w3id.org/framester/framenet/abox/gfe/Itinerary,an established line of travel or access
+319,https://w3id.org/framester/framenet/abox/gfe/Journey,the act of traveling from one place to another
+320,https://w3id.org/framester/framenet/abox/gfe/Judge,a public official authorized to decide questions brought before a court of justice
+321,https://w3id.org/framester/framenet/abox/gfe/Judgment,an opinion formed by judging something
+322,https://w3id.org/framester/framenet/abox/gfe/Jurisdiction,(law) the right and power to interpret and apply the law
+323,https://w3id.org/framester/framenet/abox/gfe/Jury,a body of citizens sworn to give a true verdict according to the evidence presented in a court of law
+324,https://w3id.org/framester/framenet/abox/gfe/Knot,a tight cluster of people or things
+325,https://w3id.org/framester/framenet/abox/gfe/Landmark,the position of a prominent or well-known object in a particular landscape
+326,https://w3id.org/framester/framenet/abox/gfe/Landmark_entity,An entity that serves as a point of reference or notable feature in a given context or location.
+327,https://w3id.org/framester/framenet/abox/gfe/Language,a systematic means of communicating by the use of sounds or conventional symbols
+328,https://w3id.org/framester/framenet/abox/gfe/Last_subevent,The final subevent or phase in a larger event or process.
+329,https://w3id.org/framester/framenet/abox/gfe/Legal_basis,"The foundational legal principles or framework that support or justify an action, decision, or agreement."
+330,https://w3id.org/framester/framenet/abox/gfe/Lender,someone who lends money or gives credit in business matters
+331,https://w3id.org/framester/framenet/abox/gfe/Level,a position on a scale of intensity or amount or quality
+332,https://w3id.org/framester/framenet/abox/gfe/Light,(physics) electromagnetic radiation that can produce a visual sensation
+333,https://w3id.org/framester/framenet/abox/gfe/Limit1,The first boundary or constraint within a defined range or context.
+334,https://w3id.org/framester/framenet/abox/gfe/Limit2,The second boundary or constraint within a defined range or context.
+335,https://w3id.org/framester/framenet/abox/gfe/Loan,the temporary provision of money (usually at interest)
+336,https://w3id.org/framester/framenet/abox/gfe/Loaner,someone who lends money or gives credit in business matters
+337,https://w3id.org/framester/framenet/abox/gfe/Location,a point or extent in space
+338,https://w3id.org/framester/framenet/abox/gfe/Location_of_Event,The specific place or area where an event occurs or takes place.
+339,https://w3id.org/framester/framenet/abox/gfe/Location_of_appearance,The location where an entity or event is first noticed or revealed.
+340,https://w3id.org/framester/framenet/abox/gfe/Location_of_communicator,The place or setting from which a communicator conveys a message or information.
+341,https://w3id.org/framester/framenet/abox/gfe/Location_of_confinement,The physical space or area where an entity is confined or restricted.
+342,https://w3id.org/framester/framenet/abox/gfe/Location_of_inspector,"The location from which an inspector observes, examines, or evaluates an entity or process."
+343,https://w3id.org/framester/framenet/abox/gfe/Location_of_participant,The place or setting in which a participant is situated during an event or action.
+344,https://w3id.org/framester/framenet/abox/gfe/Location_of_perceiver,The location from which a perceiver observes or experiences an event or phenomenon.
+345,https://w3id.org/framester/framenet/abox/gfe/Location_of_protagonist,The location where the central character or participant in an event is situated or involved.
+346,https://w3id.org/framester/framenet/abox/gfe/Location_of_representation,The place or medium in which a representation of an entity or event is presented or displayed.
+347,https://w3id.org/framester/framenet/abox/gfe/Location_of_source,The location from which something originates or is sourced.
+348,https://w3id.org/framester/framenet/abox/gfe/Location_of_tester,The location where a test or evaluation is conducted or performed.
+349,https://w3id.org/framester/framenet/abox/gfe/Locus,the scene of any event or action (especially the place of a meeting)
+350,https://w3id.org/framester/framenet/abox/gfe/Main_statement,The primary or central assertion made within a discourse or communication.
+351,https://w3id.org/framester/framenet/abox/gfe/Manipulator,an agent that operates some apparatus or machine
+352,https://w3id.org/framester/framenet/abox/gfe/Manner,how something is done or how it happens
+353,https://w3id.org/framester/framenet/abox/gfe/Marker,some conspicuous object used to distinguish or mark something
+354,https://w3id.org/framester/framenet/abox/gfe/Market,the world of commercial activity where goods and services are bought and sold
+355,https://w3id.org/framester/framenet/abox/gfe/Market_type,"The classification or category of a market based on its characteristics or focus (e.g., consumer, wholesale)."
+356,https://w3id.org/framester/framenet/abox/gfe/Material,the tangible substance that goes into the makeup of a physical object
+357,https://w3id.org/framester/framenet/abox/gfe/Means,how a result is obtained or an end is achieved
+358,https://w3id.org/framester/framenet/abox/gfe/Means_of_Gathering,"The method or tool used to collect data, information, or resources."
+359,https://w3id.org/framester/framenet/abox/gfe/Means_of_propulsion,"The method or mechanism used to move or propel an entity, especially in transportation contexts."
+360,https://w3id.org/framester/framenet/abox/gfe/Measurement,the act or process of assigning numbers to phenomena according to a rule
+361,https://w3id.org/framester/framenet/abox/gfe/Medication,(medicine) something that treats or prevents or alleviates the symptoms of disease
+362,https://w3id.org/framester/framenet/abox/gfe/Medium,a means or instrumentality for storing or communicating information
+363,https://w3id.org/framester/framenet/abox/gfe/Member,one of the persons who compose a social group (especially individuals who have joined and participate in a group organization)
+364,https://w3id.org/framester/framenet/abox/gfe/Member_1,The first entity in a membership or group.
+365,https://w3id.org/framester/framenet/abox/gfe/Member_2,The second entity in a membership or group.
+366,https://w3id.org/framester/framenet/abox/gfe/Message,a communication (usually brief) that is written or spoken or signaled
+367,https://w3id.org/framester/framenet/abox/gfe/Method,"a way of doing something, especially a systematic way; implies an orderly logical arrangement (usually in steps)"
+368,https://w3id.org/framester/framenet/abox/gfe/Miner,laborer who works in a mine
+369,https://w3id.org/framester/framenet/abox/gfe/Mineral,solid homogeneous inorganic substances occurring in nature having a definite chemical composition
+370,https://w3id.org/framester/framenet/abox/gfe/Mode_of_transfer,The method or process by which something is transferred or conveyed from one entity to another.
+371,https://w3id.org/framester/framenet/abox/gfe/Mode_of_transportation,The method or means by which an entity or goods are transported from one location to another.
+372,https://w3id.org/framester/framenet/abox/gfe/Money,the most common medium of exchange; functions as legal tender
+373,https://w3id.org/framester/framenet/abox/gfe/Mother,a woman who has given birth to a child (also used as a term of address to your mother)
+374,https://w3id.org/framester/framenet/abox/gfe/Motivation,the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior
+375,https://w3id.org/framester/framenet/abox/gfe/Multiplier,the number by which a multiplicand is multiplied
+376,https://w3id.org/framester/framenet/abox/gfe/Name,a language unit by which a person or thing is known
+377,https://w3id.org/framester/framenet/abox/gfe/Name_source,The origin or entity from which a name is derived or attributed.
+378,https://w3id.org/framester/framenet/abox/gfe/Nationality,people having common origins or traditions and often comprising a nation
+379,https://w3id.org/framester/framenet/abox/gfe/New_Status,"A newly assigned condition, role, or situation an entity occupies after a change or event."
+380,https://w3id.org/framester/framenet/abox/gfe/New_punishment,The punishment or penalty that is newly assigned to an entity after a transgression.
+381,https://w3id.org/framester/framenet/abox/gfe/New_tool,A tool or instrument that is introduced or newly acquired for use.
+382,https://w3id.org/framester/framenet/abox/gfe/Next_subevent,The subsequent event or phase in a sequence of actions or occurrences.
+383,https://w3id.org/framester/framenet/abox/gfe/Nodes,a connecting point at which several lines come together
+384,https://w3id.org/framester/framenet/abox/gfe/Normal_location,The typical or expected place where an entity or event occurs.
+385,https://w3id.org/framester/framenet/abox/gfe/Number,the property possessed by a sum or total or indefinite quantity of units or individuals
+386,https://w3id.org/framester/framenet/abox/gfe/Number_of_possibilities,The total count of potential outcomes or choices available in a scenario.
+387,https://w3id.org/framester/framenet/abox/gfe/Object,a tangible and visible entity; an entity that can cast a shadow
+388,https://w3id.org/framester/framenet/abox/gfe/Obscuring_medium,A substance or entity that blocks or hinders visibility or perception.
+389,https://w3id.org/framester/framenet/abox/gfe/Occasion,an event that occurs at a critical time
+390,https://w3id.org/framester/framenet/abox/gfe/Occupant,someone who lives at a particular place for a prolonged period or who was born there
+391,https://w3id.org/framester/framenet/abox/gfe/Odds,the likelihood of a thing occurring rather than not occurring
+392,https://w3id.org/framester/framenet/abox/gfe/Old,past times (especially in the phrase `in days of old')
+393,https://w3id.org/framester/framenet/abox/gfe/Old_leader,A previous individual or entity that held a leadership position.
+394,https://w3id.org/framester/framenet/abox/gfe/Old_order,A previous system or arrangement of entities or events before a change occurred.
+395,https://w3id.org/framester/framenet/abox/gfe/Old_tool,A tool or instrument that was previously used before being replaced or upgraded.
+396,https://w3id.org/framester/framenet/abox/gfe/Option_1,The first choice or alternative available in a decision-making process.
+397,https://w3id.org/framester/framenet/abox/gfe/Option_2,The second choice or alternative available in a decision-making process.
+398,https://w3id.org/framester/framenet/abox/gfe/Ordinality,The characteristic of being arranged in a specific order or sequence.
+399,https://w3id.org/framester/framenet/abox/gfe/Organization,a group of people who work together
+400,https://w3id.org/framester/framenet/abox/gfe/Orientation,the act of orienting
+401,https://w3id.org/framester/framenet/abox/gfe/Origin,"the place where something begins, where it springs into being"
+402,https://w3id.org/framester/framenet/abox/gfe/Original,"an original creation (i.e., an audio recording) from which copies can be made"
+403,https://w3id.org/framester/framenet/abox/gfe/Original_owner,The initial individual or entity that possessed or controlled something.
+404,https://w3id.org/framester/framenet/abox/gfe/Original_punishment,The first punishment or penalty assigned for a transgression or wrongdoing.
+405,https://w3id.org/framester/framenet/abox/gfe/Outcome,something that results
+406,https://w3id.org/framester/framenet/abox/gfe/Owner,(law) someone who owns (is legal possessor of) a business
+407,https://w3id.org/framester/framenet/abox/gfe/Paradigm,systematic arrangement of all the inflected forms of a word
+408,https://w3id.org/framester/framenet/abox/gfe/Parameter,a constant in the equation of a curve that can be varied to yield a family of similar curves
+409,https://w3id.org/framester/framenet/abox/gfe/Parents,a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian
+410,https://w3id.org/framester/framenet/abox/gfe/Part,something determined in relation to something that includes it
+411,https://w3id.org/framester/framenet/abox/gfe/Part_1,The first segment or component of a larger whole or event.
+412,https://w3id.org/framester/framenet/abox/gfe/Part_2,The second segment or component of a larger whole or event.
+413,https://w3id.org/framester/framenet/abox/gfe/Part_of_form,A component or element that contributes to the structure or shape of a larger entity.
+414,https://w3id.org/framester/framenet/abox/gfe/Participant_1,The first individual or entity involved in an event or action.
+415,https://w3id.org/framester/framenet/abox/gfe/Participant_2,The second individual or entity involved in an event or action.
+416,https://w3id.org/framester/framenet/abox/gfe/Participants,someone who takes part in an activity
+417,https://w3id.org/framester/framenet/abox/gfe/Particular_iteration,A specific occurrence or repetition of an event or process.
+418,https://w3id.org/framester/framenet/abox/gfe/Parties,an organization to gain political power
+419,https://w3id.org/framester/framenet/abox/gfe/Parts,the local environment
+420,https://w3id.org/framester/framenet/abox/gfe/Party_1,"The first group or entity involved in a relationship, contract, or event."
+421,https://w3id.org/framester/framenet/abox/gfe/Party_2,"The second group or entity involved in a relationship, contract, or event."
+422,https://w3id.org/framester/framenet/abox/gfe/Path,a course of conduct
+423,https://w3id.org/framester/framenet/abox/gfe/Path_shape,The specific form or outline of a route or trajectory taken by an entity.
+424,https://w3id.org/framester/framenet/abox/gfe/Pattern,a perceptual structure
+425,https://w3id.org/framester/framenet/abox/gfe/Perceiver,a person who becomes aware (of things or events) through the senses
+426,https://w3id.org/framester/framenet/abox/gfe/Performance,a dramatic or musical entertainment
+427,https://w3id.org/framester/framenet/abox/gfe/Performer,an entertainer who performs a dramatic or musical work for an audience
+428,https://w3id.org/framester/framenet/abox/gfe/Performer1,The first entity responsible for carrying out or initiating an action or event.
+429,https://w3id.org/framester/framenet/abox/gfe/Performer2,The second entity responsible for carrying out or initiating an action or event.
+430,https://w3id.org/framester/framenet/abox/gfe/Period,an amount of time
+431,https://w3id.org/framester/framenet/abox/gfe/Period_of_existence,The length of time during which an entity or state remains in existence.
+432,https://w3id.org/framester/framenet/abox/gfe/Period_of_iteration,The span of time during which a process or event is repeated or iterated.
+433,https://w3id.org/framester/framenet/abox/gfe/Period_of_iterations,The total time span encompassing multiple iterations or repetitions of an event or process.
+434,https://w3id.org/framester/framenet/abox/gfe/Periodicity,the quality of recurring at regular intervals
+435,https://w3id.org/framester/framenet/abox/gfe/Perpetrator,someone who perpetrates wrongdoing
+436,https://w3id.org/framester/framenet/abox/gfe/Persistent_characteristic,A feature or trait that remains consistent or enduring over time.
+437,https://w3id.org/framester/framenet/abox/gfe/Person,a human being
+438,https://w3id.org/framester/framenet/abox/gfe/Personnel,group of people willing to obey orders
+439,https://w3id.org/framester/framenet/abox/gfe/Phenomena,any state or process known through the senses rather than by intuition or reasoning
+440,https://w3id.org/framester/framenet/abox/gfe/Phenomenon,any state or process known through the senses rather than by intuition or reasoning
+441,https://w3id.org/framester/framenet/abox/gfe/Phenomenon_1,The first observable event or occurrence in a particular context.
+442,https://w3id.org/framester/framenet/abox/gfe/Phenomenon_2,The second observable event or occurrence in a particular context.
+443,https://w3id.org/framester/framenet/abox/gfe/Picture,a visual representation (of an object or scene or person or abstraction) produced on a surface
+444,https://w3id.org/framester/framenet/abox/gfe/Piece_prop,A characteristic or property associated with a specific piece or segment of a larger whole.
+445,https://w3id.org/framester/framenet/abox/gfe/Pieces,a separate part of a whole
+446,https://w3id.org/framester/framenet/abox/gfe/Place,a point located with respect to surface features of some region
+447,https://w3id.org/framester/framenet/abox/gfe/Place_holder,An entity or symbol used to temporarily represent another entity or concept.
+448,https://w3id.org/framester/framenet/abox/gfe/Place_of_employment,The location where an individual or entity performs work or job-related activities.
+449,https://w3id.org/framester/framenet/abox/gfe/Plan,a series of steps to be carried out or goals to be accomplished
+450,https://w3id.org/framester/framenet/abox/gfe/Player,a person who participates in or is skilled at some game
+451,https://w3id.org/framester/framenet/abox/gfe/Point_of_contact,The designated entity or location for communication or interaction in a process or event.
+452,https://w3id.org/framester/framenet/abox/gfe/Point_of_view,a mental position from which things are viewed
+453,https://w3id.org/framester/framenet/abox/gfe/Population,the people who inhabit a territory or state
+454,https://w3id.org/framester/framenet/abox/gfe/Portal,a grand and imposing entrance (often extended metaphorically)
+455,https://w3id.org/framester/framenet/abox/gfe/Position,the particular portion of space occupied by something
+456,https://w3id.org/framester/framenet/abox/gfe/Position_qualifier,A descriptor that specifies the role or rank of an entity within a given position.
+457,https://w3id.org/framester/framenet/abox/gfe/Possession,the act of having and controlling property
+458,https://w3id.org/framester/framenet/abox/gfe/Possessor,a person who owns something
+459,https://w3id.org/framester/framenet/abox/gfe/Possibilities,a future prospect or potential
+460,https://w3id.org/framester/framenet/abox/gfe/Possible_event,An event that could occur based on certain conditions or possibilities.
+461,https://w3id.org/framester/framenet/abox/gfe/Post_state,The condition or situation of an entity after a change or event has occurred.
+462,https://w3id.org/framester/framenet/abox/gfe/Potential_observer,An entity that has the capacity or possibility to observe an event or situation.
+463,https://w3id.org/framester/framenet/abox/gfe/Power_source,The origin or mechanism that provides energy or power for an entity or system.
+464,https://w3id.org/framester/framenet/abox/gfe/Practice,a customary way of operation or behavior
+465,https://w3id.org/framester/framenet/abox/gfe/Precept,rule of personal conduct
+466,https://w3id.org/framester/framenet/abox/gfe/Precipitation,the quantity of water falling to earth at a specific place within a specified period of time
+467,https://w3id.org/framester/framenet/abox/gfe/Precision,the quality of being reproducible in amount or performance
+468,https://w3id.org/framester/framenet/abox/gfe/Predicate,(logic) what is predicated of the subject of a proposition; the second term in a proposition is predicated of the first term by means of the copula
+469,https://w3id.org/framester/framenet/abox/gfe/Preparatory_phase,The initial stage in a process where actions are taken to set up or prepare for a later event.
+470,https://w3id.org/framester/framenet/abox/gfe/Presentation,the activity of formally presenting something (as a prize or reward)
+471,https://w3id.org/framester/framenet/abox/gfe/Preventing_cause,An entity or factor that stops or hinders an event or action from occurring.
+472,https://w3id.org/framester/framenet/abox/gfe/Previous_context,The conditions or circumstances that existed before the current situation or event.
+473,https://w3id.org/framester/framenet/abox/gfe/Previous_instance,The prior occurrence of an event or situation in a sequence.
+474,https://w3id.org/framester/framenet/abox/gfe/Principle,a basic generalization that is accepted as true and that can be used as a basis for reasoning or conduct
+475,https://w3id.org/framester/framenet/abox/gfe/Prior_state,The condition or situation of an entity before a particular change or event took place.
+476,https://w3id.org/framester/framenet/abox/gfe/Prize,something given for victory or superiority in a contest or competition or for winning a lottery
+477,https://w3id.org/framester/framenet/abox/gfe/Problem,a state of difficulty that needs to be resolved
+478,https://w3id.org/framester/framenet/abox/gfe/Process,a particular course of action intended to achieve a result
+479,https://w3id.org/framester/framenet/abox/gfe/Product,commodities offered for sale
+480,https://w3id.org/framester/framenet/abox/gfe/Profiled_attribute,A specific characteristic or feature of an entity that is highlighted or examined in detail.
+481,https://w3id.org/framester/framenet/abox/gfe/Profiled_region,A specific area or region that is focused on or analyzed in a given context.
+482,https://w3id.org/framester/framenet/abox/gfe/Project,any piece of work that is undertaken or attempted
+483,https://w3id.org/framester/framenet/abox/gfe/Projectile,a weapon that is forcibly thrown or projected at a targets but is not self-propelled
+484,https://w3id.org/framester/framenet/abox/gfe/Property,something owned; any tangible or intangible possession that is owned by someone
+485,https://w3id.org/framester/framenet/abox/gfe/Proposition,(logic) a statement that affirms or denies something and is either true or false
+486,https://w3id.org/framester/framenet/abox/gfe/Proprietor,(law) someone who owns (is legal possessor of) a business
+487,https://w3id.org/framester/framenet/abox/gfe/Prosecution,the institution and conduct of legal proceedings against a defendant for criminal behavior
+488,https://w3id.org/framester/framenet/abox/gfe/Protagonist,a person who backs a politician or a team etc.
+489,https://w3id.org/framester/framenet/abox/gfe/Protagonist_1,The first main character or central participant in an event or narrative.
+490,https://w3id.org/framester/framenet/abox/gfe/Protagonist_2,The second main character or central participant in an event or narrative.
+491,https://w3id.org/framester/framenet/abox/gfe/Protagonists,a person who backs a politician or a team etc.
+492,https://w3id.org/framester/framenet/abox/gfe/Protection,the activity of protecting someone or something
+493,https://w3id.org/framester/framenet/abox/gfe/Punishment,the act of punishing
+494,https://w3id.org/framester/framenet/abox/gfe/Purpose,an anticipated outcome that is intended or that guides your planned actions
+495,https://w3id.org/framester/framenet/abox/gfe/Purpose_of_Event,The intended goal or objective that an event seeks to accomplish.
+496,https://w3id.org/framester/framenet/abox/gfe/Purpose_of_created_entity,The intended function or use for which an entity was created or designed.
+497,https://w3id.org/framester/framenet/abox/gfe/Purpose_of_goods,The intended use or function of a particular item or product.
+498,https://w3id.org/framester/framenet/abox/gfe/Purpose_of_theme,The central idea or objective that a particular theme aims to convey or achieve.
+499,https://w3id.org/framester/framenet/abox/gfe/Q_Prop,A specific property or characteristic related to a particular question or inquiry.
+500,https://w3id.org/framester/framenet/abox/gfe/Qualification,an attribute that must be met or complied with and that fits a person for something
+501,https://w3id.org/framester/framenet/abox/gfe/Quantity,how much there is or how many there are of something that you can quantify
+502,https://w3id.org/framester/framenet/abox/gfe/Question,an instance of questioning
+503,https://w3id.org/framester/framenet/abox/gfe/Rank,a row or line of people (especially soldiers or police) standing abreast of one another
+504,https://w3id.org/framester/framenet/abox/gfe/Rate,a magnitude or frequency relative to a time unit
+505,https://w3id.org/framester/framenet/abox/gfe/Re-encoding,The process of transforming or altering information into a different format or representation.
+506,https://w3id.org/framester/framenet/abox/gfe/Reason,a rational motive for a belief or action
+507,https://w3id.org/framester/framenet/abox/gfe/Recipient,a person who receives something
+508,https://w3id.org/framester/framenet/abox/gfe/Recipients,a person who receives something
+509,https://w3id.org/framester/framenet/abox/gfe/Reciprocation,the act of making or doing something in return
+510,https://w3id.org/framester/framenet/abox/gfe/Reference,a remark that calls attention to something or someone
+511,https://w3id.org/framester/framenet/abox/gfe/Reference_occasion,The specific instance or occasion used as a reference point in a given context.
+512,https://w3id.org/framester/framenet/abox/gfe/Reference_quantity,The amount or quantity used as a standard or reference in a comparison or evaluation.
+513,https://w3id.org/framester/framenet/abox/gfe/Referent,something referred to; the object of a reference
+514,https://w3id.org/framester/framenet/abox/gfe/Refreshment,snacks and drinks served as a light meal
+515,https://w3id.org/framester/framenet/abox/gfe/Regulated_entity,"An entity subject to rules, laws, or guidelines governing its behavior or actions."
+516,https://w3id.org/framester/framenet/abox/gfe/Related_event,An event that is connected or associated with another event in some way.
+517,https://w3id.org/framester/framenet/abox/gfe/Relation,an abstraction belonging to or characteristic of two entities or parts together
+518,https://w3id.org/framester/framenet/abox/gfe/Relation_type,The specific nature or category of connection between two entities or events.
+519,https://w3id.org/framester/framenet/abox/gfe/Relative_location,The position of an entity in relation to another entity or reference point.
+520,https://w3id.org/framester/framenet/abox/gfe/Relative_time,The measurement of time based on a reference event or state.
+521,https://w3id.org/framester/framenet/abox/gfe/Relay,the act of passing something along from one person or group to another
+522,https://w3id.org/framester/framenet/abox/gfe/Relevant_feature,A characteristic or aspect that is significant or important within a given context.
+523,https://w3id.org/framester/framenet/abox/gfe/Remainder,something left after other parts have been taken away
+524,https://w3id.org/framester/framenet/abox/gfe/Represented,take the place of or be parallel or equivalent to
+525,https://w3id.org/framester/framenet/abox/gfe/Required,"require as useful, just, or proper"
+526,https://w3id.org/framester/framenet/abox/gfe/Required_entity,An entity that is necessary or essential for a specific event or process to occur.
+527,https://w3id.org/framester/framenet/abox/gfe/Required_individual,An individual who is needed or mandatory for a task or event.
+528,https://w3id.org/framester/framenet/abox/gfe/Requirement,required activity
+529,https://w3id.org/framester/framenet/abox/gfe/Resident,someone who lives at a particular place for a prolonged period or who was born there
+530,https://w3id.org/framester/framenet/abox/gfe/Resistant_surface,"A surface that is capable of resisting external forces, damage, or wear."
+531,https://w3id.org/framester/framenet/abox/gfe/Resource,available source of wealth; a new or reserve supply that can be drawn upon when needed
+532,https://w3id.org/framester/framenet/abox/gfe/Responding_entity,"An entity that reacts or responds to an action, stimulus, or event."
+533,https://w3id.org/framester/framenet/abox/gfe/Response,a result
+534,https://w3id.org/framester/framenet/abox/gfe/Responsible_party,"The entity or individual accountable for an action, event, or decision."
+535,https://w3id.org/framester/framenet/abox/gfe/Rest,something left after other parts have been taken away
+536,https://w3id.org/framester/framenet/abox/gfe/Result,a phenomenon that follows and is caused by some previous phenomenon
+537,https://w3id.org/framester/framenet/abox/gfe/Result_size,The magnitude or scale of the outcome or result of an event or process.
+538,https://w3id.org/framester/framenet/abox/gfe/Resultant_Situation,The situation or condition that arises as a consequence of an event or action.
+539,https://w3id.org/framester/framenet/abox/gfe/Resultant_action,The action or behavior that occurs as a result of a preceding event or action.
+540,https://w3id.org/framester/framenet/abox/gfe/Resulting_action,An action that directly follows from a previous event or process.
+541,https://w3id.org/framester/framenet/abox/gfe/Reversive,tending to be turned back
+542,https://w3id.org/framester/framenet/abox/gfe/Road,an open way (generally public) for travel or transportation
+543,https://w3id.org/framester/framenet/abox/gfe/Role,the actions and activities assigned to or required or expected of a person or group
+544,https://w3id.org/framester/framenet/abox/gfe/Role_of_focal_participant,The specific function or responsibility held by the primary participant in an event.
+545,https://w3id.org/framester/framenet/abox/gfe/Rope,a strong line
+546,https://w3id.org/framester/framenet/abox/gfe/Salient_activity,An activity that is prominent or significant within a given context or event.
+547,https://w3id.org/framester/framenet/abox/gfe/Salient_entity,An entity that stands out or is most noticeable within a specific situation.
+548,https://w3id.org/framester/framenet/abox/gfe/Scene,the place where some action occurs
+549,https://w3id.org/framester/framenet/abox/gfe/Score,a number or letter indicating quality (especially of a student's performance)
+550,https://w3id.org/framester/framenet/abox/gfe/Script,a written version of a play or other dramatic composition; used in preparing for a performance
+551,https://w3id.org/framester/framenet/abox/gfe/Seat,a space reserved for sitting (as in a theater or on a train or airplane)
+552,https://w3id.org/framester/framenet/abox/gfe/Seat_of_emotion,The location or source of an emotion within an individual or entity.
+553,https://w3id.org/framester/framenet/abox/gfe/Security,the state of being free from danger or injury
+554,https://w3id.org/framester/framenet/abox/gfe/Seller,someone who promotes or exchanges goods or services for money
+555,https://w3id.org/framester/framenet/abox/gfe/Sensory_attribute,"A characteristic related to the perception of an entity through the senses (e.g., sight, touch)."
+556,https://w3id.org/framester/framenet/abox/gfe/Sentient_entity,An entity capable of experiencing sensations or emotions.
+557,https://w3id.org/framester/framenet/abox/gfe/Set_of_instances,A collection of specific occurrences or examples of an entity or event.
+558,https://w3id.org/framester/framenet/abox/gfe/Severity,used of the degree of something undesirable e.g. pain or weather
+559,https://w3id.org/framester/framenet/abox/gfe/Shape_prop,A characteristic related to the form or configuration of an entity.
+560,https://w3id.org/framester/framenet/abox/gfe/Side,a place within a region identified relative to a center or reference location
+561,https://w3id.org/framester/framenet/abox/gfe/Side_1,The first side or aspect of an object or entity.
+562,https://w3id.org/framester/framenet/abox/gfe/Side_2,The second side or aspect of an object or entity.
+563,https://w3id.org/framester/framenet/abox/gfe/Sign_1,"The first indicator or symbol representing an idea, condition, or event."
+564,https://w3id.org/framester/framenet/abox/gfe/Sign_2,"The second indicator or symbol representing an idea, condition, or event."
+565,https://w3id.org/framester/framenet/abox/gfe/Simulated_entity,An entity that is artificially created or modeled to represent a real entity or phenomenon.
+566,https://w3id.org/framester/framenet/abox/gfe/Situation,the general state of things; the combination of circumstances at a given time; ; ; - Franklin D.Roosevelt
+567,https://w3id.org/framester/framenet/abox/gfe/Size,the physical magnitude of something (how big it is)
+568,https://w3id.org/framester/framenet/abox/gfe/Size_change,A modification in the dimensions or magnitude of an entity.
+569,https://w3id.org/framester/framenet/abox/gfe/Skill,an ability that has been acquired by training
+570,https://w3id.org/framester/framenet/abox/gfe/Sleep_state,The condition or state of an entity when it is in a period of rest or unconsciousness.
+571,https://w3id.org/framester/framenet/abox/gfe/Sleeper,a rester who is sleeping
+572,https://w3id.org/framester/framenet/abox/gfe/Society,an extended social group having a distinctive cultural and economic organization
+573,https://w3id.org/framester/framenet/abox/gfe/Sought_entity,An entity that is being searched for or desired in a given context.
+574,https://w3id.org/framester/framenet/abox/gfe/Sound,the particular auditory effect produced by a given cause
+575,https://w3id.org/framester/framenet/abox/gfe/Source,"the place where something begins, where it springs into being"
+576,https://w3id.org/framester/framenet/abox/gfe/Source_emitter,The origin or entity responsible for emitting or producing a signal or energy.
+577,https://w3id.org/framester/framenet/abox/gfe/Source_material,The raw material or substance from which something is created or derived.
+578,https://w3id.org/framester/framenet/abox/gfe/Source_of_authority,The origin or entity that holds the power to make decisions or enforce rules.
+579,https://w3id.org/framester/framenet/abox/gfe/Source_of_information,The origin or entity from which information is obtained or communicated.
+580,https://w3id.org/framester/framenet/abox/gfe/Source_of_legal_authority,The entity or system that grants the power to make legal decisions or enforce laws.
+581,https://w3id.org/framester/framenet/abox/gfe/Source_of_relationship,The origin or entity that initiates or establishes a relationship between entities.
+582,https://w3id.org/framester/framenet/abox/gfe/Source_representation,The original or primary representation of an entity or event from which others are derived.
+583,https://w3id.org/framester/framenet/abox/gfe/Speaker,someone who expresses in language; someone who talks (especially someone who delivers a public speech or someone especially garrulous)
+584,https://w3id.org/framester/framenet/abox/gfe/Specialty,an asset of special worth or utility
+585,https://w3id.org/framester/framenet/abox/gfe/Specification,a detailed description of design criteria for a piece of work
+586,https://w3id.org/framester/framenet/abox/gfe/Specified_content,"The particular information, material, or details that are explicitly mentioned or described."
+587,https://w3id.org/framester/framenet/abox/gfe/Specified_entity,An entity that is clearly identified or defined within a context.
+588,https://w3id.org/framester/framenet/abox/gfe/Speed,distance travelled per unit time
+589,https://w3id.org/framester/framenet/abox/gfe/Standard,a basis for comparison; a reference point against which other things can be evaluated
+590,https://w3id.org/framester/framenet/abox/gfe/Standard_attribute,A characteristic that is generally accepted as a norm or benchmark for comparison.
+591,https://w3id.org/framester/framenet/abox/gfe/Standard_item,An item that is considered typical or representative within a given category.
+592,https://w3id.org/framester/framenet/abox/gfe/Standing,social or financial or professional status or reputation
+593,https://w3id.org/framester/framenet/abox/gfe/Start_time,The moment or point in time when an event or process begins.
+594,https://w3id.org/framester/framenet/abox/gfe/Starting_point,earliest limiting point
+595,https://w3id.org/framester/framenet/abox/gfe/State,the territory occupied by one of the constituent administrative districts of a nation
+596,https://w3id.org/framester/framenet/abox/gfe/State_of_affairs,the general state of things; the combination of circumstances at a given time; ; ; - Franklin D.Roosevelt
+597,https://w3id.org/framester/framenet/abox/gfe/State_of_represented,The condition or situation of an entity that is being represented or depicted.
+598,https://w3id.org/framester/framenet/abox/gfe/Status,the relative position or standing of things or especially persons in a society
+599,https://w3id.org/framester/framenet/abox/gfe/Stimulus,any stimulating information or event; acts to arouse action
+600,https://w3id.org/framester/framenet/abox/gfe/Studio,workplace for the teaching or practice of an art
+601,https://w3id.org/framester/framenet/abox/gfe/Style,how something is done or how it happens
+602,https://w3id.org/framester/framenet/abox/gfe/Sub_event,A smaller or secondary event that is part of a larger event or process.
+603,https://w3id.org/framester/framenet/abox/gfe/Sub_source,A secondary or subordinate source from which information or material originates.
+604,https://w3id.org/framester/framenet/abox/gfe/Subgroup,a distinct and often subordinate group within a group
+605,https://w3id.org/framester/framenet/abox/gfe/Subject,the subject matter of a conversation or discussion
+606,https://w3id.org/framester/framenet/abox/gfe/Sub_part,A smaller component or piece that is part of a larger whole.
+607,https://w3id.org/framester/framenet/abox/gfe/Sub_region,A smaller region or area within a larger geographical or conceptual region.
+608,https://w3id.org/framester/framenet/abox/gfe/Subregion_bodypart,A specific smaller part or section of a body region.
+609,https://w3id.org/framester/framenet/abox/gfe/Substance,the real physical matter of which a person or thing consists
+610,https://w3id.org/framester/framenet/abox/gfe/Subtype,A more specific category or type within a broader classification.
+611,https://w3id.org/framester/framenet/abox/gfe/Sufferer,a person suffering from an illness
+612,https://w3id.org/framester/framenet/abox/gfe/Support,the activity of providing for or maintaining by supplying with money or necessities
+613,https://w3id.org/framester/framenet/abox/gfe/Surface,the outer boundary of an artifact or a material layer constituting or resembling such a boundary
+614,https://w3id.org/framester/framenet/abox/gfe/Suspect,someone who is under suspicion
+615,https://w3id.org/framester/framenet/abox/gfe/Symptom,(medicine) any sensation or change in bodily function that is experienced by a patient and is associated with a particular disease
+616,https://w3id.org/framester/framenet/abox/gfe/Target,a reference point to shoot at
+617,https://w3id.org/framester/framenet/abox/gfe/Target_group,"The specific group or audience that an action, message, or event is aimed at."
+618,https://w3id.org/framester/framenet/abox/gfe/Target_location,The specific place or area intended for the focus or destination of an action or event.
+619,https://w3id.org/framester/framenet/abox/gfe/Target_representation,The specific form or depiction of an entity or event aimed at conveying a message or idea.
+620,https://w3id.org/framester/framenet/abox/gfe/Task,any piece of work that is undertaken or attempted
+621,https://w3id.org/framester/framenet/abox/gfe/Temperature,the degree of hotness or coldness of a body or environment (corresponding to its molecular activity)
+622,https://w3id.org/framester/framenet/abox/gfe/Temperature_change,a process whereby the degree of hotness of a body (or medium) changes
+623,https://w3id.org/framester/framenet/abox/gfe/Temperature_goal,The desired temperature level to be achieved or maintained.
+624,https://w3id.org/framester/framenet/abox/gfe/Temperature_setting,The specific temperature selected or configured for a particular purpose.
+625,https://w3id.org/framester/framenet/abox/gfe/Temperature_start,The initial temperature at the beginning of a process or event.
+626,https://w3id.org/framester/framenet/abox/gfe/Term,a word or expression used for some particular thing
+627,https://w3id.org/framester/framenet/abox/gfe/Term1,The first of two terms or elements in a relationship or comparison.
+628,https://w3id.org/framester/framenet/abox/gfe/Term2,The second of two terms or elements in a relationship or comparison.
+629,https://w3id.org/framester/framenet/abox/gfe/Term_of_sentence,The specific period or duration of punishment imposed as part of a legal sentence.
+630,https://w3id.org/framester/framenet/abox/gfe/Terms,status with respect to the relations between people or groups
+631,https://w3id.org/framester/framenet/abox/gfe/Tested_property,A characteristic or attribute of an entity that has been examined or evaluated.
+632,https://w3id.org/framester/framenet/abox/gfe/Text,the words of something written
+633,https://w3id.org/framester/framenet/abox/gfe/Theme,the subject matter of a conversation or discussion
+634,https://w3id.org/framester/framenet/abox/gfe/Theme_1,The first central idea or subject that is explored or represented in a context.
+635,https://w3id.org/framester/framenet/abox/gfe/Theme_2,The second central idea or subject that is explored or represented in a context.
+636,https://w3id.org/framester/framenet/abox/gfe/Themes,the subject matter of a conversation or discussion
+637,https://w3id.org/framester/framenet/abox/gfe/Time,an instance or single occasion for some event
+638,https://w3id.org/framester/framenet/abox/gfe/Time_of_Event,The specific moment or period when an event takes place.
+639,https://w3id.org/framester/framenet/abox/gfe/Time_of_Eventuality,The time when a potential or hypothetical event might occur.
+640,https://w3id.org/framester/framenet/abox/gfe/Time_of_creation,The moment or period when something is created or brought into existence.
+641,https://w3id.org/framester/framenet/abox/gfe/Time_span,The total duration or length of time during which an event or condition occurs.
+642,https://w3id.org/framester/framenet/abox/gfe/Title,a heading that names a statute or legislative bill; may give a brief summary of the matters it deals with
+643,https://w3id.org/framester/framenet/abox/gfe/Tools,an implement used in the practice of a vocation
+644,https://w3id.org/framester/framenet/abox/gfe/Topic,the subject matter of a conversation or discussion
+645,https://w3id.org/framester/framenet/abox/gfe/Topical_entity,An entity that is the subject or focus of a particular discussion or context.
+646,https://w3id.org/framester/framenet/abox/gfe/Toxin_source,The origin or entity responsible for producing or emitting a toxin.
+647,https://w3id.org/framester/framenet/abox/gfe/Trajector,The entity or object that is the primary focus of movement in a spatial event.
+648,https://w3id.org/framester/framenet/abox/gfe/Trajector_event,An event in which the primary entity undergoes movement or change in position.
+649,https://w3id.org/framester/framenet/abox/gfe/Transferors,(law) someone who conveys a title or property to another
+650,https://w3id.org/framester/framenet/abox/gfe/Transitional_period,The phase of change or transformation between two different states or conditions.
+651,https://w3id.org/framester/framenet/abox/gfe/Travel_means,The method or mode by which an entity moves from one location to another.
+652,https://w3id.org/framester/framenet/abox/gfe/Trigger,lever that activates the firing mechanism of a gun
+653,https://w3id.org/framester/framenet/abox/gfe/Type,a subdivision of a particular kind of thing
+654,https://w3id.org/framester/framenet/abox/gfe/Type_Property,A characteristic that defines or classifies an entity within a specific type or category.
+655,https://w3id.org/framester/framenet/abox/gfe/Uncertain_situation,A scenario where the outcomes or conditions are unclear or ambiguous.
+656,https://w3id.org/framester/framenet/abox/gfe/Undergoer,An entity that experiences or undergoes an action or event.
+657,https://w3id.org/framester/framenet/abox/gfe/Undertaking,any piece of work that is undertaken or attempted
+658,https://w3id.org/framester/framenet/abox/gfe/Unit,any division of quantity accepted as a standard of measurement or exchange
+659,https://w3id.org/framester/framenet/abox/gfe/Unwanted_characteristics,Negative or undesirable traits or properties associated with an entity.
+660,https://w3id.org/framester/framenet/abox/gfe/Use,the act of using
+661,https://w3id.org/framester/framenet/abox/gfe/Useful_location,A place or area that serves a functional or practical purpose.
+662,https://w3id.org/framester/framenet/abox/gfe/User,a person who makes use of a thing; someone who uses or employs something
+663,https://w3id.org/framester/framenet/abox/gfe/Value,a numerical quantity measured or assigned or computed
+664,https://w3id.org/framester/framenet/abox/gfe/Value_range,The span or limits of acceptable or measurable values for a particular attribute.
+665,https://w3id.org/framester/framenet/abox/gfe/Vehicle,a conveyance that transports people or objects
+666,https://w3id.org/framester/framenet/abox/gfe/Venue,the scene of any event or action (especially the place of a meeting)
+667,https://w3id.org/framester/framenet/abox/gfe/Victim,an unfortunate person who suffers from some adverse circumstance
+668,https://w3id.org/framester/framenet/abox/gfe/Vividness,interest and variety and intensity
+669,https://w3id.org/framester/framenet/abox/gfe/Voice,the distinctive quality or pitch or condition of a person's speech
+670,https://w3id.org/framester/framenet/abox/gfe/Wearer,a person who wears or carries or displays something as a body covering or accessory
+671,https://w3id.org/framester/framenet/abox/gfe/Weather,the atmospheric conditions that comprise the state of the atmosphere in terms of temperature and wind and clouds and precipitation
+672,https://w3id.org/framester/framenet/abox/gfe/Whole,all of something including all its component elements or parts
+673,https://w3id.org/framester/framenet/abox/gfe/Wielder,The entity or individual who holds or controls an object or tool.
+674,https://w3id.org/framester/framenet/abox/gfe/World_state,The overall condition or situation of the world or environment at a given time.
+675,https://w3id.org/framester/framenet/abox/gfe/Selector,a person who chooses or selects out
+676,https://w3id.org/framester/framenet/abox/gfe/Offender,a person who transgresses moral or civil law
+677,https://w3id.org/framester/framenet/abox/gfe/Sub-region,A smaller or specific part of a larger region.
+678,https://w3id.org/framester/framenet/abox/gfe/Body,"the entire structure of an organism (an animal, plant, or human being)"
+679,https://w3id.org/framester/framenet/abox/gfe/Concept1,The first idea or abstract notion in a comparison or relationship.
+680,https://w3id.org/framester/framenet/abox/gfe/Concept2,The second idea or abstract notion in a comparison or relationship.
+681,https://w3id.org/framester/framenet/abox/gfe/Concepts,an abstract or general idea inferred or derived from specific instances
+682,https://w3id.org/framester/framenet/abox/gfe/Consequence,a phenomenon that follows and is caused by some previous phenomenon
+683,https://w3id.org/framester/framenet/abox/gfe/Extent_of_acclaim,"The degree or level of recognition, praise, or approval an entity receives."
+684,https://w3id.org/framester/framenet/abox/gfe/Means_of_communication,The method or medium used to convey information or messages.
+685,https://w3id.org/framester/framenet/abox/gfe/Negative_consequences,The harmful or undesirable outcomes resulting from an event or action.
+686,https://w3id.org/framester/framenet/abox/gfe/Official,a worker who holds or is invested with an office
+687,https://w3id.org/framester/framenet/abox/gfe/Route,an established line of travel or access
+688,https://w3id.org/framester/framenet/abox/gfe/Building_part,A structural component of a building or constructed entity.
+689,https://w3id.org/framester/framenet/abox/gfe/Helper,a person who contributes to the fulfillment of a need or furtherance of an effort or purpose
+690,https://w3id.org/framester/framenet/abox/gfe/Killer,someone who causes the death of a person or animal
+691,https://w3id.org/framester/framenet/abox/gfe/Supporter,a person who backs a politician or a team etc.
+692,https://w3id.org/framester/framenet/abox/gfe/Aggregate,the whole amount
+693,https://w3id.org/framester/framenet/abox/gfe/Armor,protective covering made of metal and used in combat
+694,https://w3id.org/framester/framenet/abox/gfe/Sentence,a string of words satisfying the grammatical rules of a language
+695,https://w3id.org/framester/framenet/abox/gfe/Earnings,the excess of revenues over outlays in a given period of time (including depreciation and other non-cash expenses)
+696,https://w3id.org/framester/framenet/abox/gfe/Hypothetical_event,"An event that is imagined, projected, or considered possible but not confirmed."
+697,https://w3id.org/framester/framenet/abox/gfe/Created_entity,An entity that comes into existence as a result of a creation process or event.
+698,https://w3id.org/framester/framenet/abox/gfe/Endeavor,a purposeful or industrious undertaking (especially one that requires effort or boldness)
+699,https://w3id.org/framester/framenet/abox/gfe/Land,the land on which real estate is located
+700,https://w3id.org/framester/framenet/abox/gfe/New_member,An individual or element newly added to a group or collection.
+701,https://w3id.org/framester/framenet/abox/gfe/Rebel,`Johnny' was applied as a nickname for Confederate soldiers by the Federal soldiers in the American Civil War; `greyback' derived from their grey Confederate uniforms
+702,https://w3id.org/framester/framenet/abox/gfe/Captive,a person who is confined; especially a prisoner of war
+703,https://w3id.org/framester/framenet/abox/gfe/Prisoner,a person who is confined; especially a prisoner of war
+704,https://w3id.org/framester/framenet/abox/gfe/Earner,someone who earn wages in return for their labor
+705,https://w3id.org/framester/framenet/abox/gfe/New,not of long duration; having just (or relatively recently) come into being or been made or acquired or discovered
+706,https://w3id.org/framester/framenet/abox/gfe/Bearer,someone whose employment involves carrying something
+707,https://w3id.org/framester/framenet/abox/gfe/Subpart,a part of a part
+708,https://w3id.org/framester/framenet/abox/gfe/Members,one of the persons who compose a social group (especially individuals who have joined and participate in a group organization)
+709,https://w3id.org/framester/framenet/abox/gfe/Locale,the scene of any event or action (especially the place of a meeting)
+710,https://w3id.org/framester/framenet/abox/gfe/Loser,a contestant who loses the contest
+711,https://w3id.org/framester/framenet/abox/gfe/Weapon,any instrument or instrumentality used in fighting or hunting
+712,https://w3id.org/framester/framenet/abox/gfe/Salient_event,An event that stands out as especially important or relevant within a context.
+713,https://w3id.org/framester/framenet/abox/gfe/Document,writing that provides information (especially information of an official nature)
+714,https://w3id.org/framester/framenet/abox/gfe/Controlling_entity,An agent or force that exerts authority or influence over a process or situation.
+715,https://w3id.org/framester/framenet/abox/gfe/Whole_patient,"The complete affected entity undergoing a change or action, rather than just a part."
+716,https://w3id.org/framester/framenet/abox/gfe/Leader,a person who rules or guides or inspires others
+717,https://w3id.org/framester/framenet/abox/gfe/Executed,kill as a means of socially sanctioned punishment
+718,https://w3id.org/framester/framenet/abox/gfe/Assailant,someone who attacks
+719,https://w3id.org/framester/framenet/abox/gfe/Law,the collection of rules imposed by authority
+720,https://w3id.org/framester/framenet/abox/gfe/Ego,an inflated feeling of pride in your superiority to others
+721,https://w3id.org/framester/framenet/abox/gfe/Landmark_occasion,A significant point in time that marks a notable event or transition.
+722,https://w3id.org/framester/framenet/abox/gfe/Alter,cause to change; make different; cause a transformation
+723,https://w3id.org/framester/framenet/abox/gfe/New_leader,An individual who recently assumed a leadership or authoritative role.
+724,https://w3id.org/framester/framenet/abox/gfe/Self_mover,An entity capable of initiating its own movement or change of position.
+725,https://w3id.org/framester/framenet/abox/gfe/Sides,a place within a region identified relative to a center or reference location
+726,https://w3id.org/framester/framenet/abox/gfe/Time_period,an amount of time
+727,https://w3id.org/framester/framenet/abox/gfe/Opponent,a contestant that you are matched against
+728,https://w3id.org/framester/framenet/abox/gfe/New_area,"A spatial region that is newly identified, accessed, or relevant in the current context."
+729,https://w3id.org/framester/framenet/abox/gfe/Patient,a person who requires medical care
+730,https://w3id.org/framester/framenet/abox/gfe/Aggregate_property,A characteristic that applies to a collection of entities as a whole.
+731,https://w3id.org/framester/framenet/abox/gfe/Professional,a person engaged in one of the learned professions
+732,https://w3id.org/framester/framenet/abox/gfe/Focal_occasion,The primary or most emphasized temporal event within a broader context.
+733,https://w3id.org/framester/framenet/abox/gfe/Undesirable_event,"An event considered negative, harmful, or unwanted within the situation."
+734,https://w3id.org/framester/framenet/abox/gfe/Act,a legal document codifying the result of deliberations of a committee or society or legislative body
+735,https://w3id.org/framester/framenet/abox/gfe/Margin,the boundary line or the area immediately inside the boundary
+736,https://w3id.org/framester/framenet/abox/gfe/Obligation,the social force that binds you to the courses of action demanded by that force; ; - John D.Rockefeller Jr
+737,https://w3id.org/framester/framenet/abox/gfe/Defendant,a person or institution against whom an action is brought in a court of law; the person being sued or accused
+738,https://w3id.org/framester/framenet/abox/gfe/Affected,have an effect upon
+739,https://w3id.org/framester/framenet/abox/gfe/Idea,the content of cognition; the main thing you are thinking about
+740,https://w3id.org/framester/framenet/abox/gfe/Author,writes (books or stories or articles or the like) professionally (for pay)
+741,https://w3id.org/framester/framenet/abox/gfe/Color,a visual attribute of things that results from the light they emit or transmit or reflect
+742,https://w3id.org/framester/framenet/abox/gfe/Set,a group of things of the same kind that belong together and are so used
+743,https://w3id.org/framester/framenet/abox/gfe/Crop,the yield from plants in a single growing season
+744,https://w3id.org/framester/framenet/abox/gfe/Execution,putting a condemned person to death
+745,https://w3id.org/framester/framenet/abox/gfe/Ratio,the relative magnitudes of two quantities (usually expressed as a quotient)
+746,https://w3id.org/framester/framenet/abox/gfe/Beam,a signal transmitted along a narrow path; guides airplane pilots in darkness or bad weather
+747,https://w3id.org/framester/framenet/abox/gfe/Signatory,someone who signs and is bound by a document
+748,https://w3id.org/framester/framenet/abox/gfe/Benefactor,a person who helps people or institutions (especially with financial help)
+749,https://w3id.org/framester/framenet/abox/gfe/Sign,a perceptible indication of something not immediately apparent (as a visible clue that something has happened)
+750,https://w3id.org/framester/framenet/abox/gfe/Destroyer,a small fast lightly armored but heavily armed warship
+751,https://w3id.org/framester/framenet/abox/gfe/Infrastructure,the basic structure or features of a system or organization
+752,https://w3id.org/framester/framenet/abox/gfe/Quality,an essential and distinguishing attribute of something or someone; --Shakespeare
+753,https://w3id.org/framester/framenet/abox/gfe/Stuff,the tangible substance that goes into the makeup of a physical object
+754,https://w3id.org/framester/framenet/abox/gfe/Stock,the capital raised by a corporation through the issue of shares entitling holders to an ownership interest (equity)
+755,https://w3id.org/framester/framenet/abox/gfe/Rider,a traveler who actively rides an animal (as a horse or camel)
+756,https://w3id.org/framester/framenet/abox/gfe/Air,a mixture of gases (especially oxygen) required for breathing; the stuff that the wind consists of
+757,https://w3id.org/framester/framenet/abox/gfe/Reader,a person who enjoys reading
+758,https://w3id.org/framester/framenet/abox/gfe/Party,an organization to gain political power
+759,https://w3id.org/framester/framenet/abox/gfe/Incident,a single distinct event
+760,https://w3id.org/framester/framenet/abox/gfe/Desirability,the quality of being worthy of desiring
+761,https://w3id.org/framester/framenet/abox/gfe/Knowledge,the psychological result of perception and learning and reasoning
+762,https://w3id.org/framester/framenet/abox/gfe/Inspector,a high ranking police officer
+763,https://w3id.org/framester/framenet/abox/gfe/Chosen,one who is the object of choice; who is given preference
+764,https://w3id.org/framester/framenet/abox/gfe/Traveller,a person who changes location
+765,https://w3id.org/framester/framenet/abox/gfe/Excreta,waste matter (as urine or sweat but especially feces) discharged from the body
+766,https://w3id.org/framester/framenet/abox/gfe/Traveler,a person who changes location
+767,https://w3id.org/framester/framenet/abox/gfe/Explosive,a chemical substance that undergoes a rapid chemical change (with the production of gas) on being heated or struck
+768,https://w3id.org/framester/framenet/abox/gfe/Attendee,a person who is present and participates in a meeting
+769,https://w3id.org/framester/framenet/abox/gfe/Representation,a presentation to the mind in the form of an idea or image
+770,https://w3id.org/framester/framenet/abox/gfe/Payer,a person who pays money for something
+771,https://w3id.org/framester/framenet/abox/gfe/Exchangers,one whose business is to exchange the money of one country for that of another country
+772,https://w3id.org/framester/framenet/abox/gfe/Artwork,photographs or other visual representations in a printed publication
+773,https://w3id.org/framester/framenet/abox/gfe/Indicated,be a signal for or a symptom of
+774,https://w3id.org/framester/framenet/abox/gfe/Charges,an impetuous rush toward someone or something
+775,https://w3id.org/framester/framenet/abox/gfe/Entourage,the group following and attending to some important person
+776,https://w3id.org/framester/framenet/abox/gfe/Meaning,the message that is intended or expressed or signified
+777,https://w3id.org/framester/framenet/abox/gfe/Lessee,a tenant who holds a lease
+778,https://w3id.org/framester/framenet/abox/gfe/Conqueror,someone who is victorious by force of arms
+779,https://w3id.org/framester/framenet/abox/gfe/Accused,a defendant in a criminal proceeding
+780,https://w3id.org/framester/framenet/abox/gfe/Shareholder,someone who holds shares of stock in a corporation
+781,https://w3id.org/framester/framenet/abox/gfe/Designer,a person who specializes in designing architectural interiors and their furnishings
+782,https://w3id.org/framester/framenet/abox/gfe/Reference_point,an indicator that orients you generally
+783,https://w3id.org/framester/framenet/abox/gfe/Mass,the property of a body that causes it to have weight in a gravitational field
+784,https://w3id.org/framester/framenet/abox/gfe/Issuer,an institution that issues something (securities or publications or currency etc.)
+785,https://w3id.org/framester/framenet/abox/gfe/Genre,a kind of literary or artistic work
+786,https://w3id.org/framester/framenet/abox/gfe/Numbers,the fourth book of the Old Testament; contains a record of the number of Israelites who followed Moses out of Egypt
+787,https://w3id.org/framester/framenet/abox/gfe/Terrorist,a radical who employs terror as a political weapon; usually organizes with other terrorists in small cells; often uses religion as a cover for terrorist activities
+788,https://w3id.org/framester/framenet/abox/gfe/Researcher,a scientist who devotes himself to doing research
+789,https://w3id.org/framester/framenet/abox/gfe/Output,final product; the things produced
+790,https://w3id.org/framester/framenet/abox/gfe/Criteria,a basis for comparison; a reference point against which other things can be evaluated
+791,https://w3id.org/framester/framenet/abox/gfe/Residents,someone who lives at a particular place for a prolonged period or who was born there
+792,https://w3id.org/framester/framenet/abox/gfe/Interlocutor,the performer in the middle of a minstrel line who engages the others in talk
+793,https://w3id.org/framester/framenet/abox/gfe/Accoutrement,"clothing that is worn or carried, but not part of your main clothing"
+794,https://w3id.org/framester/framenet/abox/gfe/Survivor,one who lives through affliction
+795,https://w3id.org/framester/framenet/abox/gfe/Booker,someone who engages a person or company for performances
+796,https://w3id.org/framester/framenet/abox/gfe/Prison,a correctional institution where persons are confined while on trial or for punishment
+797,https://w3id.org/framester/framenet/abox/gfe/Danger,the condition of being susceptible to harm or injury
+798,https://w3id.org/framester/framenet/abox/gfe/Namesake,a person with the same name as another
+799,https://w3id.org/framester/framenet/abox/gfe/Ammunition,projectiles to be fired from a gun
+800,https://w3id.org/framester/framenet/abox/gfe/Offerer,someone who presents something to another for acceptance or rejection
+801,https://w3id.org/framester/framenet/abox/gfe/Extent,the point or degree to which something extends
+802,https://w3id.org/framester/framenet/abox/gfe/Eclipsed,be greater in significance than
+803,https://w3id.org/framester/framenet/abox/gfe/Shape,any spatial attributes (especially as defined by outline)
+804,https://w3id.org/framester/framenet/abox/gfe/Operator,(mathematics) a symbol or function representing a mathematical operation
+805,https://w3id.org/framester/framenet/abox/gfe/Obstruction,any structure that makes progress difficult
+806,https://w3id.org/framester/framenet/abox/gfe/Plant,buildings for carrying on industrial labor
+807,https://w3id.org/framester/framenet/abox/gfe/Practitioner,someone who practices a learned profession
+808,https://w3id.org/framester/framenet/abox/gfe/Work,activity directed toward making or doing something
+809,https://w3id.org/framester/framenet/abox/gfe/Deceiver,someone who leads you to believe something that is not true
+810,https://w3id.org/framester/framenet/abox/gfe/Searcher,someone making a search or inquiry
+811,https://w3id.org/framester/framenet/abox/gfe/Assessor,an official who evaluates property for the purpose of taxing it
+812,https://w3id.org/framester/framenet/abox/gfe/Inmates,one of several resident of a dwelling (especially someone confined to a prison or hospital)
+813,https://w3id.org/framester/framenet/abox/gfe/Percept,the representation of what is perceived; basic component in the formation of a concept
+814,https://w3id.org/framester/framenet/abox/gfe/Interceptor,a fast maneuverable fighter plane designed to intercept enemy aircraft
+815,https://w3id.org/framester/framenet/abox/gfe/Services,performance of duties or provision of space and equipment helpful to others
+816,https://w3id.org/framester/framenet/abox/gfe/Supply,an amount of something available for use
+817,https://w3id.org/framester/framenet/abox/gfe/Branch,a division of some larger or more complex organization
+818,https://w3id.org/framester/framenet/abox/gfe/Complainer,a person given to excessive complaints and crying and whining
+819,https://w3id.org/framester/framenet/abox/gfe/Emotional_state,the state of a person's emotions (especially with regard to pleasure or dejection)
+820,https://w3id.org/framester/framenet/abox/gfe/Executioner,an official who inflicts capital punishment in pursuit of a warrant
+821,https://w3id.org/framester/framenet/abox/gfe/Front,the side that is forward or prominent
+822,https://w3id.org/framester/framenet/abox/gfe/Participant,someone who takes part in an activity
+823,https://w3id.org/framester/framenet/abox/gfe/Cargo,goods carried by a large vehicle
+824,https://w3id.org/framester/framenet/abox/gfe/Firearm,a portable gun
+825,https://w3id.org/framester/framenet/abox/gfe/Residence,any address at which you dwell more than temporarily
+826,https://w3id.org/framester/framenet/abox/gfe/Representative,a person who represents others
+827,https://w3id.org/framester/framenet/abox/gfe/Amount,a quantity of money
+828,https://w3id.org/framester/framenet/abox/gfe/Food,any substance that can be metabolized by an animal to give energy and build tissue
+829,https://w3id.org/framester/framenet/abox/gfe/Commonality,a class composed of persons lacking clerical or noble rank
+830,https://w3id.org/framester/framenet/abox/gfe/Offense,a lack of politeness; a failure to show regard for others; wounding the feelings or others
+831,https://w3id.org/framester/framenet/abox/gfe/Agriculturist,someone concerned with the science or art or business of cultivating the soil
+832,https://w3id.org/framester/framenet/abox/gfe/Convict,a person serving a sentence in a jail or prison
+833,https://w3id.org/framester/framenet/abox/gfe/Borrower,someone who receives something on the promise to return it or its equivalent
+834,https://w3id.org/framester/framenet/abox/gfe/System,instrumentality that combines interrelated interacting artifacts designed to work as a coherent entity
+835,https://w3id.org/framester/framenet/abox/gfe/Team,a cooperative unit (especially in sports)
+836,https://w3id.org/framester/framenet/abox/gfe/Employment,the state of being employed or having a job
+837,https://w3id.org/framester/framenet/abox/gfe/Deixis,the function of pointing or specifying from the perspective of a participant in an act of speech or writing; aspects of a communication whose interpretation depends on knowledge of the context in which the communication occurs
+838,https://w3id.org/framester/framenet/abox/gfe/Informer,one who reveals confidential information in return for money
+839,https://w3id.org/framester/framenet/abox/gfe/Communicator,a person who communicates with others
+840,https://w3id.org/framester/framenet/abox/gfe/Agency,an administrative unit of government
+841,https://w3id.org/framester/framenet/abox/gfe/Relatives,a person related by blood or marriage
+842,https://w3id.org/framester/framenet/abox/gfe/Signature,your name written in your own handwriting
+843,https://w3id.org/framester/framenet/abox/gfe/Abuser,someone who abuses
+844,https://w3id.org/framester/framenet/abox/gfe/Tourist,someone who travels for pleasure
+845,https://w3id.org/framester/framenet/abox/gfe/Superior,one of greater rank or station or quality
+846,https://w3id.org/framester/framenet/abox/gfe/Shopper,someone who visits stores in search of articles to buy
+847,https://w3id.org/framester/framenet/abox/gfe/Client,a person who seeks the advice of a lawyer
+848,https://w3id.org/framester/framenet/abox/gfe/Rule,a principle or condition that customarily governs behavior
+849,https://w3id.org/framester/framenet/abox/gfe/Production,the act or process of producing something
+850,https://w3id.org/framester/framenet/abox/gfe/Colonists,a person who settles in a new colony or moves into new country
+851,https://w3id.org/framester/framenet/abox/gfe/Alliance,the state of being allied or confederated
+852,https://w3id.org/framester/framenet/abox/gfe/Patrol,a detachment used for security or reconnaissance
+853,https://w3id.org/framester/framenet/abox/gfe/Winner,the contestant who wins the contest
+854,https://w3id.org/framester/framenet/abox/gfe/Attitude,a complex mental state involving beliefs and feelings and values and dispositions to act in certain ways
+855,https://w3id.org/framester/framenet/abox/gfe/Fuel,a substance that can be consumed to produce energy
+856,https://w3id.org/framester/framenet/abox/gfe/Lessor,someone who grants a lease
+857,https://w3id.org/framester/framenet/abox/gfe/Decision_maker,someone who administers a business
+858,https://w3id.org/framester/framenet/abox/gfe/Arguers,someone who engages in debate
+859,https://w3id.org/framester/framenet/abox/gfe/Sender,someone who transmits a message
+860,https://w3id.org/framester/framenet/abox/gfe/Protester,a person who dissents from some established policy
+861,https://w3id.org/framester/framenet/abox/gfe/Supplier,someone whose business is to supply a particular service or commodity
+862,https://w3id.org/framester/framenet/abox/gfe/Liquid,a substance that is liquid at room temperature and pressure
+863,https://w3id.org/framester/framenet/abox/gfe/Garment,an article of clothing
+864,https://w3id.org/framester/framenet/abox/gfe/Brand,a name given to a product or service
+865,https://w3id.org/framester/framenet/abox/gfe/Collection,several things grouped together or considered as a whole
+866,https://w3id.org/framester/framenet/abox/gfe/Piece,a separate part of a whole
+867,https://w3id.org/framester/framenet/abox/gfe/Events,something that happens at a given place and time
+868,https://w3id.org/framester/framenet/abox/gfe/Intervention,"the act of intervening (as to mediate a dispute, etc.)"
+869,https://w3id.org/framester/framenet/abox/gfe/Scale,an ordered reference standard
+870,https://w3id.org/framester/framenet/abox/gfe/Gatherer,a person who gathers
+871,https://w3id.org/framester/framenet/abox/gfe/Label,a brief description given for purposes of identification
+872,https://w3id.org/framester/framenet/abox/gfe/Lodger,a tenant in someone's house
+873,https://w3id.org/framester/framenet/abox/gfe/Student,a learner who is enrolled in an educational institution
+874,https://w3id.org/framester/framenet/abox/gfe/Visitor,someone who visits
+875,https://w3id.org/framester/framenet/abox/gfe/Post,the position where someone (as a guard or sentry) stands or is assigned to stand
+876,https://w3id.org/framester/framenet/abox/gfe/Judges,a book of the Old Testament that tells the history of Israel under the leaders known as judges
+877,https://w3id.org/framester/framenet/abox/gfe/Cook,someone who cooks food
+878,https://w3id.org/framester/framenet/abox/gfe/Station,a facility equipped with special equipment and personnel for a particular purpose
+879,https://w3id.org/framester/framenet/abox/gfe/Investigator,a scientist who devotes himself to doing research
+880,https://w3id.org/framester/framenet/abox/gfe/Ratifier,someone who expresses strong approval
+881,https://w3id.org/framester/framenet/abox/gfe/Firefighter,a member of a fire department who tries to extinguish fires
+882,https://w3id.org/framester/framenet/abox/gfe/Signs,a perceptible indication of something not immediately apparent (as a visible clue that something has happened)
+883,https://w3id.org/framester/framenet/abox/gfe/Fluid,a substance that is fluid at room temperature and pressure
+884,https://w3id.org/framester/framenet/abox/gfe/Partners,a person's partner in marriage
+885,https://w3id.org/framester/framenet/abox/gfe/Hypothesis,a proposal intended to explain certain facts or observations
+886,https://w3id.org/framester/framenet/abox/gfe/Expectation,belief about (or mental picture of) the future
+887,https://w3id.org/framester/framenet/abox/gfe/Attraction,the force by which one object attracts another
+888,https://w3id.org/framester/framenet/abox/gfe/Animal,a living organism characterized by voluntary movement
+889,https://w3id.org/framester/framenet/abox/gfe/Supported,"give moral or psychological support, aid, or courage to"
+890,https://w3id.org/framester/framenet/abox/gfe/Limits,the greatest possible degree of something
+891,https://w3id.org/framester/framenet/abox/gfe/Data,a collection of facts from which conclusions may be drawn
+892,https://w3id.org/framester/framenet/abox/gfe/Variable,something that is likely to vary; something that is subject to variation
+893,https://w3id.org/framester/framenet/abox/gfe/Indicator,a number or ratio (a value on a scale of measurement) derived from a series of observed facts; can reveal relative changes as a function of time
+894,https://w3id.org/framester/framenet/abox/gfe/Requirements,required activity
+895,https://w3id.org/framester/framenet/abox/gfe/Culture,a particular society at a particular time and place
+896,https://w3id.org/framester/framenet/abox/gfe/Importer,someone whose business involves importing goods from outside (especially from a foreign country)
+897,https://w3id.org/framester/framenet/abox/gfe/Desirable,worth having or seeking or achieving
+898,https://w3id.org/framester/framenet/abox/gfe/Surrenderer,a person who yields or surrenders
+899,https://w3id.org/framester/framenet/abox/gfe/Opinion,a personal belief or judgment that is not founded on proof or certainty
+900,https://w3id.org/framester/framenet/abox/gfe/Eventuality,a possible event or occurrence or result
+901,https://w3id.org/framester/framenet/abox/gfe/Difference,the quality of being unlike or dissimilar
+902,https://w3id.org/framester/framenet/abox/gfe/Clothing,a covering designed to be worn on a person's body
+903,https://w3id.org/framester/framenet/abox/gfe/Penal_institution,an institution where persons are confined for punishment and to protect the public
+904,https://w3id.org/framester/framenet/abox/gfe/Subjects,the subject matter of a conversation or discussion
+905,https://w3id.org/framester/framenet/abox/gfe/Network,an interconnected system of things or people
+906,https://w3id.org/framester/framenet/abox/gfe/Avenger,someone who takes vengeance
+907,https://w3id.org/framester/framenet/abox/gfe/Religion,a strong belief in a supernatural power or powers that control human destiny
+908,https://w3id.org/framester/framenet/abox/gfe/Activists,a militant reformer
+909,https://w3id.org/framester/framenet/abox/gfe/Demands,an urgent or peremptory request
+910,https://w3id.org/framester/framenet/abox/gfe/Apparatus,equipment designed to serve a specific function
+911,https://w3id.org/framester/framenet/abox/gfe/Addict,someone who is so ardently devoted to something that it resembles an addiction
+912,https://w3id.org/framester/framenet/abox/gfe/Targeted,intend (something) to move towards a certain goal
+913,https://w3id.org/framester/framenet/abox/gfe/Record,anything (such as a document or a phonograph record or a photograph) providing permanent evidence of or information about past events
+914,https://w3id.org/framester/framenet/abox/gfe/Summary,a brief statement that presents the main points in a concise form
+915,https://w3id.org/framester/framenet/abox/gfe/Idiosyncrasy,a behavioral attribute that is distinctive and peculiar to an individual
+916,https://w3id.org/framester/framenet/abox/gfe/Length,the linear extent in space from one end to the other; the longest dimension of something that is fixed in place
+917,https://w3id.org/framester/framenet/abox/gfe/Figures,a diagram or picture illustrating textual material
+918,https://w3id.org/framester/framenet/abox/gfe/Faculty,one of the inherent cognitive or perceptual powers of the mind
+919,https://w3id.org/framester/framenet/abox/gfe/Contents,a list of divisions (chapters or articles) and the pages on which they start
+920,https://w3id.org/framester/framenet/abox/gfe/Forbidden,command against
+921,https://w3id.org/framester/framenet/abox/gfe/Measure,any maneuver made as part of progress toward a goal
+922,https://w3id.org/framester/framenet/abox/gfe/Fine,money extracted as a penalty
+923,https://w3id.org/framester/framenet/abox/gfe/Enemy,an opposing military force
+924,https://w3id.org/framester/framenet/abox/gfe/Deliverer,a teacher and prophet born in Bethlehem and active in Nazareth; his life and sermons form the basis for Christianity (circa 4 BC - AD 29)
+925,https://w3id.org/framester/framenet/abox/gfe/Defender,a person who cares for persons or property
+926,https://w3id.org/framester/framenet/abox/gfe/Communication,the activity of communicating; the activity of conveying information
+927,https://w3id.org/framester/framenet/abox/gfe/Disease,an impairment of health or a condition of abnormal functioning
+928,https://w3id.org/framester/framenet/abox/gfe/Plea,a humble request for help from someone in authority
+929,https://w3id.org/framester/framenet/abox/gfe/Publisher,a firm in the publishing business
+930,https://w3id.org/framester/framenet/abox/gfe/Pursuer,a person who is pursuing and trying to overtake or capture
+931,https://w3id.org/framester/framenet/abox/gfe/Estimation,a document appraising the value of something (as for insurance or taxation)
+932,https://w3id.org/framester/framenet/abox/gfe/Relationship,"a relation between people; (`relationship' is often used where `relation' would serve, as in `the relationship between inflation and unemployment', but the preferred usage of `relationship' is for human relations or states of relatedness)"
+933,https://w3id.org/framester/framenet/abox/gfe/Cache,a hidden storage space (for money or provisions or weapons)
+934,https://w3id.org/framester/framenet/abox/gfe/Subset,a set whose members are members of another set; a set contained within another set
+935,https://w3id.org/framester/framenet/abox/gfe/Documents,writing that provides information (especially information of an official nature)
+936,https://w3id.org/framester/framenet/abox/gfe/Finding,"the act of determining the properties of something, usually by research or calculation"
+937,https://w3id.org/framester/framenet/abox/gfe/Proposal,something proposed (such as a plan or assumption)
+938,https://w3id.org/framester/framenet/abox/gfe/Component,an abstract part of something
+939,https://w3id.org/framester/framenet/abox/gfe/Grower,someone concerned with the science or art or business of cultivating the soil
+940,https://w3id.org/framester/framenet/abox/gfe/Experimenter,a research worker who conducts experiments
+941,https://w3id.org/framester/framenet/abox/gfe/Timetable,a schedule listing events and the times at which they will take place
+942,https://w3id.org/framester/framenet/abox/gfe/Gambler,a person who wagers money on the outcome of games or sporting events
+943,https://w3id.org/framester/framenet/abox/gfe/Fugitive,someone who flees from an uncongenial situation
+944,https://w3id.org/framester/framenet/abox/gfe/Constituents,an artifact that is one of the individual parts of which a composite entity is made up; especially a part that can be separated from or attached to a system
+945,https://w3id.org/framester/framenet/abox/gfe/Products,commodities offered for sale
+946,https://w3id.org/framester/framenet/abox/gfe/Captor,a person who captures and holds people or animals
+947,https://w3id.org/framester/framenet/abox/gfe/Convoy,a procession of land vehicles traveling together
+948,https://w3id.org/framester/framenet/abox/gfe/Complaint,an often persistent bodily disorder or disease; a cause for complaining
+949,https://w3id.org/framester/framenet/abox/gfe/Tester,someone who administers a test to determine your qualifications
+950,https://w3id.org/framester/framenet/abox/gfe/Escapee,someone who escapes
+951,https://w3id.org/framester/framenet/abox/gfe/Misdeed,improper or wicked or immoral behavior
+952,https://w3id.org/framester/framenet/abox/gfe/Organism,a living thing that has (or can develop) the ability to act or function independently
+953,https://w3id.org/framester/framenet/abox/gfe/Combatant,someone who fights (or is fighting)
+954,https://w3id.org/framester/framenet/abox/gfe/Phase,any distinct time period in a sequence of events
+955,https://w3id.org/framester/framenet/abox/gfe/Fire,the event of something burning (often destructive)
+956,https://w3id.org/framester/framenet/abox/gfe/Exporter,a businessperson who transports goods abroad (for sale)
+957,https://w3id.org/framester/framenet/abox/gfe/Arguer,someone who engages in debate
+958,https://w3id.org/framester/framenet/abox/gfe/Total,the whole amount
+959,https://w3id.org/framester/framenet/abox/gfe/Reliability,the quality of being dependable or reliable
+960,https://w3id.org/framester/framenet/abox/gfe/Connector,an instrumentality that connects
+961,https://w3id.org/framester/framenet/abox/gfe/Wrongdoer,a person who transgresses moral or civil law
+962,https://w3id.org/framester/framenet/abox/gfe/Social_event,an event characteristic of persons forming groups
+963,https://w3id.org/framester/framenet/abox/gfe/Fighter,someone who fights (or is fighting)
+964,https://w3id.org/framester/framenet/abox/gfe/Consideration,the process of giving careful thought to something
+965,https://w3id.org/framester/framenet/abox/gfe/Hunter,someone who hunts game
+966,https://w3id.org/framester/framenet/abox/gfe/Aggressors,someone who attacks
+967,https://w3id.org/framester/framenet/abox/gfe/Lifestyle,a manner of living that reflects the person's values and attitudes
+968,https://w3id.org/framester/framenet/abox/gfe/Claimant,someone who claims a benefit or right or title
+969,https://w3id.org/framester/framenet/abox/gfe/Constancy,the quality of being enduring and free from change or variation
+970,https://w3id.org/framester/framenet/abox/gfe/Roadway,a road (especially that part of a road) over which vehicles travel
+971,https://w3id.org/framester/framenet/abox/gfe/Examinee,someone who is tested (as by an intelligence test or an academic examination)
+972,https://w3id.org/framester/framenet/abox/gfe/Competitors,the contestant you hope to defeat
+973,https://w3id.org/framester/framenet/abox/gfe/Experiment,the act of conducting a controlled test or investigation
+974,https://w3id.org/framester/framenet/abox/gfe/Building,a structure that has a roof and walls and stands more or less permanently in one place
+975,https://w3id.org/framester/framenet/abox/gfe/Benefit,financial assistance in time of need
+976,https://w3id.org/framester/framenet/abox/gfe/Teacher,a person whose occupation is teaching
+977,https://w3id.org/framester/framenet/abox/gfe/Believer,a supporter who accepts something as true
+978,https://w3id.org/framester/framenet/abox/gfe/Commitment,the trait of sincere and steadfast fixity of purpose
+979,https://w3id.org/framester/framenet/abox/gfe/Gizmo,something unspecified whose name is either forgotten or not known
+980,https://w3id.org/framester/framenet/abox/gfe/Matter,a vaguely specified concern
+981,https://w3id.org/framester/framenet/abox/gfe/Trap,a device in which something (usually an animal) can be caught and penned
+982,https://w3id.org/framester/framenet/abox/gfe/Hearer,someone who listens attentively
+983,https://w3id.org/framester/framenet/abox/gfe/Forgery,a copy that is represented as the original
+984,https://w3id.org/framester/framenet/abox/gfe/Directness,trueness of course toward a goal
+985,https://w3id.org/framester/framenet/abox/gfe/Examiner,someone who administers a test to determine your qualifications
+986,https://w3id.org/framester/framenet/abox/gfe/Vehicles,a conveyance that transports people or objects
+987,https://w3id.org/framester/framenet/abox/gfe/Treatment,care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury)
+988,https://w3id.org/framester/framenet/abox/gfe/Subordinate,an assistant subject to the authority or control of another
+989,https://w3id.org/framester/framenet/abox/gfe/Opportunity,a possibility due to a favorable combination of circumstances
+990,https://w3id.org/framester/framenet/abox/gfe/Healer,a person skilled in a particular type of therapy
+991,https://w3id.org/framester/framenet/abox/gfe/Producer,someone who manufactures something
+992,https://w3id.org/framester/framenet/abox/gfe/Effort,earnest and conscientious activity intended to do or accomplish something
+993,https://w3id.org/framester/framenet/abox/gfe/Interlocutors,the performer in the middle of a minstrel line who engages the others in talk
+994,https://w3id.org/framester/framenet/abox/gfe/Dispute,a disagreement or argument about something important
+995,https://w3id.org/framester/framenet/abox/gfe/Norm,a standard or model or pattern regarded as typical
+996,https://w3id.org/framester/framenet/abox/gfe/Etymological_root,The original form or source from which a word is derived.
+997,https://w3id.org/framester/framenet/abox/gfe/Q_prop,A property or attribute related to a specific quantity.
+998,https://w3id.org/framester/framenet/abox/gfe/Response_action,An action taken in reply to a stimulus or situation.
+999,https://w3id.org/framester/framenet/abox/gfe/Unresolved_referent,An entity or concept that has not been clearly identified or specified.
+1000,https://w3id.org/framester/framenet/abox/gfe/Entity_1,The first participant or element in a scenario.
+1001,https://w3id.org/framester/framenet/abox/gfe/Initial_situation,The starting conditions or context of an event or scenario.
+1002,https://w3id.org/framester/framenet/abox/gfe/Factual_situation,A scenario or context based on objective facts.
+1003,https://w3id.org/framester/framenet/abox/gfe/Exchanger_1,The first participant involved in a mutual giving or receiving.
+1004,https://w3id.org/framester/framenet/abox/gfe/Trajector_period,The time span during which an entity moves along a path.
+1005,https://w3id.org/framester/framenet/abox/gfe/Control_group,"A group in an experiment that does not receive the treatment, used for comparison."
+1006,https://w3id.org/framester/framenet/abox/gfe/Impactee,The entity that is affected by an action or event.
+1007,https://w3id.org/framester/framenet/abox/gfe/Information_source,The origin from which information is obtained.
+1008,https://w3id.org/framester/framenet/abox/gfe/Time_of_phenomenon,The specific time at which an event or occurrence takes place.
+1009,https://w3id.org/framester/framenet/abox/gfe/Main_assertion,The primary statement or claim made in a discourse.
+1010,https://w3id.org/framester/framenet/abox/gfe/Transport_means,The method or vehicle used to move entities from one place to another.
+1011,https://w3id.org/framester/framenet/abox/gfe/Potential_recipient,An entity that could possibly receive something.
+1012,https://w3id.org/framester/framenet/abox/gfe/Target_symbol,A symbol that represents the intended focus or goal.
+1013,https://w3id.org/framester/framenet/abox/gfe/Medical_condition,"A disease, disorder, or health issue affecting an individual."
+1014,https://w3id.org/framester/framenet/abox/gfe/Cognizer_agent,An entity that perceives or understands information actively.
+1015,https://w3id.org/framester/framenet/abox/gfe/Pragmatic_marker,A word or phrase used to indicate the speaker's attitude or the function of a statement.
+1016,https://w3id.org/framester/framenet/abox/gfe/Sent_item,An object or message that has been transmitted to a recipient.
+1017,https://w3id.org/framester/framenet/abox/gfe/Partner_2,The second participant in a partnership or collaboration.
+1018,https://w3id.org/framester/framenet/abox/gfe/Enabled_situation,A scenario that is made possible due to certain conditions or actions.
+1019,https://w3id.org/framester/framenet/abox/gfe/Co-participant,An entity that participates jointly with others in an activity.
+1020,https://w3id.org/framester/framenet/abox/gfe/Target_currency,The currency into which another currency is converted.
+1021,https://w3id.org/framester/framenet/abox/gfe/Resisting_entity,An entity that opposes or withstands an action or force.
+1022,https://w3id.org/framester/framenet/abox/gfe/Chemical_entity,A substance with a distinct molecular composition.
+1023,https://w3id.org/framester/framenet/abox/gfe/Part_prop,A property or characteristic of a component of a whole.
+1024,https://w3id.org/framester/framenet/abox/gfe/Destination_time,The specific time at which an entity is expected to arrive at a location.
+1025,https://w3id.org/framester/framenet/abox/gfe/Owed_party,An entity to whom a debt or obligation is due.
+1026,https://w3id.org/framester/framenet/abox/gfe/Known_resident,An individual recognized as living in a particular place.
+1027,https://w3id.org/framester/framenet/abox/gfe/Cotheme,An entity that moves concurrently with another along a path.
+1028,https://w3id.org/framester/framenet/abox/gfe/Arguer1,The first participant presenting arguments in a debate or discussion.
+1029,https://w3id.org/framester/framenet/abox/gfe/New_idea,A recently conceived thought or concept.
+1030,https://w3id.org/framester/framenet/abox/gfe/Exerter,An entity that applies effort or influence.
+1031,https://w3id.org/framester/framenet/abox/gfe/Evader,An entity that avoids or escapes from something.
+1032,https://w3id.org/framester/framenet/abox/gfe/Imposed_purpose,An objective or goal that is enforced upon an entity.
+1033,https://w3id.org/framester/framenet/abox/gfe/Judicial_body,An organization or group with authority to interpret and apply the law.
+1034,https://w3id.org/framester/framenet/abox/gfe/Interlocutor_1,The first participant in a conversation or dialogue.
+1035,https://w3id.org/framester/framenet/abox/gfe/Mass_theme,A subject or topic involving a large quantity or collective.
+1036,https://w3id.org/framester/framenet/abox/gfe/Hedged_content,Information presented with caution or uncertainty.
+1037,https://w3id.org/framester/framenet/abox/gfe/Cognizer_1,The first entity that perceives or understands information.
+1038,https://w3id.org/framester/framenet/abox/gfe/Kindler,An entity that initiates or sparks an action or process.
+1039,https://w3id.org/framester/framenet/abox/gfe/New_order,A recently placed request for goods or services.
+1040,https://w3id.org/framester/framenet/abox/gfe/Undesirable_location,A place considered unfavorable or unwanted.
+1041,https://w3id.org/framester/framenet/abox/gfe/Foreground_event,An occurrence that is the main focus in a scenario.
+1042,https://w3id.org/framester/framenet/abox/gfe/Purpose_of_event,The intended reason or objective behind an occurrence.
+1043,https://w3id.org/framester/framenet/abox/gfe/Instance_prop,A characteristic or attribute of a specific occurrence.
+1044,https://w3id.org/framester/framenet/abox/gfe/Indicated_resident,An individual identified as living in a particular place.
+1045,https://w3id.org/framester/framenet/abox/gfe/Perceiver_agentive,An active entity that observes or notices stimuli.
+1046,https://w3id.org/framester/framenet/abox/gfe/Valued_entity,An entity regarded with importance or worth.
+1047,https://w3id.org/framester/framenet/abox/gfe/Interlocutor_2,The second participant in a conversation or dialogue.
+1048,https://w3id.org/framester/framenet/abox/gfe/Restrictor,An entity that limits or constrains another.
+1049,https://w3id.org/framester/framenet/abox/gfe/Submittor,An entity that presents or proposes something for consideration.
+1050,https://w3id.org/framester/framenet/abox/gfe/Timespan,The duration over which an event or process occurs.
+1051,https://w3id.org/framester/framenet/abox/gfe/Final_subevent,The last component event in a series of events.
+1052,https://w3id.org/framester/framenet/abox/gfe/Value_1,The first numerical quantity or worth in a context.
+1053,https://w3id.org/framester/framenet/abox/gfe/Produced_food,Edible items that have been created or prepared.
+1054,https://w3id.org/framester/framenet/abox/gfe/Behavior_product,An outcome or result generated by specific actions.
+1055,https://w3id.org/framester/framenet/abox/gfe/Expression_1,The first instance of conveying thoughts or feelings.
+1056,https://w3id.org/framester/framenet/abox/gfe/Controlling_act,An action that exercises authority or regulation over something.
+1057,https://w3id.org/framester/framenet/abox/gfe/Noise_maker,"An entity that produces sound, often unwanted."
+1058,https://w3id.org/framester/framenet/abox/gfe/Ingestibles,Substances suitable for consumption.
+1059,https://w3id.org/framester/framenet/abox/gfe/Reference_category,A class or group used as a standard for comparison.
+1060,https://w3id.org/framester/framenet/abox/gfe/Profiled_possibility,A highlighted potential outcome or scenario.
+1061,https://w3id.org/framester/framenet/abox/gfe/Infection_cause,The source or agent responsible for causing an infection.
+1062,https://w3id.org/framester/framenet/abox/gfe/Controlled_entity,An entity under the regulation or authority of another.
+1063,https://w3id.org/framester/framenet/abox/gfe/Loyal_side,A party that remains faithful or supportive in a conflict or competition.
+1064,https://w3id.org/framester/framenet/abox/gfe/Excreter,An entity that expels waste or unwanted substances.
+1065,https://w3id.org/framester/framenet/abox/gfe/Iteration_count,The number of times a process or action is repeated.
+1066,https://w3id.org/framester/framenet/abox/gfe/Concept_2,The second idea or notion in a discussion or context.
+1067,https://w3id.org/framester/framenet/abox/gfe/Original_context,The initial setting or circumstances in which something occurs.
+1068,https://w3id.org/framester/framenet/abox/gfe/Current_country,The nation in which an entity presently resides or operates.
+1069,https://w3id.org/framester/framenet/abox/gfe/Hair_property,A characteristic or feature of hair.
+1070,https://w3id.org/framester/framenet/abox/gfe/Individual_2,The second person or entity in a scenario.
+1071,https://w3id.org/framester/framenet/abox/gfe/Range_of_options,The set of possible choices or alternatives available.
+1072,https://w3id.org/framester/framenet/abox/gfe/Harmful_situation,A scenario that poses danger or causes damage.
+1073,https://w3id.org/framester/framenet/abox/gfe/Required_situation,A scenario that is necessary or obligatory.
+1074,https://w3id.org/framester/framenet/abox/gfe/Resource_controller,An entity that manages or oversees resources.
+1075,https://w3id.org/framester/framenet/abox/gfe/Denoted_quantity,A specified amount or number indicated in a context.
+1076,https://w3id.org/framester/framenet/abox/gfe/Focal_time,The specific moment that is the center of attention.
+1077,https://w3id.org/framester/framenet/abox/gfe/Proposed_action,A suggested course of conduct or deed.
+1078,https://w3id.org/framester/framenet/abox/gfe/Desired_state_of_affairs,A situation or condition that one aims to achieve.
+1079,https://w3id.org/framester/framenet/abox/gfe/Landmark_event,A significant occurrence marking an important stage or turning point.
+1080,https://w3id.org/framester/framenet/abox/gfe/Deformer,An entity that causes a change in shape or structure.
+1081,https://w3id.org/framester/framenet/abox/gfe/Trajector_entity,An entity that moves along a path or trajectory.
+1082,https://w3id.org/framester/framenet/abox/gfe/Formal_realization,The official or structured manifestation of something.
+1083,https://w3id.org/framester/framenet/abox/gfe/Potential_hindrance,A possible obstacle or impediment.
+1084,https://w3id.org/framester/framenet/abox/gfe/Service_action,An action performed as part of a service.
+1085,https://w3id.org/framester/framenet/abox/gfe/Location_of_assailant,The place where the assailant is located during an event.
+1086,https://w3id.org/framester/framenet/abox/gfe/Resultant_situation,The situation that results from a particular event or action.
+1087,https://w3id.org/framester/framenet/abox/gfe/Military_organization,An entity structured for military operations.
+1088,https://w3id.org/framester/framenet/abox/gfe/Component_sound,An individual sound that is part of a larger auditory event.
+1089,https://w3id.org/framester/framenet/abox/gfe/Bad_outcome,An unfavorable or undesirable result of an action or event.
+1090,https://w3id.org/framester/framenet/abox/gfe/Sound_source,The origin or cause of a sound.
+1091,https://w3id.org/framester/framenet/abox/gfe/Time_length,The duration or span of time over which an event occurs.
+1092,https://w3id.org/framester/framenet/abox/gfe/Current_order,The present arrangement or sequence of elements.
+1093,https://w3id.org/framester/framenet/abox/gfe/Benefiting_action,An action that provides advantage or benefit to someone.
+1094,https://w3id.org/framester/framenet/abox/gfe/Current_instance,The specific occurrence or example at the present time.
+1095,https://w3id.org/framester/framenet/abox/gfe/Intended_academic_credit,The academic recognition aimed to be achieved through an action.
+1096,https://w3id.org/framester/framenet/abox/gfe/Source_currency,The original form of money before conversion.
+1097,https://w3id.org/framester/framenet/abox/gfe/Dryee,The entity that undergoes a drying process.
+1098,https://w3id.org/framester/framenet/abox/gfe/New_situation,A recently arisen set of circumstances or conditions.
+1099,https://w3id.org/framester/framenet/abox/gfe/Predictive_phenomenon,An event or sign that forecasts a future occurrence.
+1100,https://w3id.org/framester/framenet/abox/gfe/Final_quality,The ultimate standard or attribute achieved after a process.
+1101,https://w3id.org/framester/framenet/abox/gfe/Negated_proposition,A statement or assertion that has been denied or refuted.
+1102,https://w3id.org/framester/framenet/abox/gfe/Means_of_transfer,The method or medium through which something is moved or conveyed.
+1103,https://w3id.org/framester/framenet/abox/gfe/Containing_object,An item that holds or encloses another item.
+1104,https://w3id.org/framester/framenet/abox/gfe/Textual_location,The specific place within a text where information is found.
+1105,https://w3id.org/framester/framenet/abox/gfe/Landmark_period,A significant span of time marked by notable events.
+1106,https://w3id.org/framester/framenet/abox/gfe/Business_name,The official name under which a company operates.
+1107,https://w3id.org/framester/framenet/abox/gfe/Preparatory_act,An action undertaken to prepare for a subsequent event.
+1108,https://w3id.org/framester/framenet/abox/gfe/Defining_event,An occurrence that establishes the nature or identity of something.
+1109,https://w3id.org/framester/framenet/abox/gfe/Flammables,Substances that are easily ignited and capable of burning rapidly.
+1110,https://w3id.org/framester/framenet/abox/gfe/Billing_authority,The entity responsible for issuing bills or invoices.
+1111,https://w3id.org/framester/framenet/abox/gfe/Service_provider,An organization or individual that offers services to others.
+1112,https://w3id.org/framester/framenet/abox/gfe/Profiled_event,A highlighted or emphasized occurrence within a context.
+1113,https://w3id.org/framester/framenet/abox/gfe/Systemic_effect,An impact that affects an entire system.
+1114,https://w3id.org/framester/framenet/abox/gfe/Mental_content,"The thoughts, ideas, or information present in one's mind."
+1115,https://w3id.org/framester/framenet/abox/gfe/Entity_2,The second participant or element in a relation or scenario.
+1116,https://w3id.org/framester/framenet/abox/gfe/Manner_descriptor,A term that describes the way in which an action is performed.
+1117,https://w3id.org/framester/framenet/abox/gfe/Alterant,An agent or factor that causes change or alteration.
+1118,https://w3id.org/framester/framenet/abox/gfe/Arraign_authority,The legal body with the power to formally accuse someone of a crime.
+1119,https://w3id.org/framester/framenet/abox/gfe/Subregion,A division or smaller part of a larger geographical area.
+1120,https://w3id.org/framester/framenet/abox/gfe/Expression_2,The second expression or phrase in a comparative context.
+1121,https://w3id.org/framester/framenet/abox/gfe/Profiled_item,An object or element that is the focus of attention.
+1122,https://w3id.org/framester/framenet/abox/gfe/Focal_feature,The primary characteristic or aspect of interest.
+1123,https://w3id.org/framester/framenet/abox/gfe/Destination_event,The event towards which actions or processes are directed.
+1124,https://w3id.org/framester/framenet/abox/gfe/Landmark_feature,A prominent or distinguishing characteristic of a landscape or context.
+1125,https://w3id.org/framester/framenet/abox/gfe/Infected_entity,An organism or object that has been contaminated with pathogens.
+1126,https://w3id.org/framester/framenet/abox/gfe/Landmark_time,A specific point in time marked by a significant event.
+1127,https://w3id.org/framester/framenet/abox/gfe/Term_1,The first term in a sequence or relation.
+1128,https://w3id.org/framester/framenet/abox/gfe/Partner_1,The first participant in a partnership or collaboration.
+1129,https://w3id.org/framester/framenet/abox/gfe/Bad_action,"An act that is considered unethical, harmful, or undesirable."
+1130,https://w3id.org/framester/framenet/abox/gfe/Astronomical_entity,A celestial body or object in space.
+1131,https://w3id.org/framester/framenet/abox/gfe/Impactor,"An object that collides with another, causing an impact."
+1132,https://w3id.org/framester/framenet/abox/gfe/Sound_maker,An entity that produces or emits sound.
+1133,https://w3id.org/framester/framenet/abox/gfe/Arguer2,The second individual engaged in a debate or argument.
+1134,https://w3id.org/framester/framenet/abox/gfe/Goal_area,The target region or endpoint in a spatial context.
+1135,https://w3id.org/framester/framenet/abox/gfe/Exchanger_2,The second party involved in a reciprocal transfer.
+1136,https://w3id.org/framester/framenet/abox/gfe/Constant_location,A place that remains fixed or unchanged over time.
+1137,https://w3id.org/framester/framenet/abox/gfe/New_status,A recently acquired state or condition.
+1138,https://w3id.org/framester/framenet/abox/gfe/Original_body,The initial physical form or structure before any changes.
+1139,https://w3id.org/framester/framenet/abox/gfe/New_duration,A recently established length of time for an event or process.
+1140,https://w3id.org/framester/framenet/abox/gfe/Perceptual_source,The origin from which sensory information is obtained.
+1141,https://w3id.org/framester/framenet/abox/gfe/Perceiver_passive,An individual who receives sensory input without active engagement.
+1142,https://w3id.org/framester/framenet/abox/gfe/Limits_of_consideration,The boundaries within which something is evaluated or contemplated.
+1143,https://w3id.org/framester/framenet/abox/gfe/Co-timed_event,An occurrence that happens simultaneously with another event.
+1144,https://w3id.org/framester/framenet/abox/gfe/Orientational_location,A position defined relative to a reference point or direction.
+1145,https://w3id.org/framester/framenet/abox/gfe/Type_property,A characteristic or attribute that defines a category or class.
+1146,https://w3id.org/framester/framenet/abox/gfe/Hidden_object,An item that is concealed or not immediately visible.
+1147,https://w3id.org/framester/framenet/abox/gfe/Noisy_event,An occurrence characterized by loud or disruptive sounds.
+1148,https://w3id.org/framester/framenet/abox/gfe/Reported_fact,Information that has been communicated or stated by others.
+1149,https://w3id.org/framester/framenet/abox/gfe/Concept_1,The first idea or notion in a comparative or relational context.
+1150,https://w3id.org/framester/framenet/abox/gfe/Treatment_group,A set of subjects receiving a specific intervention in a study.
+1151,https://w3id.org/framester/framenet/abox/gfe/Forgoer,An individual who voluntarily abstains from something.
+1152,https://w3id.org/framester/framenet/abox/gfe/Grinding_cause,The factor responsible for a grinding action or process.
+1153,https://w3id.org/framester/framenet/abox/gfe/Obligator,An entity that imposes an obligation or duty on another.
+1154,https://w3id.org/framester/framenet/abox/gfe/Capitulator,A person or group that surrenders or yields in a conflict.
+1155,https://w3id.org/framester/framenet/abox/gfe/Correlated_variable,A variable that has a statistical relationship with another variable.
+1156,https://w3id.org/framester/framenet/abox/gfe/Illicit_activity,Actions that are illegal or prohibited by law.
+1157,https://w3id.org/framester/framenet/abox/gfe/Means_of_motion,The method or vehicle used to move from one place to another.
+1158,https://w3id.org/framester/framenet/abox/gfe/Source_symbol,A sign or representation originating from a particular system.
+1159,https://w3id.org/framester/framenet/abox/gfe/Future_phenomenon,An event or occurrence anticipated to happen later.
+1160,https://w3id.org/framester/framenet/abox/gfe/Benefited_party,The individual or group that gains advantage from an action.
+1161,https://w3id.org/framester/framenet/abox/gfe/Initial_quality,The original standard or attribute before any changes.
+1162,https://w3id.org/framester/framenet/abox/gfe/Undesirable_situation,A set of circumstances that are unfavorable or unwanted.
+1163,https://w3id.org/framester/framenet/abox/gfe/Medical_professional,An individual qualified to practice medicine.
+1164,https://w3id.org/framester/framenet/abox/gfe/Comparison_event,An occurrence used as a benchmark to evaluate another event.
+1165,https://w3id.org/framester/framenet/abox/gfe/Time_of_event,The specific moment or period when an event takes place.
+1166,https://w3id.org/framester/framenet/abox/gfe/Individual_1,The first person in a sequence or relation.
+1167,https://w3id.org/framester/framenet/abox/gfe/Current_leadership,The present individuals or group in positions of authority.
+1168,https://w3id.org/framester/framenet/abox/gfe/Toxic_substance,A material that is harmful or poisonous to living organisms.
+1169,https://w3id.org/framester/framenet/abox/gfe/Final_situation,The ultimate set of circumstances after a series of events.
+1170,https://w3id.org/framester/framenet/abox/gfe/Value_2,The second numerical quantity in a comparison or equation.
+1171,https://w3id.org/framester/framenet/abox/gfe/Political_region,A geographical area defined by political
+1172,https://w3id.org/framester/framenet/abox/gfe/Item_property,A characteristic or attribute associated with a specific item or object.
+1173,https://w3id.org/framester/framenet/abox/gfe/Location_of_event,The specific place or area where an event occurs or takes place.
+1174,https://w3id.org/framester/framenet/abox/gfe/Co-variable,A variable that changes in relation to another in a correlated manner.
+1175,https://w3id.org/framester/framenet/abox/gfe/Unconfirmed_content,Information that has been stated or reported but lacks verification.
+1176,https://w3id.org/framester/framenet/abox/gfe/Ingestor,"An entity that takes in or consumes a substance, typically food or drink."
+1177,https://w3id.org/framester/framenet/abox/gfe/Executive_authority,An individual or body with the power to implement and enforce rules or policies.
+1178,https://w3id.org/framester/framenet/abox/gfe/Communicative_force,"The intent or effect behind a communicative act, such as asserting, questioning, or commanding."
+1179,https://w3id.org/framester/framenet/abox/gfe/Item_1,The first of two or more items involved in a relation or comparison.
+1180,https://w3id.org/framester/framenet/abox/gfe/Conceded_state_of_affairs,"A situation acknowledged or accepted, often reluctantly or as part of an argument."
+1181,http://semanticweb.cs.vu.nl/2009/11/sem/Actor,"Actors are entities that take part in an Event, either actively or passively. Actors do not necessarily have to be sentient. They can also be objects. Actors are a thing, animate or inanimate, physical or non-physical."
+1182,http://semanticweb.cs.vu.nl/2009/11/sem/Role,Roles are properties with a subspecified function or position indicated by a RoleType in the scope of an Event.
+1183,http://semanticweb.cs.vu.nl/2009/11/sem/Event,Events are things that happen. This comprises everything from historical events to web site sessions and mythical journeys. Event is the central class of SEM.
+1184,http://semanticweb.cs.vu.nl/2009/11/sem/Place,Places are locations where an Event happens. They do not need to be physical places and hence do not necessarily need coordinates. Neither do they need to have any significance apart from them being the location of an Event.
+1185,http://semanticweb.cs.vu.nl/2009/11/sem/Object,"Objects are passive, inanimate Actors."

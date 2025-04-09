@@ -62,7 +62,7 @@ def split_data_inductive_random(df):
     - Random strategy:
         * Some predicates automatically in context
         * All others split randomly """
-    df = update_df(df)
+    df = update_df(df).reset_index(drop=True)
     inference_graph = df[df["predicate"].isin(PRED_CONTEXT)]
     events_added = inference_graph["subject"].unique()
     inference_pred = pd.DataFrame(columns=COLUMNS)

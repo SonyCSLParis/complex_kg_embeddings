@@ -226,23 +226,17 @@ def remove_overlapping_data_list(data_dict):
     """
     # Create copies to avoid modifying the original data
     filtered_data = {
-        'train': data_dict['train'].copy()  # Train data remains unchanged
+        'train': data_dict['train'].copy()  
     }
     
-    # Convert training data to a set for efficient lookups
-    train_set = set(filtered_data['train'])
-    
-    # Filter validation data to remove any strings found in training
-    valid_list = data_dict['valid'].copy()
-    filtered_data['valid'] = [item for item in valid_list if item not in train_set]
-    
-    # Convert validation data to a set
-    valid_set = set(filtered_data['valid'])
+    train_set = set(data_dict['train'])
+    valid_set = set(data_dict['valid'])
+    filtered_data['valid'] = list(valid_set.difference(train_set))
     
     # Filter test data to remove any strings found in training or validation
-    test_list = data_dict['test'].copy()
-    combined_set = train_set.union(valid_set)  # Combine both sets
-    filtered_data['test'] = [item for item in test_list if item not in combined_set]
+    valid_set = filtered_data['valid']
+    test_set = set(data_dict['test'])
+    filtered_data['test'] = list(test_set.difference(train_set.union(valid_set)))
     
     # Report statistics
     original_counts = {k: len(v) for k, v in data_dict.items()}
@@ -267,34 +261,34 @@ def split_data_inductive(data):
     return output
 
 def format_df_hr(df):
-    return df.astype(str).apply(','.join, axis=1).tolist()
+    return df.astype(str).apply(','.join, axis=1).values.tolist()
 
 def split_data_inductive_hr(data):
-    data_reg, data_hr = {}, {}
+    data_reg_init, data_hr = {}, {}
     for key, val in data.items():
         lines_reg = [x.split(" ") for x in val if len(x.split(" ")) == 3]
         lines_hr = [x.split(" ") for x in val if len(x.split(" ")) > 3]
-        data_reg[key] = pd.DataFrame(lines_reg, columns=COLUMNS[:3])
+        data_reg_init[key] = pd.DataFrame(lines_reg, columns=COLUMNS[:3])
         data_hr[key] = pd.DataFrame(lines_hr, columns=["event", "hasActor", "actor", "hasRole", "role"])
     
+    data_reg = {}
     for k, v in data_hr.items():
         curr_df = update_df_hr(df=v)
-        data_reg[k].to_csv(f"test_{k}.csv", sep=" ", header=None, index=False)
-        data_reg[k] = pd.concat([data_reg[k], curr_df]).drop_duplicates()
+        data_reg[k] = pd.concat([data_reg_init[k], curr_df]).drop_duplicates().reset_index(drop=True)
     
     splitted_data = split_data_inductive(data=data_reg)
-
+    splitted_data = {k: v[v.columns[:3]] for k, v in splitted_data.items()}
+    
     output = {
-        "transductive_train": format_df_hr(data_reg["train"]) + format_df_hr(data_hr["train"]),
+        "transductive_train": format_df_hr(splitted_data["train"]) + format_df_hr(data_hr["train"]),
     }
-    inf_graph = []
-    for k in ["valid", "test"]:
-        graph, pred = train_test_split(data_hr[k], test_size=0.4, random_state=23)
-        inf_graph.extend(format_df_hr(graph))
-        inf_graph.extend(format_df_hr(splitted_data[f"inference_{k}"]))
-        key = "inductive_val" if k == "valid" else "inductive_ts"
-        output[key] = format_df_hr(pred)
-    output["inductive_train"] = inf_graph
+
+    graph_valid, pred_valid = train_test_split(data_hr["valid"], test_size=0.4, random_state=23)
+    graph_test, pred_test = train_test_split(data_hr["test"], test_size=0.4, random_state=23)
+    
+    output["inductive_train"] = format_df_hr(splitted_data["inference_graph"]) + format_df_hr(graph_valid) + format_df_hr(graph_test)
+    output["inductive_val"] = format_df_hr(splitted_data["inference_valid"]) + format_df_hr(pred_valid)
+    output["inductive_ts"] = format_df_hr(splitted_data["inference_test"]) + format_df_hr(pred_test)
 
     return output
 
@@ -340,7 +334,8 @@ def main(save_fp, prop, subevent, text, role, causation, syntax, save_data, indu
         elif syntax == "hyper_relational_rdf_star":
             data = prep_data_rdf_star(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
             data = remove_overlapping_data_list(data_dict=data)
-            data = split_data_inductive_hr(data=data)
+            if inductive_split:
+                data = split_data_inductive_hr(data=data)
             if save_data:
                 for key, val in data.items():
                     with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:

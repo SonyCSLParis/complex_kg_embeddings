@@ -14,9 +14,9 @@ for prop in 0 1; do
                     printf "Configuration %2d: %s\n" ${config_count} "${name}"
                     config_count=$((config_count+1))
                     if [ ! -d "./data/${name}" ]; then
-                        python prep_data.py ./data/${name} --prop ${prop} --subevent ${subevent} --role ${role} --causation ${causation} --syntax ${syntax} 
+                        python prep_data.py ./data/inductive/${name} --prop ${prop} --subevent ${subevent} --role ${role} --causation ${causation} --syntax ${syntax} 
                     else
-                        echo "Directory ./data/${name} already exists, skipping."
+                        echo "Directory ./data/inductive/${name} already exists, skipping."
                     fi
 
                     echo "----------------------------------------"
