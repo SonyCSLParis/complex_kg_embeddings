@@ -23,7 +23,6 @@ GRID = [x for x in list(ParameterGrid(PARAM_GRID)) if (x['role'] == "1" or x['ca
 @click.command()
 def main():
     
-    # Preparing data (if not already exists)
     for param in GRID:
         logger.info(f"Params: {param}")
         fn = os.path.join(FOLDER, "inductive/statements", f"kg_base_prop_{param['prop']}_subevent_{param['subevent']}_role_{param['role']}_causation_{param['causation']}_syntax_hyper_relational_rdf_star")

@@ -4,3 +4,5 @@ hpo
 **/__pycache__/** 
 cache
 misc
+**/*.pkl
+**/*.pkl.gz

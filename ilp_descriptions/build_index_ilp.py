@@ -88,7 +88,7 @@ def concat_des(exp_folder, frame_des, fe_cache):
     frames["node"] = frames["node"].apply(lambda x: f"<{x}>")
     res.update(dict(zip(frames["node"], frames["description"])))
 
-    path = "./ilp_descriptions/missing_descriptions.csv"
+    path = "./ilp_descriptions/descriptions/missing_descriptions.csv"
     if os.path.exists(path):
         missing = pd.read_csv(path)
         res.update(dict(zip(missing["node"], missing["description"])))
@@ -119,7 +119,7 @@ def fix_missing_entity(input_set):
 @click.argument("folder_data")
 @click.argument("index_path")
 @click.option("--exp_folder", default="exps", help="Path to the folder containing experiments")
-@click.option("--frame_des", default="ilp_descriptions/frames_descriptions.csv", help="Path to the frame descriptions file")
+@click.option("--frame_des", default="ilp_descriptions/descriptions/frames_descriptions.csv", help="Path to the frame descriptions file")
 @click.option("--fe_cache", default="ilp_descriptions/fe_cache.json", help="Path to the frame element cache file")
 def main(folder_data, index_path, exp_folder, frame_des, fe_cache):
     if not os.path.exists(index_path):

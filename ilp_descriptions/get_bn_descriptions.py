@@ -86,16 +86,17 @@ GROUP BY ?node ?role ?value ?event ?et
 """
 
 def get_actor_description(row):
-    output = f"Has the role of {pretty_print(row['role'])} during an event of type {pretty_print(row['et'])}. Has value '{pretty_print(row['value'])}'"
-    if str(row['ents']):
-        ents = str(row['ents']).split(",")
-        if len(ents) == 1:
-            output += f" that is related to {pretty_print(ents[0])}."
-        else:
-            ents_text =  ', '.join([pretty_print(x) for x in ents[:-1]]) + " and " + pretty_print(ents[-1])
-            output += f" that is related to {ents_text}."
-    else:
-        output += "."
+    # output = f"Has the role of {pretty_print(row['role'])} during an event of type {pretty_print(row['et'])}. Has value '{pretty_print(row['value'])}'"
+    output = f"{pretty_print(row['value'])} is an actor during an event."
+    # if str(row['ents']):
+    #     ents = str(row['ents']).split(",")
+    #     if len(ents) == 1:
+    #         output += f" that is related to {pretty_print(ents[0])}."
+    #     else:
+    #         ents_text =  ', '.join([pretty_print(x) for x in ents[:-1]]) + " and " + pretty_print(ents[-1])
+    #         output += f" that is related to {ents_text}."
+    # else:
+    #     output += "."
     row["description"] = output
     return row
 
@@ -113,7 +114,8 @@ SELECT DISTINCT ?node ?lemma ?et ?doc_value WHERE {
 """
 
 def get_event_description(row):
-    row["description"] = f"Event of type {pretty_print(row['et'])} triggered from lemma '{pretty_print(row['lemma'])}'. Document value: '{pretty_print(row['doc_value'])}'."
+    # row["description"] = f"Event of type {pretty_print(row['et'])} triggered from lemma '{pretty_print(row['lemma'])}'. Document value: '{pretty_print(row['doc_value'])}'."
+    row["description"] = f"Event triggered from lemma '{pretty_print(row['lemma'])}'. Document value: '{pretty_print(row['doc_value'])}'."
     return row
 
 QUERY_BASE = """
