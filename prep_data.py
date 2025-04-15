@@ -4,9 +4,11 @@ Prep data for embeddings
 """
 import os
 import csv
+import json
 from urllib.parse import unquote
 import click
 import pandas as pd
+from tqdm import tqdm
 from utils_inductive import split_data_inductive_random, update_df, update_df_hr
 from sklearn.model_selection import train_test_split
 
@@ -308,16 +310,20 @@ def split_data_inductive_hr(data):
 @click.option("--syntax", help="Syntax to use for roles", default=None,
               type=click.Choice(["simple_rdf_prop", "hypergraph_bn", "hyper_relational_rdf_star", "simple_rdf_sp", "simple_rdf_reification"]))
 @click.option('--save_data/--no-save_data', is_flag=True, default=True, help="Whether save data or not")
-@click.option('--inductive_split/--no-inductive_split', is_flag=True, default=True,
+@click.option('--inductive-split/--no-inductive-split', is_flag=True, default=True,
               help="Whether to split data for inductive learning or not")
+@click.option('--prep-simkgc/--no-prep-simkgc', is_flag=True, default=False,
+              help="Whether to prep data for simkgc or not")
 #@click.pass_context
-def main(save_fp, prop, subevent, text, role, causation, syntax, save_data, inductive_split):
+def main(save_fp, prop, subevent, text, role, causation, syntax, save_data, inductive_split, prep_simkgc):
     """ Main prep data """
     options = {"prop": int(prop), "subevent": int(subevent), "text": int(text)}
     if (role == "1" or causation == "1") and not syntax:
         raise click.BadParameter('If "--role" or "--causation" is provided, "--syntax" must also be provided.')
     if syntax == "hypergraph_bn" and text == "1":
         raise click.BadParameter("Text cannot be included if considering hypergraph syntax")
+    if prep_simkgc and syntax in ["hypergraph_bn", "hyper_relational_rdf_star"]:
+        raise click.BadParameter("SimKGC does not support hypergraph or RDF* syntax")
     files = get_files(options=options, role=role, causation=causation, syntax=syntax)
     print(files)
     if not os.path.exists(save_fp):
@@ -347,8 +353,38 @@ def main(save_fp, prop, subevent, text, role, causation, syntax, save_data, indu
             if save_data:
                 if inductive_split:
                     data = split_data_inductive(data=data)
-                for key, val in data.items():
-                    val.to_csv(os.path.join(save_fp, f"{key}.csv"), header=None, index=False, sep=" ")
+                if prep_simkgc:
+                    with open("./simkgc/data/predicates.json", 'r', encoding='utf-8') as f:
+                        pred_cache = json.load(f)
+                    with open("./simkgc/data/entities_label.json", 'r', encoding='utf-8') as f:
+                        ent_label_cache = json.load(f)
+                    with open("./simkgc/data/entities_description.json", 'r', encoding='utf-8') as f:
+                        ent_des_cache = json.load(f)
+                    predicates, entities = set(), set()
+                    for key, val in data.items():
+                        val = val[val.columns[:3]]
+                        predicates.update(set(val["predicate"].unique()))
+                        entities.update(set(val["subject"].unique()).union(set(val["object"].unique())))
+                        val.to_csv(os.path.join(save_fp, f"{key}.txt"), header=None, index=False, sep="\t")
+                        formatted_val = [{
+                            "head_id": row["subject"],
+                            "head": ent_label_cache[row["subject"]],
+                            "relation": pred_cache[row["predicate"]],
+                            "tail_id": row["object"],
+                            "tail": ent_label_cache[row["object"]],
+                        } for _, row in val.iterrows()]
+                        with open(os.path.join(save_fp, f"{key}.txt.json"), "w", encoding="utf-8") as f:
+                            json.dump(formatted_val, f, indent=4)
+                    pred_des = {k: v for k, v in pred_cache.items() if k in predicates}
+                    with open(os.path.join(save_fp, "relations.json"), "w", encoding="utf-8") as f:
+                        json.dump(pred_des, f, indent=4)
+                    ent_name_des = [{"entity_id": ent, "entity": ent_label_cache[ent], "entity_desc": ent_des_cache[ent]} \
+                        for ent in tqdm(entities, desc="Preparing entities")]
+                    with open(os.path.join(save_fp, "entities.json"), "w", encoding="utf-8") as f:
+                        json.dump(ent_name_des, f, indent=4)
+                else:
+                    for key, val in data.items():
+                        val.to_csv(os.path.join(save_fp, f"{key}.csv"), header=None, index=False, sep="\t")
 
 
 if __name__ == '__main__':

@@ -53,12 +53,6 @@ def process_chunk(gpu_id, chunk, batch_size, model_name, queue):
         return queue.put((gpu_id, embeddings))
     return embeddings
 
-def load_cache(cache_p):
-    if os.path.exists(cache_p):
-        with gzip.open(cache_p, 'rb') as f:
-            return pickle.load(f)
-    return {}
-
 def extract_embeddings(descriptions, cache_file, batch_size=32, model_name="sentence-transformers/all-roberta-large-v1"):
     """
     Extract embeddings using multiple GPUs if available
@@ -71,63 +65,12 @@ def extract_embeddings(descriptions, cache_file, batch_size=32, model_name="sent
     Returns:
         numpy.ndarray of shape (n, 1024) containing the embeddings
     """
-    cache = load_cache(cache_file)
-
-    desc_to_process = []
-    cached_indices = []
-
-    for i, desc in enumerate(descriptions):
-        if desc in cache:
-            cached_indices.append(i)
-        else:
-            desc_to_process.append(desc)
-    
-    if not desc_to_process:
-        print("All descriptions found in cache, no need for computation")
-        return np.array([cache[desc] for desc in descriptions])
 
     num_gpus = torch.cuda.device_count()
-    
-    if num_gpus <= 0:
-        print("No GPUs available, falling back to CPU")
-        model = SentenceTransformer(model_name)
-        return model.encode(desc_to_process, batch_size=batch_size, show_progress_bar=True)
-    
-    elif num_gpus == 1:
-        print("Using single GPU")
-        return process_chunk(0, desc_to_process, batch_size, model_name, None)
-    
-    else:  # multiple GPUs
-        print(f"Using {num_gpus} GPUs")
-        chunks = np.array_split(desc_to_process, num_gpus)
-        processes = []
-        result_queue = Queue()
-    
-        # Start processes for each GPU
-        for gpu_id, chunk in enumerate(chunks):
-            p = Process(target=process_chunk, args=(gpu_id, chunk, batch_size, model_name, result_queue))
-            p.start()
-            processes.append(p)
-        
-        # Collect results from the queue
-        results = {}
-        for _ in range(len(processes)):
-            gpu_id, emb = result_queue.get()
-            results[gpu_id] = emb
-        
-        # Wait for all processes to complete
-        for p in processes:
-            p.join()
-        
-        # Combine results from all GPUs
-        all_embeddings = [results[i] for i in range(num_gpus)]
-        new_embeddings = np.vstack(all_embeddings)
-    
-        for i, desc in enumerate(desc_to_process):
-            cache[desc] = new_embeddings[i]
-        with gzip.open(cache_file, 'wb') as f:
-            pickle.dump(cache, f)
-        return np.array([cache[desc] for desc in descriptions])
+    model = SentenceTransformer(model_name)
+    if num_gpus > 0:
+        model = model.to(torch.device(0))
+    return model.encode(descriptions, batch_size=batch_size, show_progress_bar=True)
 
 
 def save_embeddings(embeddings, output_file):

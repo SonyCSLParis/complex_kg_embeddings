@@ -15,7 +15,13 @@ import pandas as pd
 FILES = ["inductive_train.txt", "inductive_ts.txt",
          "inductive_val.txt", "transductive_train.txt"]
 ENTITY_DES_GZ = "./ilp_descriptions/entity_descriptions.pkl.gz"
-MISSING_DES = "./ilp_descriptions/missing_descriptions.csv"
+MISSING_DES_P = "./ilp_descriptions/descriptions/missing_descriptions.csv"
+
+if os.path.exists(MISSING_DES_P):
+    MISSING_DES = pd.read_csv(MISSING_DES_P)
+    MISSING_DES = MISSING_DES[[x for x in MISSING_DES.columns if x != "Unnamed: 0"]]
+else:
+    MISSING_DES = pd.DataFrame(columns=["node", "description"])
 
 def concat_line(folder):
     """
@@ -88,11 +94,6 @@ def concat_des(exp_folder, frame_des, fe_cache):
     frames["node"] = frames["node"].apply(lambda x: f"<{x}>")
     res.update(dict(zip(frames["node"], frames["description"])))
 
-    path = "./ilp_descriptions/descriptions/missing_descriptions.csv"
-    if os.path.exists(path):
-        missing = pd.read_csv(path)
-        res.update(dict(zip(missing["node"], missing["description"])))
-
     with open(fe_cache, 'r', encoding='utf-8') as f:
         fe = json.load(f)
     fe = pd.DataFrame([(f"<{k}>", val) for k, val in fe.items()], columns=["node", "description"])
@@ -138,7 +139,11 @@ def main(folder_data, index_path, exp_folder, frame_des, fe_cache):
     missing = set(entities).difference(set(des.keys()))
     print(f"Total # of missing entities: {len(missing)}")
     fixed = fix_missing_entity(missing)
-    pd.DataFrame([(k, v) for k, v in fixed.items()], columns=["node", "description"]).to_csv(MISSING_DES)
+    new_missing = pd.concat([
+        MISSING_DES,
+        pd.DataFrame([(k, v) for k, v in fixed.items()], columns=["node", "description"]).drop_duplicates().reset_index(drop=True)
+    ])
+    new_missing.to_csv(MISSING_DES_P)
     des.update(fixed)
     with gzip.open(ENTITY_DES_GZ, 'wb') as f:
         pickle.dump(des, f)
