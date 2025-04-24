@@ -51,11 +51,6 @@ with open(CONFIG_PATH, "r", encoding="utf-8") as openfile_main:
 if "rdf_type" in CONFIG:
     CONFIG["rdf_type"] = list(CONFIG["rdf_type"].items())
 
-if os.path.exists(FRAME_KG_CACHE_P):
-    with open(FRAME_KG_CACHE_P, 'rb') as f:
-        FRAME_KG_CACHE = pickle.load(f)
-else:
-    FRAME_KG_CACHE = {}
 
 def convert_generic_to_event_kg(df, sd, ed, save_p):
     """ Output of chronographer -> event-centric KG (simple) """
@@ -141,6 +136,17 @@ def build_frame_semantics(path):
         df = pd.read_csv(path, sep=" ", header=None)
     except pd.errors.EmptyDataError:
         return Graph()
+    # try to load cache, else delete and create new one
+    if os.path.exists(FRAME_KG_CACHE_P):
+        try:
+            with open(FRAME_KG_CACHE_P, 'rb') as f:
+                cache = pickle.load(f)
+        except:
+                subprocess.call(f"rm {FRAME_KG_CACHE_P}", shell=True)
+                cache = {}
+    else:
+        cache = {}
+
     columns = ["subject", "predicate", "object", "."]
     df.columns = columns
     abstracts = df[df.predicate.str.contains("/abstract")]
@@ -150,12 +156,12 @@ def build_frame_semantics(path):
             event = name[1:-1]
             id_abstract = f"{event.split('/')[-1]}_Abstract{i}"
             graph.add((URIRef(quote(event, safe=":/")), URIRef("http://example.com/abstract"), URIRef(f"http://example.com/{quote(id_abstract)}")))
-            if r["object"] in FRAME_KG_CACHE:
-                curr_graph = FRAME_KG_CACHE[r["object"]]
+            if r["object"] in cache:
+                curr_graph = cache[r["object"]]
             else:
                 curr_graph = FS_KG_BUILDER(text_input=r["object"], id_abstract=id_abstract)
-                FRAME_KG_CACHE[r["object"]] = curr_graph
-                save_pickle(cache=FRAME_KG_CACHE, save_p=FRAME_KG_CACHE_P)
+                cache[r["object"]] = curr_graph
+                save_pickle(cache=cache, save_p=FRAME_KG_CACHE_P)
             graph += curr_graph
     return graph
 
@@ -250,6 +256,7 @@ def run_one_event(name, sd, ed, logs):
             logger.info(f"Building {fn} + roles + text")
             logs = update_log(logs, f"start_{fn}_roles_text")
             graph = build_frame_semantics(path=text_p)
+            subprocess.call(f"rm {FRAME_KG_CACHE_P}", shell=True)
             graph.serialize(role_p, format="nt")
             logs = update_log(logs, f"end_{fn}_roles_text")
             save_json(data=logs, save_p=os.path.join(folder_p, "logs.json"))

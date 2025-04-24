@@ -15,7 +15,9 @@ import torch
 from pykeen.hpo import hpo_pipeline
 from pykeen.pipeline import pipeline
 from pykeen.triples import TriplesFactory
+from pykeen.utils import resolve_device, set_random_seed
 from utils import concat_nt_in_folder
+
 
 SEED = 23
 COLUMNS = ["subject", "predicate", "object", "."]
@@ -60,7 +62,8 @@ class HPOExperiment:
     """ HPO for regular embeddings """
     def __init__(self, folder_p: str, kwargs_ranges: dict, split: list,
                  sampler: str = "tpe", evaluator: str = "rankbased",
-                 n_trials: int = 20, model: str = "transe"):
+                 n_trials: int = 20, model: str = "transe",
+                 device: Union[str, None] = None):
         triples = concat_nt_in_folder(folder_p=folder_p, columns=COLUMNS)
         sh = TriplesFactory.from_labeled_triples(triples[COLUMNS[:3]].values)
         self.train, self.valid, self.test = sh.split(split, random_state=42)
@@ -75,6 +78,7 @@ class HPOExperiment:
             "split": split,
             "data": folder_p
         }
+        self.device = device if device else resolve_device()
 
     def run_hpo(self, save_dir: Union[str, None] = None):
         """ HPO pipeline """
@@ -82,6 +86,7 @@ class HPOExperiment:
         np.random.seed(SEED)
         torch.manual_seed(SEED)
         torch.cuda.manual_seed_all(SEED)
+        set_random_seed(SEED)
         result = hpo_pipeline(
             training=self.train, validation=self.valid, testing=self.valid,
             model=self.params["model"],
@@ -93,7 +98,9 @@ class HPOExperiment:
             loss_kwargs_ranges=self.kwargs_ranges["loss"],
             regularizer_kwargs_ranges=self.kwargs_ranges["regularizer"],
             optimizer_kwargs_ranges=self.kwargs_ranges["optimizer"],
-            negative_sampler_kwargs_ranges=self.kwargs_ranges["negative_sampler"]
+            negative_sampler_kwargs_ranges=self.kwargs_ranges["negative_sampler"],
+            device=self.device,
+            timeout=5*3600,
         )
         if save_dir:
             result.save_to_directory(save_dir)
@@ -130,11 +137,13 @@ def start_logs(params):
 @click.argument("model")
 @click.argument("n_trials")
 @click.argument("save_fp", default=None)
-def main(folder_p, model, n_trials, save_fp):
+@click.option("--device", default=None)
+def main(folder_p, model, n_trials, save_fp, device):
     """ Main: run hpo > run model on best params """
     hpo_exp = HPOExperiment(
         folder_p=folder_p, split=[0.8, 0.1, 0.1],
-        kwargs_ranges=KWARGS_RANGES, model=model, n_trials=int(n_trials))
+        kwargs_ranges=KWARGS_RANGES, model=model, n_trials=int(n_trials),
+        device=device)
     save_dir = None if not save_fp else os.path.join(save_fp, model, folder_p.split("/")[-1])
     start_hpo = str(datetime.now())
     hpo_result = hpo_exp.run_hpo(save_dir=save_dir)

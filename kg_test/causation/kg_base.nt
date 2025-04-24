@@ -1,0 +1,13 @@
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Afonso_Costa> .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasPlace> <http://dbpedia.org/resource/Kingdom_of_Portugal> .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Manuel_de_Arriaga> .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Manuel_II_of_Portugal> .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semanticweb.cs.vu.nl/2009/11/sem/Event> .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Jos%C3%A9_Relvas> .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasBeginTimeStamp> "1910-10-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Ant%C3%B3nio_Teixeira_de_Sousa> .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Ant%C3%B3nio_Machado_Santos> .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Henrique_Mitchell_de_Paiva_Couceiro> .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasEndTimeStamp> "1910-10-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/5_October_1910_revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Te%C3%B3filo_Braga> .
+

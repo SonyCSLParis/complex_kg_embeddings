@@ -4,14 +4,16 @@ Various tests
 
 To run (from folder root):
 ```bash
-python -m unittest -v tests.py
+      python -m unittest -v tests.py
 ```
 """
 import os
+import subprocess
 import unittest
 import pandas as pd
 from rdflib import Graph
-from representations import KGRepresentationsConverter, read_nt
+from representations import KGRepresentationsConverter
+from utils import read_nt
 from prep_data import get_files
 
 FOLDER = "kg_test"
@@ -122,3 +124,34 @@ class TestPrepData(unittest.TestCase):
         for x, true_files in syntax_to_files.items():
             func_files = get_files(options=option, role=1, role_syntax=x)
             self.assertEqual(set(func_files), set(true_files))
+
+
+class TestKGCausation(unittest.TestCase):
+    """
+    Test class for KG causations
+    """
+    def test_build_frame_graph(self):
+        """
+        Test the construction of a causation frame graph from a knowledge graph.
+        This test verifies that the 'causation.py' script correctly constructs a frame-based representation 
+        of causative relationships from a knowledge graph. It works by:
+        1. Executing the causation.py script on a test knowledge graph (kg_base.nt)
+        2. Reading the generated output file (kg_base_causation.nt)
+        3. Comparing the generated output with the ground truth file (kg_base_causation_gt.nt)
+        4. Asserting that the generated output matches the expected ground truth
+        The test passes if the set of lines in the generated output exactly matches the set of lines
+        in the ground truth file, ignoring order and empty lines.
+        """
+
+        command = "python causation.py kg_test/causation kg_base.nt"
+        subprocess.call(command, shell=True)
+
+        with open(os.path.join("kg_test/causation", "kg_base_causation_text.nt"), encoding='utf-8') as f:
+            lines_causation = f.readlines()
+        lines_causation = [x.strip() for x in lines_causation if x.strip()]
+
+        with open(os.path.join("kg_test/causation", "kg_base_causation_gt.nt"), encoding='utf-8') as f:
+            lines_true = f.readlines()
+        lines_true = [x.strip() for x in lines_true if x.strip()]
+
+        self.assertEqual(set(lines_causation), set(lines_true))
