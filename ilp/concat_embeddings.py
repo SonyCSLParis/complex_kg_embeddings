@@ -4,10 +4,10 @@ import pickle
 import pandas as pd
 from tqdm import tqdm
 
-FOLDER_DES = "./ilp_descriptions/descriptions/"
+FOLDER_DES = "./ilp/data/"
 FILES_DES = ["fe", "frames", "missing"]
 FOLDER_EXP = "./exps"
-CACHE_P = "./ilp_descriptions/entity_embeddings.pkl.gz"
+CACHE_P = "./ilp/entity_embeddings.pkl.gz"
 
 def get_des_from_csv(fp):
     df = pd.read_csv(fp)

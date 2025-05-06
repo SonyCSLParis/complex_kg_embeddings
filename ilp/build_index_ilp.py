@@ -14,8 +14,8 @@ import pandas as pd
 
 FILES = ["inductive_train.txt", "inductive_ts.txt",
          "inductive_val.txt", "transductive_train.txt"]
-ENTITY_DES_GZ = "./ilp_descriptions/entity_descriptions.pkl.gz"
-MISSING_DES_P = "./ilp_descriptions/descriptions/missing_descriptions.csv"
+ENTITY_DES_GZ = "./ilp/entity_descriptions.pkl.gz"
+MISSING_DES_P = "./ilp/descriptions/missing_descriptions.csv"
 
 if os.path.exists(MISSING_DES_P):
     MISSING_DES = pd.read_csv(MISSING_DES_P)
@@ -120,8 +120,8 @@ def fix_missing_entity(input_set):
 @click.argument("folder_data")
 @click.argument("index_path")
 @click.option("--exp_folder", default="exps", help="Path to the folder containing experiments")
-@click.option("--frame_des", default="ilp_descriptions/descriptions/frames_descriptions.csv", help="Path to the frame descriptions file")
-@click.option("--fe_cache", default="ilp_descriptions/fe_cache.json", help="Path to the frame element cache file")
+@click.option("--frame_des", default="ilp/data/frames_descriptions.csv", help="Path to the frame descriptions file")
+@click.option("--fe_cache", default="ilp/data/fe_cache.json", help="Path to the frame element cache file")
 def main(folder_data, index_path, exp_folder, frame_des, fe_cache):
     if not os.path.exists(index_path):
         lines = concat_line(folder=folder_data)

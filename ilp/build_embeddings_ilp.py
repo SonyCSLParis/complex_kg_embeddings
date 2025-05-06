@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Building `index.txt` and `embeddings.pkl` for the embeddings model
+Building `embeddings.pkl` for the embeddings model
 """
 import os
 import json

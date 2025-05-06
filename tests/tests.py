@@ -12,9 +12,8 @@ import subprocess
 import unittest
 import pandas as pd
 from rdflib import Graph
-from representations import KGRepresentationsConverter
-from utils import read_nt
-from prep_data import get_files
+from kg_construction.representations import KGRepresentationsConverter
+from ..prep_data import get_files
 
 FOLDER = "kg_test"
 FILE_P = os.path.join(FOLDER, "cg_output.nt")
@@ -22,6 +21,16 @@ GRAPH = Graph()
 GRAPH.parse(FILE_P)
 DF = read_nt(file_p=FILE_P)
 CONVERTER = KGRepresentationsConverter()
+
+def read_nt(file_p):
+    """ Read .nt file as a csv """
+    columns=["subject", "predicate", "object", "."]
+    try:
+        df = pd.read_csv(file_p, sep=' ', header=None)
+        df.columns = columns
+    except pd.errors.EmptyDataError:
+        df = pd.DataFrame(columns=columns)
+    return df
 
 def same_data_in_df(df1, df2):
     """ Comparing whether the data in the two df is the same (regardless of row order) """

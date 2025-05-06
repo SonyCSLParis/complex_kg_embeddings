@@ -14,7 +14,7 @@ from urllib.parse import unquote
 def open_gzip(fp):
     with gzip.open(fp, 'rb') as f:
         return pickle.load(f)
-DES = open_gzip("./ilp_descriptions/entity_descriptions.pkl.gz")
+DES = open_gzip("./ilp/entity_descriptions.pkl.gz")
 
 FOLDER_D = "./data/simkgc"
 FOLDER_O = "./simkgc/data"

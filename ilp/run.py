@@ -45,7 +45,7 @@ def main():
         folder_data = os.path.join(FOLDER, "inductive/statements", "kg_base_prop_1_subevent_1_role_1_causation_1_syntax_hyper_relational_rdf_star")
         index_path = os.path.join(FOLDER, "index.txt")
         logger.info(f"DOING -- Building index for {fn}")
-        command = f"python ilp_descriptions/build_index_ilp.py {folder_data} {index_path}"
+        command = f"python ilp/build_index_ilp.py {folder_data} {index_path}"
         subprocess.run(command, shell=True, check=False)
         logger.info(f"DONE -- Building index for {fn}")
     else:
@@ -56,7 +56,7 @@ def main():
         index_p = os.path.join(FOLDER, "index.txt")
         emb_p = os.path.join(FOLDER, "embeddings.pkl")
         logger.info(f"DOING -- Retrieving embeddings for {fn}")
-        command = f"python ilp_descriptions/build_embeddings_ilp.py {index_p} {emb_p} ilp_descriptions/entity_descriptions.pkl.gz ilp_descriptions/entity_embeddings.pkl.gz"
+        command = f"python ilp/build_embeddings_ilp.py {index_p} {emb_p} ilp/entity_descriptions.pkl.gz ilp/entity_embeddings.pkl.gz"
         subprocess.run(command, shell=True, check=False)
         logger.info(f"DONE -- Retrieving embeddings for {fn}")
     else:
@@ -64,5 +64,5 @@ def main():
 
 
 if __name__ == "__main__":
-    # python ilp_descriptions/run.py
+    # python ilp/run.py
     main()

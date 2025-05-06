@@ -148,9 +148,3 @@ def main(method, folder_out):
 if __name__ == '__main__':
     main()
 
-# FP = os.path.join(
-#     FOLDER_DATA_RDF_STAR,
-#     "kg_base_prop_0_subevent_0_role_0_causation_1_syntax_hyper_relational_rdf_star",
-#     "transductive_train.txt")
-# M = get_metric_rdf_star(fp=FP)
-# print(M)

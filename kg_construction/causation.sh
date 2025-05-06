@@ -39,7 +39,7 @@ for dir in "$input_folder"/*/; do
         for file in "kg_base_prop.nt" "kg_base_subevent_prop.nt" "kg_base_subevent.nt" "kg_base.nt"; do
             if [ -f "$dir/$file" ]; then
                 echo "Processing ${file}"
-                python causation.py "$input_folder/$dir_name" "$file"
+                python kg_construction/causation.py "$input_folder/$dir_name" "$file"
             fi
         done
     fi

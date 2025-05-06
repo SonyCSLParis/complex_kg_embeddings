@@ -13,8 +13,8 @@ from tqdm import tqdm
 import pandas as pd
 from nltk.corpus import wordnet as wn
 
-FE_NAMES_P = "./ilp_descriptions/fe_names.csv"
-FE_CACHE_P = "./ilp_descriptions/fe_cache.json"
+FE_NAMES_P = "./ilp/data/fe_names.csv"
+FE_CACHE_P = "./ilp/data/fe_cache.json"
 
 if not os.path.exists(FE_CACHE_P):
     FE_CACHE = {}

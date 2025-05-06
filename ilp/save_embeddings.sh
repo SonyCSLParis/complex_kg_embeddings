@@ -19,7 +19,7 @@ for DIR in "$INPUT_FOLDER"/*/; do
         # Only run if embeddings.pkl does not exist
         if [ ! -f "$DIR/embeddings.pkl" ]; then
             echo "  Creating embeddings file: $DIR/embeddings.pkl"
-            python ilp_descriptions/extract_embeddings.py "$DIR/descriptions.csv" ilp_descriptions/entity_embeddings.pkl.gz "$DIR/embeddings.pkl"
+            python ilp/extract_embeddings.py "$DIR/descriptions.csv" ilp/entity_embeddings.pkl.gz "$DIR/embeddings.pkl"
         else
             echo "  Embeddings file already exists: $DIR/embeddings.pkl"
         fi

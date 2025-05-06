@@ -19,10 +19,10 @@ def main(input_f, output_f):
                      os.path.join(output_f, data, "processed")]:
             if not os.path.exists(path):
                 os.makedirs(path)
-        command = f"sh scripts/convert_data.sh {os.path.join(input_f, data)} {os.path.join(output_f, data, 'raw')}"
+        command = f"sh ultra/convert_data.sh {os.path.join(input_f, data)} {os.path.join(output_f, data, 'raw')}"
         subprocess.run(command, shell=True, check=False)
 
 
 if __name__ == '__main__':
-    # python scripts/convert_data.py ~/git/ULTRA/kg-datasets/NarrativeInductiveDataset ~/git/ULTRA/kg-datasets/NarrativeInductiveDataset
+    # python ultra/convert_data.py ~/git/ULTRA/kg-datasets/NarrativeInductiveDataset ~/git/ULTRA/kg-datasets/NarrativeInductiveDataset
     main()
