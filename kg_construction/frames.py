@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-chronographer
+Extract role layer from textual descriptions in the KG
 """
 import os
 import json
 import pickle
-import subprocess
 from datetime import datetime
 from urllib.parse import quote
 from tqdm import tqdm
@@ -13,7 +12,7 @@ from loguru import logger
 import pandas as pd
 from rdflib import URIRef, Graph
 from src.build_ng.frame_semantics import FrameSemanticsNGBuilder
-from utils import update_log, save_json, save_pickle
+from utils import update_log, save_json
 from kglab.helpers.variables import NS_NIF, PREFIX_NIF, NS_EX, PREFIX_EX, NS_RDF, PREFIX_RDF, \
         PREFIX_FRAMESTER_WSJ, NS_FRAMESTER_WSJ, \
             NS_FRAMESTER_FRAMENET_ABOX_GFE, PREFIX_FRAMESTER_FRAMENET_ABOX_GFE, \

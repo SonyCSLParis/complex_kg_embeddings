@@ -10,7 +10,6 @@ from tqdm import tqdm
 import pandas as pd
 from loguru import logger
 from rdflib import URIRef, Graph, Literal
-from frame_semantic_transformer.FrameSemanticTransformer import DetectFramesResult
 from kglab.helpers.variables import NS_EX
 from src.build_ng.frame_semantics import FrameSemanticsNGBuilder
 from utils import read_nt, run_request, init_graph, save_pickle, load_pickle_cache

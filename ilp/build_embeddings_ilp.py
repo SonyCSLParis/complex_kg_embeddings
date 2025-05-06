@@ -2,15 +2,10 @@
 """
 Building `embeddings.pkl` for the embeddings model
 """
-import os
-import json
 import gzip
 import pickle
-from urllib.parse import unquote
 import click
 from tqdm import tqdm
-import polars as pl
-import pandas as pd
 import numpy as np
 from loguru import logger
 

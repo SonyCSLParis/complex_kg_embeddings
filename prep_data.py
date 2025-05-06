@@ -33,6 +33,7 @@ def filter_literals(df):
     return df
 
 def get_syntax_files(all_files, syntax: str, include: bool, elt: str, options):
+    """ retrieve syntax files """
     if include == "1":
         files = [x for x in all_files if f"{elt}_{syntax}" in x]
         for o, val in options.items():
@@ -43,7 +44,7 @@ def get_syntax_files(all_files, syntax: str, include: bool, elt: str, options):
 
 def get_files(options, role, causation, syntax):
     """ Get files to concat depending on options 
-    Options: `prop`, `subevent`, `text` """
+    Options: `prop`, `subevent` """
     all_files = [x for x in os.listdir(SAMPLE_F) if (x.endswith(".nt") or x.endswith(".txt"))]
     files_roles = get_syntax_files(all_files=all_files, syntax=syntax, include=role, elt="role", options=options)
     files_causation = get_syntax_files(all_files=all_files, syntax=syntax, include=causation, elt="causation", options=options)
@@ -143,32 +144,6 @@ def update_w_missing_nodes(df, nodes):
     return df
 
 
-def prep_data_kg_text(df, file_name):
-    """ Split data for baseKG embedding """
-    data = {x: [] for x in ["train", "valid", "test"]}
-    pred_des = "<http://dbpedia.org/ontology/abstract>"
-    pred_name = "<http://www.w3.org/2000/01/rdf-schema#label>"
-    des, names = [], []
-    for _, row in df.iterrows():
-        try:
-            kg_p = os.path.join(EXP_F, row.event.split('/')[-1], file_name)
-            curr_df = filter_dates(df=pd.read_csv(kg_p, sep=" ", header=None))
-            des += curr_df[curr_df.predicate == pred_des][["subject", "object"]].values.tolist()
-            names += curr_df[curr_df.predicate == pred_name][["subject", "object"]].values.tolist()
-            data[row.td].append(curr_df[~curr_df.predicate.isin([pred_des, pred_name])])
-        except pd.errors.EmptyDataError:
-            pass
-    for key, val in data.items():
-        df = pd.concat(val)
-        df.columns = COLUMNS
-        data[key] = df
-
-    all_data = pd.concat([val for _, val in data.items()])
-    des, names = pd.DataFrame(des), pd.DataFrame(names)
-    nodes = set(all_data["subject"].unique()).union(set(all_data["object"].unique()))
-    return data, update_w_missing_nodes(des, nodes), update_w_missing_nodes(names, nodes)
-
-
 def remove_overlapping_data_df(data_dict):
     """
     Remove overlapping data between train, valid, and test DataFrames.
@@ -253,6 +228,7 @@ def remove_overlapping_data_list(data_dict):
 
 
 def split_data_inductive(data):
+    """ split data inductive (regular rdf) """
     output = {"train": update_df(df=data["train"])}
     graph = pd.DataFrame(columns=COLUMNS)
     for k in ["valid", "test"]:
@@ -263,9 +239,11 @@ def split_data_inductive(data):
     return output
 
 def format_df_hr(df):
+    """ format dataframe for rdf-star """
     return df.astype(str).apply(','.join, axis=1).values.tolist()
 
 def split_data_inductive_hr(data):
+    """ split data inductive (rdf-star) """
     data_reg_init, data_hr = {}, {}
     for key, val in data.items():
         lines_reg = [x.split(" ") for x in val if len(x.split(" ")) == 3]
@@ -301,8 +279,6 @@ def split_data_inductive_hr(data):
               default="0", type=click.Choice(["0", "1"]))
 @click.option("--subevent", help="Whether to include subevent in narratives",
               default="0", type=click.Choice(["0", "1"]))
-@click.option("--text", help="Whether to include text in narratives",
-             default="0", type=click.Choice(["0", "1"]))
 @click.option("--role", help="Whether to include roles in narratives",
               default="0", type=click.Choice(["0", "1"]))
 @click.option("--causation", help="Whether to include causation in narratives",
@@ -314,91 +290,77 @@ def split_data_inductive_hr(data):
               help="Whether to split data for inductive learning or not")
 @click.option('--prep-simkgc/--no-prep-simkgc', is_flag=True, default=False,
               help="Whether to prep data for simkgc or not")
-#@click.pass_context
-def main(save_fp, prop, subevent, text, role, causation, syntax, save_data, inductive_split, prep_simkgc):
+def main(save_fp, prop, subevent, role, causation, syntax, save_data, inductive_split, prep_simkgc):
     """ Main prep data """
-    options = {"prop": int(prop), "subevent": int(subevent), "text": int(text)}
+    options = {"prop": int(prop), "subevent": int(subevent)}
     if (role == "1" or causation == "1") and not syntax:
         raise click.BadParameter('If "--role" or "--causation" is provided, "--syntax" must also be provided.')
-    if syntax == "hypergraph_bn" and text == "1":
-        raise click.BadParameter("Text cannot be included if considering hypergraph syntax")
     if prep_simkgc and syntax in ["hypergraph_bn", "hyper_relational_rdf_star"]:
         raise click.BadParameter("SimKGC does not support hypergraph or RDF* syntax")
     files = get_files(options=options, role=role, causation=causation, syntax=syntax)
     print(files)
     if not os.path.exists(save_fp):
         os.makedirs(save_fp)
-    if not options["text"]:  # KG only, no text
-        if syntax == "hypergraph_bn":
-            data = prep_data_hypergraph(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
-            data = remove_overlapping_data_list(data_dict=data)
-            if save_data:
-                for key, val in data.items():
-                    with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:
-                        f.write("\n".join(val))
-                    f.close()
-        elif syntax == "hyper_relational_rdf_star":
-            data = prep_data_rdf_star(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
-            data = remove_overlapping_data_list(data_dict=data)
+    if syntax == "hypergraph_bn":
+        data = prep_data_hypergraph(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
+        data = remove_overlapping_data_list(data_dict=data)
+        if save_data:
+            for key, val in data.items():
+                with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:
+                    f.write("\n".join(val))
+                f.close()
+    elif syntax == "hyper_relational_rdf_star":
+        data = prep_data_rdf_star(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
+        data = remove_overlapping_data_list(data_dict=data)
+        if inductive_split:
+            data = split_data_inductive_hr(data=data)
+        if save_data:
+            for key, val in data.items():
+                with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:
+                    f.write("\n".join(val))
+                f.close()
+    else:
+        data = prep_data_kg_only(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
+        data = remove_overlapping_data_df(data_dict=data)
+        if save_data:
             if inductive_split:
-                data = split_data_inductive_hr(data=data)
-            if save_data:
+                data = split_data_inductive(data=data)
+            if prep_simkgc:
+                with open("./simkgc/data/predicates.json", 'r', encoding='utf-8') as f:
+                    pred_cache = json.load(f)
+                with open("./simkgc/data/entities_label.json", 'r', encoding='utf-8') as f:
+                    ent_label_cache = json.load(f)
+                with open("./simkgc/data/entities_description.json", 'r', encoding='utf-8') as f:
+                    ent_des_cache = json.load(f)
+                predicates, entities = set(), set()
                 for key, val in data.items():
-                    with open(os.path.join(save_fp, f"{key}.txt"), "w", encoding="utf-8") as f:
-                        f.write("\n".join(val))
-                    f.close()
-        else:
-            data = prep_data_kg_only(df=pd.read_csv(REVS_TD, index_col=0), file_names=files)
-            data = remove_overlapping_data_df(data_dict=data)
-            if save_data:
-                if inductive_split:
-                    data = split_data_inductive(data=data)
-                if prep_simkgc:
-                    with open("./simkgc/data/predicates.json", 'r', encoding='utf-8') as f:
-                        pred_cache = json.load(f)
-                    with open("./simkgc/data/entities_label.json", 'r', encoding='utf-8') as f:
-                        ent_label_cache = json.load(f)
-                    with open("./simkgc/data/entities_description.json", 'r', encoding='utf-8') as f:
-                        ent_des_cache = json.load(f)
-                    predicates, entities = set(), set()
-                    for key, val in data.items():
-                        val = val[val.columns[:3]]
-                        predicates.update(set(val["predicate"].unique()))
-                        entities.update(set(val["subject"].unique()).union(set(val["object"].unique())))
-                        val.to_csv(os.path.join(save_fp, f"{key}.txt"), header=None, index=False, sep="\t")
-                        formatted_val = [{
-                            "head_id": row["subject"],
-                            "head": ent_label_cache[row["subject"]],
-                            "relation": pred_cache[row["predicate"]],
-                            "tail_id": row["object"],
-                            "tail": ent_label_cache[row["object"]],
-                        } for _, row in val.iterrows()]
-                        with open(os.path.join(save_fp, f"{key}.txt.json"), "w", encoding="utf-8") as f:
-                            json.dump(formatted_val, f, indent=4)
-                    pred_des = {k: v for k, v in pred_cache.items() if k in predicates}
-                    with open(os.path.join(save_fp, "relations.json"), "w", encoding="utf-8") as f:
-                        json.dump(pred_des, f, indent=4)
-                    ent_name_des = [{"entity_id": ent, "entity": ent_label_cache[ent], "entity_desc": ent_des_cache[ent]} \
-                        for ent in tqdm(entities, desc="Preparing entities")]
-                    with open(os.path.join(save_fp, "entities.json"), "w", encoding="utf-8") as f:
-                        json.dump(ent_name_des, f, indent=4)
-                else:
-                    for key, val in data.items():
-                        val.to_csv(os.path.join(save_fp, f"{key}.csv"), header=None, index=False, sep="\t")
+                    val = val[val.columns[:3]]
+                    predicates.update(set(val["predicate"].unique()))
+                    entities.update(set(val["subject"].unique()).union(set(val["object"].unique())))
+                    val.to_csv(os.path.join(save_fp, f"{key}.txt"), header=None, index=False, sep="\t")
+                    formatted_val = [{
+                        "head_id": row["subject"],
+                        "head": ent_label_cache[row["subject"]],
+                        "relation": pred_cache[row["predicate"]],
+                        "tail_id": row["object"],
+                        "tail": ent_label_cache[row["object"]],
+                    } for _, row in val.iterrows()]
+                    with open(os.path.join(save_fp, f"{key}.txt.json"), "w", encoding="utf-8") as f:
+                        json.dump(formatted_val, f, indent=4)
+                pred_des = {k: v for k, v in pred_cache.items() if k in predicates}
+                with open(os.path.join(save_fp, "relations.json"), "w", encoding="utf-8") as f:
+                    json.dump(pred_des, f, indent=4)
+                ent_name_des = [{"entity_id": ent, "entity": ent_label_cache[ent], "entity_desc": ent_des_cache[ent]} \
+                    for ent in tqdm(entities, desc="Preparing entities")]
+                with open(os.path.join(save_fp, "entities.json"), "w", encoding="utf-8") as f:
+                    json.dump(ent_name_des, f, indent=4)
+            else:
+                for key, val in data.items():
+                    val.to_csv(os.path.join(save_fp, f"{key}.csv"), header=None, index=False, sep="\t")
 
 
 if __name__ == '__main__':
     # python prep_data.py ./data/kg_base
-    # python prep_data.py ./data/kg_base_prop --prop 1
-    # python prep_data.py ./data/kg_base_prop_role_simple_rdf_prop --prop 1 --role 1 --syntax simple_rdf_prop
-    # python prep_data.py ./data/kg_base_prop_role_simple_rdf_sp --prop 1 --role 1 --syntax simple_rdf_sp
     # python prep_data.py ./data/kg_base_prop_role_simple_rdf_reification --prop 1 --role 1 --syntax simple_rdf_reification
-
-    # python prep_data.py ./data/kg_base_subevent_prop_role_simple_rdf_prop --prop 1 --subevent 1 --role 1 --syntax simple_rdf_prop
-    # python prep_data.py ./data/kg_base_subevent_prop_role_simple_rdf_sp --prop 1 --subevent 1 --role 1 --syntax simple_rdf_sp
-    # python prep_data.py ./data/kg_base_subevent_prop_role_simple_rdf_reification --prop 1 --subevent 1 --role 1 --syntax simple_rdf_reification
-
-    # python prep_data.py ./data/kg_base_prop_role_hypergraph_bn --prop 1 --role 1 --syntax hypergraph_bn
-
     # python prep_data.py ./data/kg_base_role_rdf_star --role 1 --syntax hyper_relational_rdf_star
     main()

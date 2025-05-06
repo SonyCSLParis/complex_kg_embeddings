@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+"""
+Updating cache for various embeddings and descriptions.
+"""
 import os
 import gzip
 import pickle

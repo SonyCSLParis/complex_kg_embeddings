@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Helpers for the paper
+Helpers for the paper: printing table in LaTeX format
 """
 import os
 import pandas as pd
 
+# below: template for "pretty" table in LaTeX
 TEMPLATE = """
 \\begin{table}[<position>]
     \\centering
@@ -28,6 +29,7 @@ TEMPLATE = """
 ETA = ["prop", "subevent", "role", "causation"]
 
 def get_start_end_multicol(multicol: list[int]) -> list[str]:
+    """ line delimitation if multicolumn is used """
     curr_start, start, end = 1, [], []
     for x in multicol:
         start.append(curr_start)
@@ -36,6 +38,7 @@ def get_start_end_multicol(multicol: list[int]) -> list[str]:
     return [f"{val}-{end[i]}" for i, val in enumerate(start)]
 
 def check_alignment_data(columns: list[str], label: str, alignment: str, data: list[list[str]]):
+    """ check that parameters are coherent between them """
     if len(columns) != len(alignment):
         raise ValueError(f"Params `{label}` and `alignment` should have the same length")
     if any(len(x) != len(columns) for x in data):
@@ -92,11 +95,13 @@ def build_table(columns: list[str], alignment: str,
     return table
 
 def get_sum_statements(df: pd.DataFrame):
+    """ Get sum of statements for each (dataset, syntax) """
     return df.groupby(ETA+["syntax"]).agg({"statements": "sum"}) \
         .pivot_table(index=ETA, columns="syntax", values="statements", fill_value="-") \
             .rename_axis(columns=None).reset_index()
 
 def add_col_base(row, col_base):
+    """ average columns with the same base ("-" if one of them is a string) """
     if isinstance(row[f"{col_base}_1"], str):
         row[col_base] = "-"
     else:
@@ -104,6 +109,7 @@ def add_col_base(row, col_base):
     return row
 
 def avg_value(df1, df2):
+    """ average values of two dataframes with the same columns """
     merged = pd.merge(df1, df2, on=ETA, suffixes=('_1', '_2'))
     columns = ETA.copy()
     for col_base in [x for x in merged.columns if x not in ETA and x.endswith("_1")]:
@@ -114,6 +120,7 @@ def avg_value(df1, df2):
 
 
 def build_table_statements(folder_data = "stats/"):
+    """ Build table with number of statements for each dataset """
     df = pd.read_csv(os.path.join(folder_data, "metrics_ilp.csv"), index_col=0)
     res = get_sum_statements(df).reset_index(drop=True)
     res["hyper_relational_rdf_star"] = res["hyper_relational_rdf_star"].astype(int)
@@ -126,6 +133,7 @@ def build_table_statements(folder_data = "stats/"):
     
     return pd.merge(avg_df,res,on=ETA, how="outer").fillna("-")
 
+# human-readable names for the columns to latex names
 COL_TO_NAME = {
     "prop": "\\emph{prop}", "subevent": "\\emph{subevent}",
     "role": "\\emph{role}", "causation": "\\emph{causation}",
@@ -135,6 +143,7 @@ COL_TO_NAME = {
 
 
 if __name__ == '__main__':
+    # 1. statements
     df_statements = build_table_statements()
     print(df_statements.columns)
     latex_table = build_table(
@@ -150,6 +159,7 @@ if __name__ == '__main__':
     )
     print(f"{latex_table}\n=====")
 
+    # 2. metrics per eta ultra
     df_paper_metric_per_eta_ultra = pd.read_csv(os.path.join("stats", "paper_metric_per_eta_ultra.csv"), index_col=0)
     columns = ["prop", "subevent", "role", "causation"]
     for m in ["MRR", "H@1", "H@3", "H@10"]:
@@ -167,6 +177,7 @@ if __name__ == '__main__':
     )
     print(f"{latex_table}\n=====")
 
+    # metrics per eta ilp
     df_paper_metric_per_eta_ilp = pd.read_csv(os.path.join("stats", "best_metric_per_eta_ilp.csv"), index_col=0)
     cols_orig = [
         "prop", "subevent", "role", "causation", 
@@ -189,6 +200,7 @@ if __name__ == '__main__':
     )
     print(f"{latex_table}\n=====")
 
+    # 4. metrics per eta simkgc
     df_paper_metric_per_eta_simkgc = pd.read_csv(os.path.join("stats", "paper_metric_per_eta_simkgc.csv"), index_col=0)
     columns = ["prop", "subevent", "role", "causation"]
     for m in ["MRR", "H@1", "H@3", "H@10"]:
@@ -206,6 +218,7 @@ if __name__ == '__main__':
     )
     print(f"{latex_table}\n=====")
 
+    # 5. mean scores for syntax
     df_syntax = pd.read_csv(os.path.join("stats", "syntax_mean.csv"), index_col=0)
     cols_orig = ["syntax", "MRR", "H@1", "H@3", "H@10"]
     cols_table = ["syntax", "MRR$\\uparrow$", "H@1$\\uparrow$", "H@3$\\uparrow$", "H@10$\\uparrow$"]
@@ -223,6 +236,7 @@ if __name__ == '__main__':
     )
     print(f"{latex_table}\n=====")
 
+    # 6. metrics comparison across three methods
     columns = ["prop", "subevent", "role", "causation", "MRR"]
     df_3 = pd.read_csv(os.path.join("stats", "best_metric_per_eta_ultra.csv"), index_col=0)[columns].rename(columns={"MRR": "ULTRA"})
     for name, col in [("simkgc", "SimKGC"), ("ilp", "ILP")]:

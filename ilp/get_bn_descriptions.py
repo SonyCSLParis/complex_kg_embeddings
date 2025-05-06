@@ -43,6 +43,7 @@ def get_text(row):
     return row
 
 def parse_nt_line(line):
+    """ parse line from .nt file """
     pattern = r'<([^>]+)>\s<([^>]+)>\s(.+)\s\.'
     match = re.match(pattern, line)
 
@@ -59,6 +60,7 @@ def parse_nt_line(line):
     return None
 
 def rebuild_graph_from_nt(file_path):
+    """ Rebuild graph from .nt file (parsing + adding in the graph)"""
     lines = [x.strip() for x in open(file_path, "r", encoding='utf-8').readlines()]
     graph=Graph()
     for line in tqdm(lines):

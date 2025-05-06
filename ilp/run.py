@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Preparing all data for ILP
+Preparing all data for ILP: statements, index, embeddings
 """
 import os
 import subprocess

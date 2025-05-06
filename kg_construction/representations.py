@@ -198,36 +198,34 @@ if __name__ == '__main__':
     DF = read_nt(file_p=FILE_P)
     CONVERTER = KGRepresentationsConverter()
 
-    # RES = CONVERTER.to_simple_rdf_prop(graph=GRAPH)
-    # ADD_TEXT = False
-    # if ADD_TEXT:
-    #     RES = CONVERTER.add_text(df=DF, output=RES)
-    # print(RES)
-    # print(RES.columns)
-    # RES.to_csv("test.csv", header=None, index=False, sep=" ")
+    # Simple RDF
+    RES = CONVERTER.to_simple_rdf_prop(graph=GRAPH)
+    ADD_TEXT = False
+    if ADD_TEXT:
+        RES = CONVERTER.add_text(df=DF, output=RES)
+    print(RES)
+    print(RES.columns)
 
-    # RES, CACHE = CONVERTER.to_simple_rdf_sp(graph=GRAPH, cache={})
-    # ADD_TEXT = True
-    # if ADD_TEXT:
-    #     RES = CONVERTER.add_text(df=DF, output=RES)
-    # print(RES)
-    # RES.to_csv("test.csv", header=None, index=False, sep=" ")
-    # print(CACHE)
-    # with open("logs.json", 'w', encoding='utf-8') as f:
-    #     json.dump(CACHE, f, indent=4)
+    # Singleton Property
+    RES, CACHE = CONVERTER.to_simple_rdf_sp(graph=GRAPH, cache={})
+    ADD_TEXT = True
+    if ADD_TEXT:
+        RES = CONVERTER.add_text(df=DF, output=RES)
+    print(RES)
+    RES.to_csv("test.csv", header=None, index=False, sep=" ")
+    print(CACHE)
 
-    # RES, NB = CONVERTER.to_simple_rdf_reification(graph=GRAPH, statement_nb=1)
-    # ADD_TEXT = False
-    # if ADD_TEXT:
-    #     RES = CONVERTER.add_text(df=DF, output=RES)
-    # print(RES)
-    # RES.to_csv("test.csv", header=None, index=False, sep=" ")
-    # print(NB)
+    # Reification
+    RES, NB = CONVERTER.to_simple_rdf_reification(graph=GRAPH, statement_nb=1)
+    ADD_TEXT = False
+    if ADD_TEXT:
+        RES = CONVERTER.add_text(df=DF, output=RES)
+    print(RES)
 
-    # RES = CONVERTER.to_hypergraph_bn(graph=GRAPH)
-    # print(RES)
-    # RES.to_csv("output.txt", sep=" ", header=False, index=False, na_rep="")
+    # Hypergraph (~blank nodes)
+    RES = CONVERTER.to_hypergraph_bn(graph=GRAPH)
+    print(RES)
 
+    # RDF-star
     RES = CONVERTER.to_hyper_relational_rdf_star(graph=GRAPH)
     print(RES)
-    RES.to_csv("output.txt", sep=" ", header=False, index=False, na_rep="")

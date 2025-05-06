@@ -2,7 +2,7 @@
 """
 Various tests
 
-To run (from folder root):
+To run (from folder "tests"):
 ```bash
       python -m unittest -v tests.py
 ```

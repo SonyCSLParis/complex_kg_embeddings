@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-chronographer
+Extract "simple" layers: base, properties, subevents, roles, text
 """
 import os
 import json

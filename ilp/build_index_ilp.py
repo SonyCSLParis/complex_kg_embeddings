@@ -82,6 +82,7 @@ def write_index(entities, index_path):
 
 
 def concat_des(exp_folder, frame_des, fe_cache):
+    """ concatenate descriptions from different sources """
     res = {}
     des = os.listdir(exp_folder)
     des = [os.path.join(exp_folder, x, "descriptions.csv") for x in des]
@@ -109,6 +110,7 @@ def concat_des(exp_folder, frame_des, fe_cache):
     return res
 
 def fix_missing_entity(input_set):
+    """ fix missing entities by checking if they are in DBpedia or Factbook -> human-readable label"""
     res = {}
     for x in input_set:
         if any(y in x for y in ["dbpedia.org", "/factbook/"]):

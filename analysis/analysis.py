@@ -1,7 +1,7 @@
 
 # -*- coding: utf-8 -*-
 """
-Helpers for the paper
+Correlation absence/presence of text with metrics
 """
 import os
 import pandas as pd
