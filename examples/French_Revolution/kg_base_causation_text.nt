@@ -1,0 +1,112 @@
+<http://example.com/French_Revolution_Result3> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/French_Revolution_Result3_0> .
+<http://example.com/French_Revolution_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Reign of Terror and Execution of Louis XVI" .
+<http://example.com/French_Revolution_Result4_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result4_0> .
+<http://example.com/French_Revolution_Result0_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result0_0> .
+<http://example.com/French_Revolution_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/French_Revolution_Result4_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the French Consulate" .
+<http://example.com/French_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result3_0_0_0> .
+<http://example.com/French_Revolution_Result2> <http://example.com/abstract> "Reign of Terror and Execution of Louis XVI" .
+<http://example.com/French_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result3_0> .
+<http://example.com/French_Revolution_Result0_0_1> <https://w3id.org/framester/wsj/onLemma> "creation" .
+<http://example.com/French_Revolution_Result4_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Intentionally_create> .
+<http://example.com/French_Revolution_Result4_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result4_0_0_1> .
+<http://example.com/French_Revolution_Result1> <http://www.w3.org/2000/01/rdf-schema#label> "Proclamation of the French First Republic in September 1792" .
+<http://example.com/French_Revolution_Result3> <http://example.com/abstract> "French Revolutionary Wars" .
+<http://example.com/French_Revolution_Result4_0_0_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result4_0> .
+<http://example.com/French_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the French First Republic" .
+<http://example.com/French_Revolution_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Old_leader> .
+<http://example.com/French_Revolution_Result0_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Created_entity> .
+<http://example.com/French_Revolution_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/French_Revolution_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result2_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Act> .
+<http://example.com/French_Revolution_Result4_0_0> <https://w3id.org/framester/wsj/onLemma> "Establishment" .
+<http://example.com/French_Revolution_Result3_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Sides> .
+<http://example.com/French_Revolution_Result4_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result3_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/French_Revolutionary_Wars> .
+<http://example.com/French_Revolution_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result3> .
+<http://example.com/French_Revolution_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Proclamation of the French First Republic in September 1792" .
+<http://example.com/French_Revolution_Result4> <http://example.com/abstract> "Establishment of the French Consulate in November 1799" .
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result2> .
+<http://example.com/French_Revolution_Result3_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result4_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result4> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/French_Revolution_Result4_0> .
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result4> .
+<http://example.com/French_Revolution_Result2_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result2_0> .
+<http://example.com/French_Revolution_Result2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/French_Revolution_Result2_0> .
+<http://example.com/French_Revolution_Result4_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result0_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of constitutional monarchy" .
+<http://example.com/French_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French Revolutionary" .
+<http://example.com/French_Revolution_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Abolition of the Ancien R\u00E9gime and creation of constitutional monarchy" .
+<http://example.com/French_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result1_0> .
+<http://example.com/French_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/onLemma> "Proclamation" .
+<http://example.com/French_Revolution_Result4_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/French_Consulate> .
+<http://example.com/French_Revolution_Result4_0_0_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Time> .
+<http://example.com/French_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result4_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/French_Revolution_Result4_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result4_0_0_0> .
+<http://example.com/French_Revolution_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Proclamation of the French First Republic in September 1792" .
+<http://example.com/French_Revolution_Result3_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result3_0> .
+<http://example.com/French_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result0_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result0_0_1_0> .
+<http://example.com/French_Revolution_Result0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result1> <http://example.com/abstract> "Proclamation of the French First Republic in September 1792" .
+<http://example.com/French_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result0_0> .
+<http://example.com/French_Revolution_Result0_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result0_0> .
+<http://example.com/French_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Statement> .
+<http://example.com/French_Revolution_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Terror" .
+<http://example.com/French_Revolution_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Abolition of the Ancien R\u00E9gime and creation of constitutional monarchy" .
+<http://example.com/French_Revolution_Result1_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/French_First_Republic> .
+<http://example.com/French_Revolution_Result3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French Revolutionary Wars" .
+<http://example.com/French_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Change_of_leadership> .
+<http://example.com/French_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French Revolutionary Wars" .
+<http://example.com/French_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result0> <http://example.com/abstract> "Abolition of the Ancien R\u00E9gime and creation of constitutional monarchy" .
+<http://example.com/French_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "Abolition" .
+<http://example.com/French_Revolution_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result2_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result2_0> .
+<http://example.com/French_Revolution_Result0_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result4_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result4_0> .
+<http://example.com/French_Revolution_Result2> <http://www.w3.org/2000/01/rdf-schema#label> "Reign of Terror and Execution of Louis XVI" .
+<http://example.com/French_Revolution_Result0_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Intentionally_create> .
+<http://example.com/French_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result4_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result0> .
+<http://example.com/French_Revolution_Result4_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "in November 1799" .
+<http://example.com/French_Revolution_Result4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Establishment of the French Consulate in November 1799" .
+<http://example.com/French_Revolution_Result1_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result1_0> .
+<http://example.com/French_Revolution_Result3> <http://www.w3.org/2000/01/rdf-schema#label> "French Revolutionary Wars" .
+<http://example.com/French_Revolution_Result4_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Establishment of the French Consulate in November 1799" .
+<http://example.com/French_Revolution_Result0_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Early_Modern_Switzerland> .
+<http://example.com/French_Revolution_Result0_0_1_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Constitutional_monarchy> .
+<http://example.com/French_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Hostile_encounter> .
+<http://example.com/French_Revolution_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/French_Revolution_Result0_0> .
+<http://example.com/French_Revolution_Result2_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Terrorism> .
+<http://example.com/French_Revolution_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Abolition of the Ancien R\u00E9gime and creation of constitutional monarchy" .
+<http://example.com/French_Revolution_Result0_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result0_0> .
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result1> .
+<http://example.com/French_Revolution_Result2_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result2_0_0_0> .
+<http://example.com/French_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result2_0_0> <https://w3id.org/framester/wsj/onLemma> "Terror" .
+<http://example.com/French_Revolution_Result4_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Created_entity> .
+<http://example.com/French_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result1_0_0_0> .
+<http://example.com/French_Revolution_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/French_Revolution_Result4_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/French_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/onLemma> "Wars" .
+<http://example.com/French_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the Ancien R\u00E9gime" .
+<http://example.com/French_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result0_0_0_0> .
+<http://example.com/French_Revolution_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/French_Revolution_Result1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/French_Revolution_Result1_0> .
+<http://example.com/French_Revolution_Result4> <http://www.w3.org/2000/01/rdf-schema#label> "Establishment of the French Consulate in November 1799" .
+<http://example.com/French_Revolution_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result1_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Message> .
+<http://example.com/French_Revolution_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Reign of Terror and Execution of Louis XVI" .
+

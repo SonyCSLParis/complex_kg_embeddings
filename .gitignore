@@ -6,3 +6,4 @@ cache
 misc
 **/*.pkl
 **/*.pkl.gz
+data/

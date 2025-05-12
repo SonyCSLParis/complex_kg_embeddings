@@ -1,0 +1,138 @@
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result2_0_0>  
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result0_0_1>  
+<http://dbpedia.org/resource/Fall_of_Maximilien_Robespierre> <http://example.com/hasOutcome> <http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result1_0_1>  
+<http://dbpedia.org/resource/Storming_of_the_Bastille> <http://example.com/hasOutcome> <http://example.com/Storming_of_the_Bastille_Result2_0_1>  
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result3_0_0>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result1_0_0>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result3_0_1>  
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result2_0_2>  
+<http://dbpedia.org/resource/Battle_of_Wattignies> <http://example.com/hasOutcome> <http://example.com/Battle_of_Wattignies_Result0_0_0>  
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result2_0_3>  
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result4_0_0>  
+<http://dbpedia.org/resource/Fall_of_Maximilien_Robespierre> <http://example.com/hasOutcome> <http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1>  
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result0_0_0>  
+<http://dbpedia.org/resource/Fall_of_Maximilien_Robespierre> <http://example.com/hasOutcome> <http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0>  
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result1_0_0>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result3_0_2>  
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result2_0_1>  
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result1_0_0>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result3_0_3>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result1_0_2>  
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result2_0_4>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result3_0_0>  
+<http://dbpedia.org/resource/Storming_of_the_Bastille> <http://example.com/hasOutcome> <http://example.com/Storming_of_the_Bastille_Result0_0_0>  
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result2_0_0>  
+<http://dbpedia.org/resource/Storming_of_the_Bastille> <http://example.com/hasOutcome> <http://example.com/Storming_of_the_Bastille_Result1_0_0>  
+<http://dbpedia.org/resource/Battle_of_Kaiserslautern> <http://example.com/hasOutcome> <http://example.com/Battle_of_Kaiserslautern_Result0_0_0>  
+<http://dbpedia.org/resource/Storming_of_the_Bastille> <http://example.com/hasOutcome> <http://example.com/Storming_of_the_Bastille_Result2_0_0>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result0_0_0>  
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result0_0_0>  
+<http://dbpedia.org/resource/Fall_of_Maximilien_Robespierre> <http://example.com/hasOutcome> <http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0>  
+<http://example.com/War_of_the_First_Coalition_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Process_resume>  
+<http://example.com/French_Revolution_Result0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Intentionally_create>  
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Interior_profile_relation>  
+<http://example.com/Storming_of_the_Bastille_Result2_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Breaking_out_captive>  
+<http://example.com/French_Revolution_Result3_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Hostile_encounter>  
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Process_end>  
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Conduct>  
+<http://example.com/War_of_the_First_Coalition_Result2_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Creating>  
+<http://example.com/Battle_of_Wattignies_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/War_of_the_First_Coalition_Result2_0_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Ordinal_numbers>  
+<http://example.com/French_Revolution_Result4_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Intentionally_create>  
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Terrorism>  
+<http://example.com/War_of_the_First_Coalition_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Conquering>  
+<http://example.com/French_Revolution_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Statement>  
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Imprisonment>  
+<http://example.com/War_of_the_First_Coalition_Result2_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Temporal_collocation>  
+<http://example.com/War_of_the_First_Coalition_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Intentionally_create>  
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Quantified_mass>  
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Building_subparts>  
+<http://example.com/War_of_the_First_Coalition_Result2_0_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Alliance>  
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Exclude_member>  
+<http://example.com/Storming_of_the_Bastille_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/French_Revolution_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Terrorism>  
+<http://example.com/Storming_of_the_Bastille_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Conquering>  
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Storming_of_the_Bastille_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Prison>  
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/French_Revolution_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Change_of_leadership>  
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Process_end>  
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_2> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/War_of_the_Second_Coalition>  
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_2> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/France>  
+<http://example.com/French_Revolution_Result0_0_1_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Constitutional_monarchy>  
+<http://example.com/Storming_of_the_Bastille_Result2_0_1_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Bastille>  
+<http://example.com/French_Revolution_Result3_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/French_Revolutionary_Wars>  
+<http://example.com/War_of_the_First_Coalition_Result2_0_2_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/France>  
+<http://example.com/War_of_the_First_Coalition_Result2_0_2_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/War_of_the_Second_Coalition>  
+<http://example.com/French_Revolution_Result4_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/French_Consulate>  
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/The_Mountain>  
+<http://example.com/French_Revolution_Result1_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/French_First_Republic>  
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_2> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/France>  
+<http://example.com/Storming_of_the_Bastille_Result1_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Bastille>  
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_1> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Bastille>  
+<http://example.com/French_Revolution_Result0_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Early_Modern_Switzerland>  
+<http://example.com/War_of_the_First_Coalition_Result2_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result2_0_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Time>
+<http://example.com/War_of_the_First_Coalition_Result2_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result2_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Process>
+<http://example.com/War_of_the_First_Coalition_Result2_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result2_0_0_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Explanation>
+<http://example.com/French_Revolution_Result0_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/French_Revolution_Result0_0_1_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Created_entity>
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Coup_of_18_Fructidor_Result1_0_1_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Figure>
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Coup_of_18_Fructidor_Result1_0_1_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Ground>
+<http://example.com/Storming_of_the_Bastille_Result2_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Storming_of_the_Bastille_Result2_0_1_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Theme>
+<http://example.com/French_Revolution_Result3_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/French_Revolution_Result3_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Sides>
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Coup_of_18_Fructidor_Result1_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Process>
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Coup_of_18_Fructidor_Result3_0_1_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Affected_party>
+<http://example.com/War_of_the_First_Coalition_Result2_0_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result2_0_2_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Created_entity>
+<http://example.com/Battle_of_Wattignies_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Wattignies_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/War_of_the_First_Coalition_Result2_0_3> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result2_0_3_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Type>
+<http://example.com/French_Revolution_Result4_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/French_Revolution_Result4_0_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Time>
+<http://example.com/French_Revolution_Result4_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/French_Revolution_Result4_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Created_entity>
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Act>
+<http://example.com/War_of_the_First_Coalition_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Theme>
+<http://example.com/French_Revolution_Result1_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/French_Revolution_Result1_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Message>
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Coup_of_18_Fructidor_Result3_0_2_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Prisoner>
+<http://example.com/War_of_the_First_Coalition_Result2_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result2_0_1_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Landmark_period>
+<http://example.com/War_of_the_First_Coalition_Result2_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result2_0_1_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Trajector_event>
+<http://example.com/War_of_the_First_Coalition_Result1_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result1_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Created_entity>
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Coup_of_18_Fructidor_Result3_0_3_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Quantity>
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Coup_of_18_Fructidor_Result3_0_3_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Mass>
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Coup_of_18_Fructidor_Result1_0_2_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Building_part>
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Coup_of_18_Fructidor_Result1_0_2_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Use>
+<http://example.com/War_of_the_First_Coalition_Result2_0_4> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result2_0_4_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Descriptor>
+<http://example.com/War_of_the_First_Coalition_Result2_0_4> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result2_0_4_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Alliance>
+<http://example.com/War_of_the_First_Coalition_Result2_0_4> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/War_of_the_First_Coalition_Result2_0_4_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Member_2>
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Coup_of_18_Fructidor_Result3_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Member>
+<http://example.com/Storming_of_the_Bastille_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Storming_of_the_Bastille_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/French_Revolution_Result2_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/French_Revolution_Result2_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Act>
+<http://example.com/Storming_of_the_Bastille_Result1_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Storming_of_the_Bastille_Result1_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Theme>
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Kaiserslautern_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Storming_of_the_Bastille_Result2_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Storming_of_the_Bastille_Result2_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Penal_institution>
+<http://example.com/Storming_of_the_Bastille_Result2_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Storming_of_the_Bastille_Result2_0_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Location>
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Coup_of_18_Fructidor_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/French_Revolution_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/French_Revolution_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Old_leader>
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Process>
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result2>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result0>  
+<http://dbpedia.org/resource/Fall_of_Maximilien_Robespierre> <http://example.com/hasOutcome> <http://example.com/Fall_of_Maximilien_Robespierre_Result2>  
+<http://dbpedia.org/resource/Fall_of_Maximilien_Robespierre> <http://example.com/hasOutcome> <http://example.com/Fall_of_Maximilien_Robespierre_Result0>  
+<http://dbpedia.org/resource/Battle_of_Wattignies> <http://example.com/hasOutcome> <http://example.com/Battle_of_Wattignies_Result0>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result2>  
+<http://dbpedia.org/resource/Fall_of_Maximilien_Robespierre> <http://example.com/hasOutcome> <http://example.com/Fall_of_Maximilien_Robespierre_Result1>  
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result2>  
+<http://dbpedia.org/resource/Insurrection_of_10_August_1792> <http://example.com/hasOutcome> <http://example.com/Insurrection_of_10_August_1792_Result0>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result1>  
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result3>  
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result1>  
+<http://dbpedia.org/resource/Storming_of_the_Bastille> <http://example.com/hasOutcome> <http://example.com/Storming_of_the_Bastille_Result0>  
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result3>  
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result1>  
+<http://dbpedia.org/resource/Storming_of_the_Bastille> <http://example.com/hasOutcome> <http://example.com/Storming_of_the_Bastille_Result1>  
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result0>  
+<http://dbpedia.org/resource/Storming_of_the_Bastille> <http://example.com/hasOutcome> <http://example.com/Storming_of_the_Bastille_Result2>  
+<http://dbpedia.org/resource/Battle_of_Kaiserslautern> <http://example.com/hasOutcome> <http://example.com/Battle_of_Kaiserslautern_Result0>  
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result4>  
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result0>  

@@ -1,0 +1,3 @@
+<http://dbpedia.org/resource/French_Revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semanticweb.cs.vu.nl/2009/11/sem/Event> .
+<http://dbpedia.org/resource/French_Revolution> <http://semanticweb.cs.vu.nl/2009/11/sem/hasPlace> <http://dbpedia.org/resource/Kingdom_of_France> .
+

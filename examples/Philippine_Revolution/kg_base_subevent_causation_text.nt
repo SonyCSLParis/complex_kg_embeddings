@@ -1,0 +1,361 @@
+<http://example.com/Battle_of_Sambat_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Sambat_Result0_0_0_0> .
+<http://example.com/Philippine_Revolution_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Filipino victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_0> .
+<http://example.com/Philippine_Revolution_Result3_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result1> .
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result2> .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Barrio_Yating_Result0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Battle_of_Sambat_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Event> .
+<http://example.com/Battle_of_Aliaga_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Aliaga_Result0_0> .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Sambat_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Defeat of Maluningning Katipunan Chapter." .
+<http://example.com/Philippine_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2> <https://w3id.org/framester/wsj/onLemma> "uprisings" .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Battle_of_Barrio_Yating_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Filipino victory" .
+<http://example.com/Battle_of_Sambat_Result1> <http://www.w3.org/2000/01/rdf-schema#label> "Defeat of Maluningning Katipunan Chapter." .
+<http://example.com/Battle_of_Barrio_Yating_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Battle_of_Sambat_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Defeat of Maluningning Katipunan Chapter." .
+<http://example.com/Siege_of_Baler_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Battle_of_Calamba_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Philippine_Revolution_Result3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Sambat_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Spanish victory" .
+<http://example.com/Battle_of_Aliaga_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Battle_of_Sambat_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Philippine_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Philippine_Revolution_Result3_0_2> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Political_locales> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Cry_of_Nueva_Ecija_Result0_0_0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Pasong_Tamo_Result1_0> .
+<http://example.com/Battle_of_Sambat_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Spanish victory" .
+<http://dbpedia.org/resource/Battle_of_Sapong_Hills> <http://example.com/hasOutcome> <http://example.com/Battle_of_Sapong_Hills_Result0> .
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result2> .
+<http://example.com/Battle_of_Sambat_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Philippine_Revolution_Result3_0_2_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Name> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Battle_of_Calamba_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result0_0_0_0> .
+<http://example.com/Siege_of_Baler_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Siege_of_Baler_Result0_0> .
+<http://example.com/Philippine_Revolution_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://dbpedia.org/resource/Cry_of_Nueva_Ecija> <http://example.com/hasOutcome> <http://example.com/Cry_of_Nueva_Ecija_Result0> .
+<http://example.com/Philippine_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Philippine_Revolution_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Pasong_Tamo_Result0> <http://example.com/abstract> "Spanish victory" .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Philippine_Revolution_Result3_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Philippine_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/onLemma> "Establishment" .
+<http://example.com/Siege_of_Baler_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Siege_of_Baler_Result0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Battle_of_Calamba_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Battle_of_Sapong_Hills_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Sapong_Hills_Result0_0> .
+<http://example.com/Battle_of_Calamba_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Calamba_Result0_0> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Philippine_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Philippine_Revolution_Result2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Philippine_Revolution_Result2_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Major" .
+<http://example.com/Philippine_Revolution_Result3_0_1> <https://w3id.org/framester/wsj/onLemma> "First" .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Barrio_Yating_Result0> <http://example.com/abstract> "Filipino victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Sambat_Result1_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Loser> .
+<http://example.com/Philippine_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result1_0_0_0> .
+<http://example.com/Battle_of_Calamba_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Philippine_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Philippine_Revolution_Result0_0> .
+<http://example.com/Battle_of_Calamba_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Calamba_Result0_0> .
+<http://example.com/Battle_of_Imus_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Imus_Result0_0_0_0> .
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result1> .
+<http://example.com/Battle_of_Imus_Result0> <http://example.com/abstract> "Filipino victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Philippine_Revolution_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Major" .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Sapong_Hills_Result0_0_0_0> .
+<http://dbpedia.org/resource/Battle_of_Aliaga> <http://example.com/hasOutcome> <http://example.com/Battle_of_Aliaga_Result0> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Philippine_Revolution_Result1> <http://example.com/abstract> "Expulsion of the Spanish colonial government" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Philippine_Revolution_Result3_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Quitting_a_place> .
+<http://example.com/Battle_of_Calamba_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Sambat_Result1_0_0> <https://w3id.org/framester/wsj/onLemma> "Defeat" .
+<http://example.com/Battle_of_Sambat_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Place> .
+<http://example.com/Battle_of_Aliaga_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Aliaga_Result0_0> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_0> .
+<http://example.com/Philippine_Revolution_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_1> .
+<http://example.com/Battle_of_Aliaga_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino" .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Calamba_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "revolts and uprisings" .
+<http://example.com/Siege_of_Baler_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Filipino victory" .
+<http://example.com/Philippine_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Intentionally_create> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Katipuneros retreat to Balara" .
+<http://example.com/Battle_of_Sambat_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Spanish" .
+<http://example.com/Battle_of_Imus_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Aliaga_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Pasong_Tamo_Result0_0> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Philippine_Revolution_Result3_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Philippine" .
+<http://example.com/Battle_of_Imus_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Imus_Result0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1> <https://w3id.org/framester/wsj/onLemma> "revolts" .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Spanish victory" .
+<http://example.com/Battle_of_Calamba_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Battle_of_Sambat_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Sapong_Hills_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Battle_of_Calamba_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Filipino victory" .
+<http://example.com/Battle_of_Aliaga_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Aliaga_Result0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Spanish victory" .
+<http://example.com/Battle_of_Imus_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Imus_Result0_0> .
+<http://example.com/Philippine_Revolution_Result3_0_2_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Locale> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Philippine_Revolution_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Declaration of Philippine Independence" .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Pasong_Tamo_Result0_0_0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Battle_of_Sambat_Result0> <http://example.com/abstract> "Spanish victory" .
+<http://example.com/Battle_of_Imus_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Philippine_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Aliaga_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Philippine_Revolution_Result3_0_2> <https://w3id.org/framester/wsj/onLemma> "Republic" .
+<http://dbpedia.org/resource/Battle_of_Sambat> <http://example.com/hasOutcome> <http://example.com/Battle_of_Sambat_Result1> .
+<http://example.com/Siege_of_Baler_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "in other Provinces" .
+<http://example.com/Philippine_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino" .
+<http://example.com/Philippine_Revolution_Result3_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Sambat_Result1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Sambat_Result1_0> .
+<http://example.com/Philippine_Revolution_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Spanish" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Battle_of_Imus_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Filipino victory" .
+<http://example.com/Philippine_Revolution_Result3> <http://www.w3.org/2000/01/rdf-schema#label> "Establishment of the First Philippine Republic" .
+<http://example.com/Battle_of_Pasong_Tamo_Result1> <http://example.com/abstract> "Katipuneros retreat to Balara" .
+<http://example.com/Battle_of_Sambat_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Sambat_Result0_0> .
+<http://example.com/Battle_of_Sambat_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Imus_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Battle_of_Imus_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result3> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Aliaga_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Battle_of_Sambat_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of Maluningning Katipunan Chapter" .
+<http://example.com/Battle_of_Pasong_Tamo_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Pasong_Tamo_Result0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Sapong_Hills_Result0> <http://example.com/abstract> "Filipino victory" .
+<http://example.com/Battle_of_Calamba_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino" .
+<http://example.com/Battle_of_Sambat_Result1_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Beat_opponent> .
+<http://example.com/Battle_of_Imus_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Philippine_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/onLemma> "Expulsion" .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Created_entity> .
+<http://example.com/Battle_of_Calamba_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Major revolts and uprisings began in other Provinces" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Degree> .
+<http://example.com/Philippine_Revolution_Result2> <http://example.com/abstract> "Declaration of Philippine Independence" .
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result0> .
+<http://example.com/Philippine_Revolution_Result3_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Sambat_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0> <https://w3id.org/framester/wsj/onLemma> "retreat" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Place> .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the First Philippine Republic" .
+<http://example.com/Cry_of_Nueva_Ecija_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Strategic Spanish victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Cry_of_Nueva_Ecija_Result0_0> .
+<http://example.com/Philippine_Revolution_Result0> <http://example.com/abstract> "Filipino victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result3_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Philippine_Revolution_Result1_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Theme> .
+<http://example.com/Philippine_Revolution_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Expulsion of the Spanish colonial government" .
+<http://example.com/Siege_of_Baler_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Katipuneros" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_1> .
+<http://example.com/Siege_of_Baler_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Siege_of_Baler_Result0_0> .
+<http://example.com/Battle_of_Calamba_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Calamba_Result0_0_0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Aliaga_Result0> <http://example.com/abstract> "Filipino victory" .
+<http://example.com/Siege_of_Baler_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2> <http://example.com/abstract> "Major revolts and uprisings began in other Provinces" .
+<http://example.com/Battle_of_Sambat_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Battle_of_Sambat_Result1> <http://example.com/abstract> "Defeat of Maluningning Katipunan Chapter." .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Katipuneros retreat to Balara" .
+<http://example.com/Siege_of_Baler_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Siege_of_Baler_Result0_0_0_0> .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Spanish" .
+<http://example.com/Battle_of_Calamba_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Philippine_Revolution_Result3_0_2_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Philippine_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Removing> .
+<http://example.com/Philippine_Revolution_Result3_0_2_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Battle_of_Aliaga_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Filipino victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Pasong_Tamo_Result1_0> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0> <http://example.com/abstract> "Strategic Spanish victory" .
+<http://example.com/Battle_of_Imus_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Change_of_leadership> .
+<http://example.com/Battle_of_Calamba_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Calamba_Result0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_0> .
+<http://example.com/Battle_of_Barrio_Yating_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Barrio_Yating_Result0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Importance> .
+<http://example.com/Philippine_Revolution_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_1> .
+<http://dbpedia.org/resource/Battle_of_Barrio_Yating> <http://example.com/hasOutcome> <http://example.com/Battle_of_Barrio_Yating_Result0> .
+<http://example.com/Battle_of_Sambat_Result1_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Sambat_Result1_0> .
+<http://example.com/Battle_of_Sambat_Result1_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Katipunan> .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Sambat_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Sambat_Result0_0> .
+<http://example.com/Siege_of_Baler_Result0> <http://example.com/abstract> "Filipino victory" .
+<http://example.com/Battle_of_Imus_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Philippine_Revolution_Result1_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result1_0> .
+<http://example.com/Philippine_Revolution_Result1> <http://www.w3.org/2000/01/rdf-schema#label> "Expulsion of the Spanish colonial government" .
+<http://example.com/Battle_of_Sambat_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Philippine_Revolution_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Pasong_Tamo_Result1_0> .
+<http://example.com/Battle_of_Imus_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino" .
+<http://example.com/Philippine_Revolution_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Philippine_Revolution_Result0_0> .
+<http://example.com/Philippine_Revolution_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result0_0> .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Process_start> .
+<http://example.com/Philippine_Revolution_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Siege_of_Baler_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Philippine_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Pasong_Tamo_Result0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Spanish victory" .
+<http://example.com/Philippine_Revolution_Result3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Philippine_Revolution_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Declaration of Philippine Independence" .
+<http://example.com/Philippine_Revolution_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Philippine_Revolution_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://dbpedia.org/resource/Battle_of_Sambat> <http://example.com/hasOutcome> <http://example.com/Battle_of_Sambat_Result0> .
+<http://example.com/Philippine_Revolution_Result3_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Siege_of_Baler_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Philippine_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Sapong_Hills_Result0_0> .
+<http://example.com/Battle_of_Sambat_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Siege_of_Baler_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Strategic Spanish victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "in other Provinces" .
+<http://example.com/Battle_of_Imus_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino" .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Philippine_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Philippine_Revolution_Result1_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Philippine_Revolution_Result3_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Cry_of_Nueva_Ecija_Result0_0> .
+<http://example.com/Siege_of_Baler_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3> <https://w3id.org/framester/wsj/onLemma> "began" .
+<http://example.com/Philippine_Revolution_Result3_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Ordinal_numbers> .
+<http://example.com/Battle_of_Sambat_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Spanish victory" .
+<http://example.com/Battle_of_Sapong_Hills_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Aliaga_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Philippine_Revolution_Result3_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Philippine_Revolution_Result3_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Type> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Philippine_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result3_0_0_0> .
+<http://example.com/Battle_of_Aliaga_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1> <http://www.w3.org/2000/01/rdf-schema#label> "Katipuneros retreat to Balara" .
+<http://example.com/Philippine_Revolution_Result3_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Philippine Republic" .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "to Balara" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Place> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Factor> .
+<http://example.com/Siege_of_Baler_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result3> .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/First_Philippine_Republic> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://dbpedia.org/resource/Battle_of_Calamba> <http://example.com/hasOutcome> <http://example.com/Battle_of_Calamba_Result0> .
+<http://example.com/Siege_of_Baler_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Sapong_Hills_Result0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Pasong_Tamo_Result1_0> .
+<http://example.com/Philippine_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the Spanish colonial government" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Major revolts and uprisings began in other Provinces" .
+<http://example.com/Battle_of_Aliaga_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result3_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result3_0_2_0> .
+<http://example.com/Battle_of_Sambat_Result1_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Sambat_Result1_0> .
+<http://dbpedia.org/resource/Battle_of_Imus> <http://example.com/hasOutcome> <http://example.com/Battle_of_Imus_Result0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Aliaga_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Aliaga_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Aliaga_Result0_0_0_0> .
+<http://example.com/Battle_of_Sambat_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Sambat_Result1_0_0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Imus_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Imus_Result0_0> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Barrio_Yating_Result0_0> .
+<http://example.com/Battle_of_Barrio_Yating_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Establishment of the First Philippine Republic" .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://dbpedia.org/resource/Siege_of_Baler> <http://example.com/hasOutcome> <http://example.com/Siege_of_Baler_Result0> .
+<http://example.com/Battle_of_Sambat_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Sambat_Result0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_0> .
+<http://example.com/Philippine_Revolution_Result3_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result3_0_2_1> .
+<http://example.com/Battle_of_Aliaga_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Battle_of_Aliaga_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0> <https://w3id.org/framester/wsj/onLemma> "Major" .
+<http://example.com/Siege_of_Baler_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Imus_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_1> .
+<http://example.com/Philippine_Revolution_Result3_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Republic" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Self_mover> .
+<http://example.com/Philippine_Revolution_Result1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Philippine_Revolution_Result1_0> .
+<http://example.com/Battle_of_Calamba_Result0> <http://example.com/abstract> "Filipino victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "in other Provinces" .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Barrio_Yating_Result0_0_0_0> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Major revolts and uprisings" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Philippine_Revolution_Result3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Establishment of the First Philippine Republic" .
+<http://example.com/Battle_of_Sambat_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Degree> .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Philippine_Revolution_Result3_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Battle_of_Sapong_Hills_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Filipino victory" .
+<http://example.com/Battle_of_Imus_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2> <http://www.w3.org/2000/01/rdf-schema#label> "Major revolts and uprisings began in other Provinces" .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Change_of_leadership> .
+<http://example.com/Philippine_Revolution_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Expulsion of the Spanish colonial government" .
+<http://example.com/Battle_of_Sambat_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Philippine_Revolution_Result3> <http://example.com/abstract> "Establishment of the First Philippine Republic" .
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Cry_of_Nueva_Ecija_Result0_0> .
+<http://example.com/Cry_of_Nueva_Ecija_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Strategic Spanish victory" .
+<http://example.com/Philippine_Revolution_Result3_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Calamba_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Pasong_Tamo_Result2_0> .
+<http://example.com/Philippine_Revolution_Result2> <http://www.w3.org/2000/01/rdf-schema#label> "Declaration of Philippine Independence" .
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino" .
+<http://example.com/Philippine_Revolution_Result3_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result3_0_1_0> .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Goal> .
+<http://example.com/Battle_of_Sambat_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Philippine_Revolution_Result3_0_2> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Philippine_Revolution_Result3_0> .
+

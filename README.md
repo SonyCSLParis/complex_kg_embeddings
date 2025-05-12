@@ -4,6 +4,8 @@ Code submitted with the paper titled "From Symbols to Numbers: Measuring the Imp
 
 In this paper, we investigate how narrative semantic and syntactic levels impact embedding performance. This repo contains all the code to construct the KGs and to prepare the data for training with the following three methods: ULTRA, SimKGC, ILP.
 
+The `examples` folder contains 3 examples of KG constructed on revolutions. Upon acceptance of the paper, we will release all constructed KGs, as well as the resulting datasets for the experiments on Zenodo.
+
 Detailed description of the content:
 
 ## Main

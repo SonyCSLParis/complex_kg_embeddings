@@ -1,0 +1,553 @@
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Coup_of_18_Fructidor_Result1_0_1_0> .
+<http://example.com/French_Revolution_Result0_0_1> <https://w3id.org/framester/wsj/onLemma> "creation" .
+<http://example.com/Battle_of_Wattignies_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Wattignies_Result0_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Terrorism> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result1> <http://example.com/abstract> "Proclamation of the French First Republic in September 1792" .
+<http://example.com/Battle_of_Wattignies_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French victory" .
+<http://example.com/French_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Statement> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0> <https://w3id.org/framester/wsj/onLemma> "resume" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/War_of_the_First_Coalition_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Establishment and survival of the French Republic" .
+<http://example.com/Coup_of_18_Fructidor_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Suppression of the Clichy Club" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "legislative" .
+<http://example.com/French_Revolution_Result1_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Message> .
+<http://example.com/French_Revolution_Result4_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result4_0> .
+<http://example.com/Storming_of_the_Bastille_Result1_0_0> <https://w3id.org/framester/wsj/onLemma> "captured" .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0_0> .
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/French_Revolution_Result0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Quantified_mass> .
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Coup_of_18_Fructidor_Result0_0> .
+<http://example.com/French_Revolution_Result3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/French_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/onLemma> "Wars" .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Hostile_encounter> .
+<http://example.com/Storming_of_the_Bastille_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Fall_of_Maximilien_Robespierre_Result2_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1> <https://w3id.org/framester/wsj/onLemma> "deportation" .
+<http://example.com/French_Revolution_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Abolition of the Ancien R\u00E9gime and creation of constitutional monarchy" .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Conduct> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Coalition" .
+<http://example.com/French_Revolution_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Old_leader> .
+<http://example.com/Storming_of_the_Bastille_Result0> <http://example.com/abstract> "Insurgent victory" .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Time> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Mass> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_2> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/France> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Storming_of_the_Bastille_Result2_0> .
+<http://example.com/French_Revolution_Result3_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result3_0> .
+<http://example.com/French_Revolution_Result4_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/War_of_the_First_Coalition_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French victory; Treaty of The Hague, Treaty of Paris, Peaces of Basel, Treaty of Tolentino, Treaty of Campo Formio" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_3> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Ordinal_numbers> .
+<http://example.com/Coup_of_18_Fructidor_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Storming_of_the_Bastille_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Storming_of_the_Bastille_Result2_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Creating> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Coalition" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Coup_of_18_Fructidor_Result2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Coup_of_18_Fructidor_Result2_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/French_Revolution_Result4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Establishment of the French Consulate in November 1799" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Insurrection_of_10_August_1792_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "http://dbpedia.org/resource/French_First_Republic" .
+<http://dbpedia.org/resource/Battle_of_Wattignies> <http://example.com/hasOutcome> <http://example.com/Battle_of_Wattignies_Result0> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Penal_institution> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Insurrection_of_10_August_1792_Result0> <http://example.com/abstract> "http://dbpedia.org/resource/French_First_Republic" .
+<http://example.com/Storming_of_the_Bastille_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Storming_of_the_Bastille_Result1_0_0_0> .
+<http://example.com/Storming_of_the_Bastille_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French Revolutionary Wars" .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory:" .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Thermidorian victory:" .
+<http://example.com/Storming_of_the_Bastille_Result2_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/War_of_the_First_Coalition_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Storming_of_the_Bastille_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Insurgent victory" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Alliance> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Landmark_period> .
+<http://example.com/Coup_of_18_Fructidor_Result1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Coup_of_18_Fructidor_Result1_0> .
+<http://example.com/French_Revolution_Result3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French Revolutionary Wars" .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Hostilities" .
+<http://example.com/French_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "Abolition" .
+<http://example.com/Storming_of_the_Bastille_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Prisoners of the Bastille freed" .
+<http://example.com/French_Revolution_Result2_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result2_0_0_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/Storming_of_the_Bastille_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result0_0> .
+<http://example.com/Storming_of_the_Bastille_Result1_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Storming_of_the_Bastille_Result1_0> .
+<http://example.com/French_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_2> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/War_of_the_Second_Coalition> .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Kaiserslautern_Result0_0> .
+<http://example.com/Battle_of_Wattignies_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Battle_of_Wattignies_Result0_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1> <https://w3id.org/framester/wsj/onLemma> "Terror" .
+<http://example.com/French_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result0_0_0_0> .
+<http://example.com/French_Revolution_Result4_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/War_of_the_First_Coalition_Result1_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/War_of_the_First_Coalition_Result1_0> .
+<http://example.com/French_Revolution_Result3_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0> <https://w3id.org/framester/wsj/onLemma> "End" .
+<http://example.com/Storming_of_the_Bastille_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Storming_of_the_Bastille_Result0_0> .
+<http://example.com/Storming_of_the_Bastille_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "with the formation of a Second Coalition against France" .
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Coup_of_18_Fructidor_Result0_0_0_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/France> .
+<http://example.com/French_Revolution_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Fall_of_Maximilien_Robespierre_Result2_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Insurrection_of_10_August_1792_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result3> .
+<http://example.com/French_Revolution_Result0_0_1_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Constitutional_monarchy> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result4_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/French_Consulate> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Coup_of_18_Fructidor_Result3_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2> <http://example.com/abstract> "End of the Reign of Terror" .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Wattignies_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "the legislative chambers" .
+<http://example.com/French_Revolution_Result0_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Intentionally_create> .
+<http://example.com/French_Revolution_Result4_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Created_entity> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Fall_of_Maximilien_Robespierre_Result1_0> .
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result2> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "several" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Interior_profile_relation> .
+<http://example.com/War_of_the_First_Coalition_Result1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/War_of_the_First_Coalition_Result1_0> .
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result2> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Prisoners of the Bastille" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2> <https://w3id.org/framester/wsj/onLemma> "chambers" .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Prussian\u2013Saxon victory" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Process_resume> .
+<http://example.com/Battle_of_Wattignies_Result0> <http://example.com/abstract> "French victory" .
+<http://example.com/Battle_of_Wattignies_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Figure> .
+<http://example.com/War_of_the_First_Coalition_Result2> <http://www.w3.org/2000/01/rdf-schema#label> "Hostilities resume in 1798 with the formation of a Second Coalition against France" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result4_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "in November 1799" .
+<http://example.com/War_of_the_First_Coalition_Result2> <http://example.com/abstract> "Hostilities resume in 1798 with the formation of a Second Coalition against France" .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/War_of_the_First_Coalition_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Storming_of_the_Bastille_Result2_0> .
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result2_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result2_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2> <http://www.w3.org/2000/01/rdf-schema#label> "End of the Reign of Terror" .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/The_Mountain> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Coup_of_18_Fructidor_Result1_0> .
+<http://example.com/French_Revolution_Result4_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result4_0_0_1> .
+<http://example.com/Battle_of_Wattignies_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result4_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0> <https://w3id.org/framester/wsj/onLemma> "Fall" .
+<http://example.com/Battle_of_Wattignies_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/War_of_the_First_Coalition_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French victory; Treaty of The Hague, Treaty of Paris, Peaces of Basel, Treaty of Tolentino, Treaty of Campo Formio" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Coup_of_18_Fructidor_Result1_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of several monarchists" .
+<http://example.com/Storming_of_the_Bastille_Result2_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Storming_of_the_Bastille_Result2_0> .
+<http://example.com/French_Revolution_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Reign of Terror and Execution of Louis XVI" .
+<http://example.com/French_Revolution_Result4_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Intentionally_create> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "End of the monarchist majority" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Coup_of_18_Fructidor_Result1_0_0_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of Montagnards" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "against France" .
+<http://example.com/French_Revolution_Result4_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result4_0_0_0> .
+<http://example.com/Battle_of_Wattignies_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "French victory" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result2_0_0_1> .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Kaiserslautern_Result0_0_0_0> .
+<http://example.com/French_Revolution_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Reign of Terror and Execution of Louis XVI" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/Battle_of_Kaiserslautern_Result0> <http://example.com/abstract> "Prussian\u2013Saxon victory" .
+<http://example.com/French_Revolution_Result4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Coup_of_18_Fructidor_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "End of the monarchist majority in the legislative chambers" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "End of the monarchist majority in the legislative chambers" .
+<http://example.com/Coup_of_18_Fructidor_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Republican victory:" .
+<http://example.com/Storming_of_the_Bastille_Result2_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Storming_of_the_Bastille_Result2_0_1_0> .
+<http://example.com/Storming_of_the_Bastille_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Insurgent victory" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Process> .
+<http://example.com/Battle_of_Wattignies_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French" .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Storming_of_the_Bastille_Result2_0_0_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Coup_of_18_Fructidor_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Suppression of the Clichy Club" .
+<http://example.com/French_Revolution_Result4_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result0> <http://example.com/abstract> "Abolition of the Ancien R\u00E9gime and creation of constitutional monarchy" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_3_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_1> <https://w3id.org/framester/wsj/onLemma> "freed" .
+<http://example.com/War_of_the_First_Coalition_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Coup_of_18_Fructidor_Result0_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_3_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Type> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Fall_of_Maximilien_Robespierre_Result2_0> .
+<http://example.com/French_Revolution_Result1> <http://www.w3.org/2000/01/rdf-schema#label> "Proclamation of the French First Republic in September 1792" .
+<http://example.com/Battle_of_Wattignies_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Battle_of_Wattignies_Result0_0_0_0> .
+<http://example.com/War_of_the_First_Coalition_Result1> <http://example.com/abstract> "Establishment and survival of the French Republic" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2> <https://w3id.org/framester/wsj/onLemma> "formation" .
+<http://example.com/French_Revolution_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/French_Revolution_Result0_0> .
+<http://example.com/French_Revolution_Result4_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Prison> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Coup_of_18_Fructidor_Result3_0_3_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/War_of_the_First_Coalition_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/War_of_the_First_Coalition_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Fall_of_Maximilien_Robespierre_Result2_0> .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Battle_of_Kaiserslautern_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Prussian\u2013Saxon victory" .
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result1> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Fall_of_Maximilien_Robespierre_Result0_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Fall of Montagnards" .
+<http://example.com/Coup_of_18_Fructidor_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Coup_of_18_Fructidor_Result0_0> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Storming_of_the_Bastille_Result1_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Bastille> .
+<http://example.com/French_Revolution_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4> <https://w3id.org/framester/wsj/onLemma> "Coalition" .
+<http://example.com/War_of_the_First_Coalition_Result2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result1> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Coup_of_18_Fructidor_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Coup_of_18_Fructidor_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Republican victory:" .
+<http://example.com/French_Revolution_Result0_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Created_entity> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Coup_of_18_Fructidor_Result1_0> .
+<http://example.com/French_Revolution_Result1_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result1_0> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1> <https://w3id.org/framester/wsj/onLemma> "in" .
+<http://example.com/Storming_of_the_Bastille_Result2_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Theme> .
+<http://example.com/War_of_the_First_Coalition_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Establishment and survival of the French Republic" .
+<http://example.com/Storming_of_the_Bastille_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/War_of_the_First_Coalition_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of several monarchists" .
+<http://example.com/Storming_of_the_Bastille_Result2_0_1_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Bastille> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Conquering> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Coup_of_18_Fructidor_Result1_0> .
+<http://example.com/French_Revolution_Result2_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Terrorism> .
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result1> .
+<http://example.com/War_of_the_First_Coalition_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/War_of_the_First_Coalition_Result0_0> .
+<http://example.com/War_of_the_First_Coalition_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result1_0_0_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/War_of_the_Second_Coalition> .
+<http://dbpedia.org/resource/Insurrection_of_10_August_1792> <http://example.com/hasOutcome> <http://example.com/Insurrection_of_10_August_1792_Result0> .
+<http://example.com/French_Revolution_Result0_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Coup_of_18_Fructidor_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result2_0_0_0> .
+<http://example.com/Insurrection_of_10_August_1792_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "http://dbpedia.org/resource/French_First_Republic" .
+<http://example.com/Battle_of_Wattignies_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French victory" .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Battle_of_Wattignies_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Wattignies_Result0_0> .
+<http://example.com/War_of_the_First_Coalition_Result1_0_0> <https://w3id.org/framester/wsj/onLemma> "Establishment" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Second" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result2_0_1_1> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result2_0_2_0> .
+<http://example.com/French_Revolution_Result4_0_0_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Time> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Theme> .
+<http://example.com/Storming_of_the_Bastille_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Bastille captured" .
+<http://example.com/War_of_the_First_Coalition_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Hostilities resume in 1798 with the formation of a Second Coalition against France" .
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Storming_of_the_Bastille_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/French_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the French First Republic" .
+<http://example.com/French_Revolution_Result0_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Early_Modern_Switzerland> .
+<http://dbpedia.org/resource/Fall_of_Maximilien_Robespierre> <http://example.com/hasOutcome> <http://example.com/Fall_of_Maximilien_Robespierre_Result2> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "End of the Reign of Terror" .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Fall_of_Maximilien_Robespierre_Result1_0> .
+<http://example.com/Storming_of_the_Bastille_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/French_Revolution_Result4_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result4_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Coup_of_18_Fructidor_Result3> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Coup_of_18_Fructidor_Result3_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3> <http://example.com/abstract> "Exile, deportation or imprisonment of several monarchists" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Thermidorian" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result2_0_0_2> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Process_end> .
+<http://example.com/French_Revolution_Result4> <http://example.com/abstract> "Establishment of the French Consulate in November 1799" .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Location> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Temporal_collocation> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Thermidorian victory:" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Descriptor> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Terror" .
+<http://dbpedia.org/resource/Storming_of_the_Bastille> <http://example.com/hasOutcome> <http://example.com/Storming_of_the_Bastille_Result0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Thermidorian victory:" .
+<http://example.com/French_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the Ancien R\u00E9gime" .
+<http://example.com/French_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result1_0_0_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0> <http://example.com/abstract> "Thermidorian victory:" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Fall_of_Maximilien_Robespierre_Result1_0> .
+<http://example.com/French_Revolution_Result3> <http://example.com/abstract> "French Revolutionary Wars" .
+<http://example.com/French_Revolution_Result4_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the French Consulate" .
+<http://example.com/Storming_of_the_Bastille_Result2> <http://example.com/abstract> "Prisoners of the Bastille freed" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Ground> .
+<http://example.com/French_Revolution_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Trajector_event> .
+<http://example.com/French_Revolution_Result4_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0> <https://w3id.org/framester/wsj/onLemma> "End" .
+<http://example.com/War_of_the_First_Coalition_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Coup_of_18_Fructidor_Result3> <http://www.w3.org/2000/01/rdf-schema#label> "Exile, deportation or imprisonment of several monarchists" .
+<http://dbpedia.org/resource/Fall_of_Maximilien_Robespierre> <http://example.com/hasOutcome> <http://example.com/Fall_of_Maximilien_Robespierre_Result0> .
+<http://example.com/Coup_of_18_Fructidor_Result3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the Bastille" .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Coup_of_18_Fructidor_Result3_0> .
+<http://example.com/French_Revolution_Result4> <http://www.w3.org/2000/01/rdf-schema#label> "Establishment of the French Consulate in November 1799" .
+<http://example.com/French_Revolution_Result0_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Change_of_leadership> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Breaking_out_captive> .
+<http://example.com/French_Revolution_Result1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/French_Revolution_Result1_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Process> .
+<http://example.com/War_of_the_First_Coalition_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the French Republic" .
+<http://example.com/French_Revolution_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Abolition of the Ancien R\u00E9gime and creation of constitutional monarchy" .
+<http://example.com/French_Revolution_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Proclamation of the French First Republic in September 1792" .
+<http://example.com/French_Revolution_Result0_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of constitutional monarchy" .
+<http://example.com/French_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result0_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result2_0_4_0> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the monarchist majority in the legislative chambers" .
+<http://example.com/War_of_the_First_Coalition_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/War_of_the_First_Coalition_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result2_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result2_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0> <https://w3id.org/framester/wsj/onLemma> "Exile," .
+<http://example.com/War_of_the_First_Coalition_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result0_0_0_0> .
+<http://example.com/French_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/War_of_the_First_Coalition_Result1_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Created_entity> .
+<http://example.com/French_Revolution_Result3> <http://www.w3.org/2000/01/rdf-schema#label> "French Revolutionary Wars" .
+<http://example.com/Insurrection_of_10_August_1792_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "http://dbpedia.org/resource/French_First_Republic" .
+<http://example.com/Coup_of_18_Fructidor_Result3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/French_Revolution_Result2_0_0> <https://w3id.org/framester/wsj/onLemma> "Terror" .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Affected_party> .
+<http://example.com/Insurrection_of_10_August_1792_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Insurrection_of_10_August_1792_Result0_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3> <https://w3id.org/framester/wsj/onLemma> "several" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Building_part> .
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory:" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Fall_of_Maximilien_Robespierre_Result0_0> .
+<http://example.com/War_of_the_First_Coalition_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result0_0> .
+<http://example.com/French_Revolution_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result2> <http://example.com/abstract> "Reign of Terror and Execution of Louis XVI" .
+<http://example.com/French_Revolution_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Terror" .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2> <https://w3id.org/framester/wsj/onLemma> "imprisonment" .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Storming_of_the_Bastille_Result2_0_0_1> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/War_of_the_First_Coalition_Result0> <http://example.com/abstract> "French victory; Treaty of The Hague, Treaty of Paris, Peaces of Basel, Treaty of Tolentino, Treaty of Campo Formio" .
+<http://example.com/French_Revolution_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "End of the Reign of Terror" .
+<http://example.com/French_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result3_0_0_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Imprisonment> .
+<http://example.com/Insurrection_of_10_August_1792_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Battle_of_Wattignies_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Storming_of_the_Bastille_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Prisoners of the Bastille freed" .
+<http://example.com/Coup_of_18_Fructidor_Result2> <http://example.com/abstract> "Suppression of the Clichy Club" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Coup_of_18_Fructidor_Result3_0> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Coup_of_18_Fructidor_Result1_0_2_1> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Coup_of_18_Fructidor_Result3_0_1_0> .
+<http://example.com/Battle_of_Wattignies_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result0_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result0_0> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0> <https://w3id.org/framester/wsj/onLemma> "Prisoners" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French Revolutionary" .
+<http://example.com/War_of_the_First_Coalition_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/War_of_the_First_Coalition_Result0_0> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Use> .
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Republican" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "in 1798" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1798" .
+<http://example.com/Battle_of_Kaiserslautern_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Created_entity> .
+<http://example.com/Storming_of_the_Bastille_Result1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Storming_of_the_Bastille_Result1_0> .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Storming_of_the_Bastille_Result1_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Theme> .
+<http://example.com/War_of_the_First_Coalition_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "French victory; Treaty of The Hague, Treaty of Paris, Peaces of Basel, Treaty of Tolentino, Treaty of Campo Formio" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_2> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Member_2> .
+<http://example.com/French_Revolution_Result0_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/French_Revolution_Result0_0_1_0> .
+<http://example.com/French_Revolution_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Abolition of the Ancien R\u00E9gime and creation of constitutional monarchy" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Coup_of_18_Fructidor_Result1_0> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result3_0> .
+<http://example.com/Storming_of_the_Bastille_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Insurgent victory" .
+<http://dbpedia.org/resource/Storming_of_the_Bastille> <http://example.com/hasOutcome> <http://example.com/Storming_of_the_Bastille_Result1> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of several monarchists" .
+<http://example.com/War_of_the_First_Coalition_Result1_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Intentionally_create> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Coup_of_18_Fructidor_Result3_0> .
+<http://example.com/Storming_of_the_Bastille_Result2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Storming_of_the_Bastille_Result2_0> .
+<http://example.com/French_Revolution_Result3_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Sides> .
+<http://example.com/French_Revolution_Result0_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result0_0> .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/War_of_the_First_Coalition_Result1> <http://www.w3.org/2000/01/rdf-schema#label> "Establishment and survival of the French Republic" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Coup_of_18_Fructidor_Result1_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Coup_of_18_Fructidor_Result2> <http://www.w3.org/2000/01/rdf-schema#label> "Suppression of the Clichy Club" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Hostilities resume" .
+<http://example.com/French_Revolution_Result2> <http://www.w3.org/2000/01/rdf-schema#label> "Reign of Terror and Execution of Louis XVI" .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Coup_of_18_Fructidor_Result3_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0_0> .
+<http://example.com/French_Revolution_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Storming_of_the_Bastille_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/War_of_the_First_Coalition_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Hostilities resume in 1798 with the formation of a Second Coalition against France" .
+<http://example.com/Coup_of_18_Fructidor_Result1> <http://www.w3.org/2000/01/rdf-schema#label> "End of the monarchist majority in the legislative chambers" .
+<http://example.com/War_of_the_First_Coalition_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory;" .
+<http://example.com/Battle_of_Kaiserslautern_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Battle_of_Kaiserslautern_Result0_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Member> .
+<http://example.com/War_of_the_First_Coalition_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Coup_of_18_Fructidor_Result1> <http://example.com/abstract> "End of the monarchist majority in the legislative chambers" .
+<http://dbpedia.org/resource/War_of_the_First_Coalition> <http://example.com/hasOutcome> <http://example.com/War_of_the_First_Coalition_Result2> .
+<http://example.com/Storming_of_the_Bastille_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Storming_of_the_Bastille_Result0_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Fall of Montagnards" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result4_0_0_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/French_Revolution_Result4_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Exile, deportation or imprisonment of several monarchists" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Building_subparts> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_3> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result2_0_3_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result2_0_4_1> .
+<http://example.com/French_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/War_of_the_First_Coalition_Result1_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result1_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "monarchists" .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_1> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Bastille> .
+<http://example.com/Storming_of_the_Bastille_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Storming_of_the_Bastille_Result0_0_0_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1> <http://example.com/abstract> "Fall of Montagnards" .
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result0> .
+<http://example.com/French_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/onLemma> "Proclamation" .
+<http://example.com/Storming_of_the_Bastille_Result1> <http://example.com/abstract> "Bastille captured" .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Prussian\u2013Saxon" .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Fall_of_Maximilien_Robespierre_Result0_0> .
+<http://example.com/Storming_of_the_Bastille_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/French_Revolution_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Battle_of_Kaiserslautern_Result0_0> .
+<http://example.com/War_of_the_First_Coalition_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Storming_of_the_Bastille_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Insurgent" .
+<http://example.com/Storming_of_the_Bastille_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Storming_of_the_Bastille_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://dbpedia.org/resource/Battle_of_Kaiserslautern> <http://example.com/hasOutcome> <http://example.com/Battle_of_Kaiserslautern_Result0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Alliance> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Coup_of_18_Fructidor_Result1_0> .
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result4> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Coup_of_18_Fructidor_Result3_0> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0_0> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Act> .
+<http://example.com/Coup_of_18_Fructidor_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Exclude_member> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result1_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/French_First_Republic> .
+<http://example.com/War_of_the_First_Coalition_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result2_0_4_2> .
+<http://example.com/Storming_of_the_Bastille_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Bastille" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "chambers" .
+<http://example.com/Storming_of_the_Bastille_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Storming_of_the_Bastille_Result0_0> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1> <https://w3id.org/framester/wsj/onLemma> "in" .
+<http://dbpedia.org/resource/Storming_of_the_Bastille> <http://example.com/hasOutcome> <http://example.com/Storming_of_the_Bastille_Result2> .
+<http://example.com/Storming_of_the_Bastille_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Process_end> .
+<http://example.com/Battle_of_Wattignies_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_2> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/France> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Exile, deportation or imprisonment of several monarchists" .
+<http://example.com/Storming_of_the_Bastille_Result1> <http://www.w3.org/2000/01/rdf-schema#label> "Bastille captured" .
+<http://example.com/French_Revolution_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Proclamation of the French First Republic in September 1792" .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the Reign of Terror" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of a Second Coalition against France" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Battle_of_Kaiserslautern_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Coup_of_18_Fructidor_Result0> <http://example.com/abstract> "Republican victory:" .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Coup_of_18_Fructidor_Result1_0_1_1> .
+<http://example.com/French_Revolution_Result2_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Act> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Coup_of_18_Fructidor_Result3_0_0_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_2> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/Storming_of_the_Bastille_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Bastille captured" .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Process> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/War_of_the_First_Coalition_Result2_0_1_0> .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Prisoners" .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Prisoner> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/French_Revolution_Result4> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/French_Revolution_Result4_0> .
+<http://example.com/French_Revolution_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Storming_of_the_Bastille_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://dbpedia.org/resource/Coup_of_18_Fructidor> <http://example.com/hasOutcome> <http://example.com/Coup_of_18_Fructidor_Result0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Coup_of_18_Fructidor_Result3_0_3_1> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Coup_of_18_Fructidor_Result3_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Coup_of_18_Fructidor_Result3_0_2_0> .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_2> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Coup_of_18_Fructidor_Result3_0> .
+<http://example.com/French_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1> <http://www.w3.org/2000/01/rdf-schema#label> "Fall of Montagnards" .
+<http://example.com/Storming_of_the_Bastille_Result1_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Storming_of_the_Bastille_Result1_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_3> <https://w3id.org/framester/wsj/onLemma> "Second" .
+<http://example.com/Storming_of_the_Bastille_Result2_0_0_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Storming_of_the_Bastille_Result2_0> .
+<http://example.com/Coup_of_18_Fructidor_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result3_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/French_Revolutionary_Wars> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/French_Revolution_Result2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/French_Revolution_Result2_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_3> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_4_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/War_of_the_First_Coalition_Result2_0> .
+<http://dbpedia.org/resource/Fall_of_Maximilien_Robespierre> <http://example.com/hasOutcome> <http://example.com/Fall_of_Maximilien_Robespierre_Result1> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Coup_of_18_Fructidor_Result1_0> .
+<http://example.com/Storming_of_the_Bastille_Result2> <http://www.w3.org/2000/01/rdf-schema#label> "Prisoners of the Bastille freed" .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_3_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Quantity> .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Battle_of_Kaiserslautern_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Prussian\u2013Saxon victory" .
+<http://example.com/Coup_of_18_Fructidor_Result3_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Coup_of_18_Fructidor_Result3_0> .
+<http://example.com/War_of_the_First_Coalition_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "French" .
+<http://example.com/Storming_of_the_Bastille_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Coup_of_18_Fructidor_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Republican victory:" .
+<http://example.com/French_Revolution_Result4_0_0> <https://w3id.org/framester/wsj/onLemma> "Establishment" .
+<http://example.com/French_Revolution_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/War_of_the_First_Coalition_Result2_0_0_2> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Explanation> .
+<http://example.com/French_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/French_Revolution_Result1_0> .
+<http://example.com/Coup_of_18_Fructidor_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result2_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Fall_of_Maximilien_Robespierre_Result2_0> .
+<http://example.com/French_Revolution_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Battle_of_Wattignies_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/French_Revolution_Result3> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/French_Revolution_Result3_0> .
+<http://example.com/French_Revolution_Result4_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Establishment of the French Consulate in November 1799" .
+<http://example.com/Coup_of_18_Fructidor_Result1_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Coup_of_18_Fructidor_Result1_0_2_0> .
+<http://example.com/Storming_of_the_Bastille_Result1_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Conquering> .
+<http://example.com/War_of_the_First_Coalition_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://dbpedia.org/resource/French_Revolution> <http://example.com/hasOutcome> <http://example.com/French_Revolution_Result3> .
+<http://example.com/Fall_of_Maximilien_Robespierre_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/French_Revolution_Result3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+

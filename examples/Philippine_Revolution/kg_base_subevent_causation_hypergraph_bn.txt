@@ -1,0 +1,83 @@
+<http://dbpedia.org/resource/Battle_of_Sambat> <http://example.com/hasOutcome> <http://example.com/Battle_of_Sambat_Result0_0_0>  
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_0>  
+<http://dbpedia.org/resource/Battle_of_Sambat> <http://example.com/hasOutcome> <http://example.com/Battle_of_Sambat_Result1_0_0>  
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result3_0_1>  
+<http://dbpedia.org/resource/Cry_of_Nueva_Ecija> <http://example.com/hasOutcome> <http://example.com/Cry_of_Nueva_Ecija_Result0_0_0>  
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_1>  
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result1_0_0>  
+<http://dbpedia.org/resource/Battle_of_Imus> <http://example.com/hasOutcome> <http://example.com/Battle_of_Imus_Result0_0_0>  
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_3>  
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result3_0_2>  
+<http://dbpedia.org/resource/Battle_of_Barrio_Yating> <http://example.com/hasOutcome> <http://example.com/Battle_of_Barrio_Yating_Result0_0_0>  
+<http://dbpedia.org/resource/Battle_of_Calamba> <http://example.com/hasOutcome> <http://example.com/Battle_of_Calamba_Result0_0_0>  
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result0_0_0>  
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result0_0_0>  
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result3_0_0>  
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_2>  
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result1_0_0>  
+<http://dbpedia.org/resource/Siege_of_Baler> <http://example.com/hasOutcome> <http://example.com/Siege_of_Baler_Result0_0_0>  
+<http://dbpedia.org/resource/Battle_of_Aliaga> <http://example.com/hasOutcome> <http://example.com/Battle_of_Aliaga_Result0_0_0>  
+<http://dbpedia.org/resource/Battle_of_Sapong_Hills> <http://example.com/hasOutcome> <http://example.com/Battle_of_Sapong_Hills_Result0_0_0>  
+<http://example.com/Battle_of_Sambat_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Importance>  
+<http://example.com/Battle_of_Sambat_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Beat_opponent>  
+<http://example.com/Philippine_Revolution_Result3_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Ordinal_numbers>  
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Change_of_leadership>  
+<http://example.com/Philippine_Revolution_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Removing>  
+<http://example.com/Battle_of_Imus_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Process_start>  
+<http://example.com/Philippine_Revolution_Result3_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Political_locales>  
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Battle_of_Calamba_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Philippine_Revolution_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Philippine_Revolution_Result3_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Intentionally_create>  
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Change_of_leadership>  
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Quitting_a_place>  
+<http://example.com/Siege_of_Baler_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Battle_of_Aliaga_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/framenet/abox/frame/Finish_competition>  
+<http://example.com/Battle_of_Sambat_Result1_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/Katipunan>  
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/First_Philippine_Republic>  
+<http://example.com/Battle_of_Sambat_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Sambat_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Factor>
+<http://example.com/Battle_of_Sambat_Result1_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Sambat_Result1_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Loser>
+<http://example.com/Philippine_Revolution_Result3_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Philippine_Revolution_Result3_0_1_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Type>
+<http://example.com/Cry_of_Nueva_Ecija_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Cry_of_Nueva_Ecija_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Place>
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_1_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Degree>
+<http://example.com/Philippine_Revolution_Result1_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Philippine_Revolution_Result1_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Theme>
+<http://example.com/Battle_of_Imus_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Imus_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Event>
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_3> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_3_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Place>
+<http://example.com/Philippine_Revolution_Result3_0_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Philippine_Revolution_Result3_0_2_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Name>
+<http://example.com/Philippine_Revolution_Result3_0_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Philippine_Revolution_Result3_0_2_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Locale>
+<http://example.com/Battle_of_Barrio_Yating_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Barrio_Yating_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Battle_of_Calamba_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Calamba_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Battle_of_Pasong_Tamo_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Pasong_Tamo_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Philippine_Revolution_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Philippine_Revolution_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Philippine_Revolution_Result3_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Philippine_Revolution_Result3_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Created_entity>
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Degree>
+<http://example.com/Battle_of_Pasong_Tamo_Result2_0_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Pasong_Tamo_Result2_0_2_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Place>
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Self_mover>
+<http://example.com/Battle_of_Pasong_Tamo_Result1_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Pasong_Tamo_Result1_0_0_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Goal>
+<http://example.com/Siege_of_Baler_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Siege_of_Baler_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Battle_of_Aliaga_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Aliaga_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://example.com/Battle_of_Sapong_Hills_Result0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://example.com/Battle_of_Sapong_Hills_Result0_0_0_0> <http://semanticweb.cs.vu.nl/2009/11/sem/hasRole> <https://w3id.org/framester/framenet/abox/gfe/Competitor>
+<http://dbpedia.org/resource/Battle_of_Calamba> <http://example.com/hasOutcome> <http://example.com/Battle_of_Calamba_Result0>  
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result0>  
+<http://dbpedia.org/resource/Cry_of_Nueva_Ecija> <http://example.com/hasOutcome> <http://example.com/Cry_of_Nueva_Ecija_Result0>  
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result0>  
+<http://dbpedia.org/resource/Battle_of_Sambat> <http://example.com/hasOutcome> <http://example.com/Battle_of_Sambat_Result0>  
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result2>  
+<http://dbpedia.org/resource/Battle_of_Sapong_Hills> <http://example.com/hasOutcome> <http://example.com/Battle_of_Sapong_Hills_Result0>  
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result3>  
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result2>  
+<http://dbpedia.org/resource/Battle_of_Pasong_Tamo> <http://example.com/hasOutcome> <http://example.com/Battle_of_Pasong_Tamo_Result1>  
+<http://dbpedia.org/resource/Battle_of_Aliaga> <http://example.com/hasOutcome> <http://example.com/Battle_of_Aliaga_Result0>  
+<http://dbpedia.org/resource/Battle_of_Barrio_Yating> <http://example.com/hasOutcome> <http://example.com/Battle_of_Barrio_Yating_Result0>  
+<http://dbpedia.org/resource/Battle_of_Sambat> <http://example.com/hasOutcome> <http://example.com/Battle_of_Sambat_Result1>  
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result1>  
+<http://dbpedia.org/resource/Battle_of_Imus> <http://example.com/hasOutcome> <http://example.com/Battle_of_Imus_Result0>  
+<http://dbpedia.org/resource/Siege_of_Baler> <http://example.com/hasOutcome> <http://example.com/Siege_of_Baler_Result0>  

@@ -1,0 +1,90 @@
+<http://example.com/Philippine_Revolution_Result3> <http://www.w3.org/2000/01/rdf-schema#label> "Establishment of the First Philippine Republic" .
+<http://example.com/Philippine_Revolution_Result2> <http://www.w3.org/2000/01/rdf-schema#label> "Declaration of Philippine Independence" .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Declaration of Philippine Independence" .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Created_entity> .
+<http://example.com/Philippine_Revolution_Result1> <http://example.com/abstract> "Expulsion of the Spanish colonial government" .
+<http://example.com/Philippine_Revolution_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Philippine_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Finish_competition> .
+<http://example.com/Philippine_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the Spanish colonial government" .
+<http://example.com/Philippine_Revolution_Result3_0_2> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Philippine_Revolution_Result3_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result3_0_2_0> .
+<http://example.com/Philippine_Revolution_Result3_0_1> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Ordinal_numbers> .
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result1> .
+<http://example.com/Philippine_Revolution_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Philippine_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Intentionally_create> .
+<http://example.com/Philippine_Revolution_Result3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Philippine_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Philippine_Revolution_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Expulsion of the Spanish colonial government" .
+<http://example.com/Philippine_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Philippine_Revolution_Result0_0> .
+<http://example.com/Philippine_Revolution_Result1_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Philippine_Revolution_Result3_0_2_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Philippine_Revolution_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Expulsion of the Spanish colonial government" .
+<http://example.com/Philippine_Revolution_Result1_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Philippine_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result0_0_0_0> .
+<http://example.com/Philippine_Revolution_Result3_0_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Philippine_Revolution_Result3> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Philippine_Revolution_Result3> <http://example.com/abstract> "Establishment of the First Philippine Republic" .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "of the First Philippine Republic" .
+<http://example.com/Philippine_Revolution_Result2> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Philippine_Revolution_Result2_0> .
+<http://example.com/Philippine_Revolution_Result3_0_2> <https://w3id.org/framester/wsj/onLemma> "Republic" .
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result3> .
+<http://example.com/Philippine_Revolution_Result3_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Establishment of the First Philippine Republic" .
+<http://example.com/Philippine_Revolution_Result1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Philippine_Revolution_Result1_0> .
+<http://example.com/Philippine_Revolution_Result0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino victory" .
+<http://example.com/Philippine_Revolution_Result1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Philippine_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Philippine_Revolution_Result1_0> .
+<http://example.com/Philippine_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result0> .
+<http://example.com/Philippine_Revolution_Result3_0_2> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Political_locales> .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Philippine_Revolution_Result2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Declaration of Philippine Independence" .
+<http://example.com/Philippine_Revolution_Result3_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Republic" .
+<http://example.com/Philippine_Revolution_Result0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#sentence> <http://example.com/Philippine_Revolution_Result0_0> .
+<http://example.com/Philippine_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result3_0_0_0> .
+<http://example.com/Philippine_Revolution_Result2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result2> <http://example.com/abstract> "Declaration of Philippine Independence" .
+<http://example.com/Philippine_Revolution_Result3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Establishment of the First Philippine Republic" .
+<http://example.com/Philippine_Revolution_Result3_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Philippine_Revolution_Result3_0_2_1> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Locale> .
+<http://example.com/Philippine_Revolution_Result3_0_1> <https://w3id.org/framester/wsj/onLemma> "First" .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <http://www.w3.org/2004/02/skos/core#related> <http://dbpedia.org/resource/First_Philippine_Republic> .
+<http://example.com/Philippine_Revolution_Result3_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result1_0_0_0> .
+<http://example.com/Philippine_Revolution_Result3_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Philippine_Revolution_Result3_0_1_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Type> .
+<http://example.com/Philippine_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Filipino" .
+<http://example.com/Philippine_Revolution_Result3_0_0> <https://w3id.org/framester/wsj/onLemma> "Establishment" .
+<http://example.com/Philippine_Revolution_Result0_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Competitor> .
+<http://example.com/Philippine_Revolution_Result1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result1_0_0_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Theme> .
+<http://example.com/Philippine_Revolution_Result0_0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Philippine_Revolution_Result3_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Philippine_Revolution_Result3_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word> .
+<http://example.com/Philippine_Revolution_Result0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence> .
+<http://example.com/Philippine_Revolution_Result0> <http://example.com/abstract> "Filipino victory" .
+<http://example.com/Philippine_Revolution_Result3_0_1> <https://w3id.org/framester/wsj/fromDocument> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://dbpedia.org/resource/Philippine_Revolution> <http://example.com/hasOutcome> <http://example.com/Philippine_Revolution_Result2> .
+<http://example.com/Philippine_Revolution_Result3_0_2> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result3_0_2_1> .
+<http://example.com/Philippine_Revolution_Result3_0_2_1> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Philippine_Revolution_Result1> <http://www.w3.org/2000/01/rdf-schema#label> "Expulsion of the Spanish colonial government" .
+<http://example.com/Philippine_Revolution_Result1_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result1_0> .
+<http://example.com/Philippine_Revolution_Result3_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Philippine_Revolution_Result3_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Philippine_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/onFrame> <https://w3id.org/framester/framenet/abox/frame/Removing> .
+<http://example.com/Philippine_Revolution_Result3_0_2_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Philippine" .
+<http://example.com/Philippine_Revolution_Result0> <http://www.w3.org/2000/01/rdf-schema#label> "Filipino victory" .
+<http://example.com/Philippine_Revolution_Result0_0_0_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result0_0> .
+<http://example.com/Philippine_Revolution_Result3_0_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Philippine_Revolution_Result3_0_1_0> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#superString> <http://example.com/Philippine_Revolution_Result3_0> .
+<http://example.com/Philippine_Revolution_Result3_0_2_0> <https://w3id.org/framester/wsj/withfnfe> <https://w3id.org/framester/framenet/abox/gfe/Name> .
+<http://example.com/Philippine_Revolution_Result3_0_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/MappedRole> .
+<http://example.com/Philippine_Revolution_Result3_0_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Philippine Republic" .
+<http://example.com/Philippine_Revolution_Result3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase> .
+<http://example.com/Philippine_Revolution_Result1_0_0> <https://w3id.org/framester/wsj/onLemma> "Expulsion" .
+<http://example.com/Philippine_Revolution_Result0_0_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/framester/wsj/CorpusEntry> .
+<http://example.com/Philippine_Revolution_Result0_0_0> <https://w3id.org/framester/wsj/onLemma> "victory" .
+<http://example.com/Philippine_Revolution_Result3_0_1> <https://w3id.org/framester/wsj/withmappedrole> <http://example.com/Philippine_Revolution_Result3_0_1_0> .
+
