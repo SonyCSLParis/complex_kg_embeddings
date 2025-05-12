@@ -145,6 +145,7 @@ COL_TO_NAME = {
 if __name__ == '__main__':
     # 1. statements
     df_statements = build_table_statements()
+    df_statements.to_csv("statements.csv")
     print(df_statements.columns)
     latex_table = build_table(
         columns=[COL_TO_NAME[x] for x in df_statements.columns],
@@ -251,7 +252,7 @@ if __name__ == '__main__':
         caption="MRR metrics comparison across three methods",
         label="tab:mrr-metrics-3-methods",
         position="h",
-        data=df_3.sort_values(by="sum")[df_3.role==0][["prop", "subevent", "role", "causation", "ULTRA", "SimKGC", "ILP"]].values,
+        data=df_3.sort_values(by=["prop", "subevent", "role", "causation"])[df_3.role==0][["prop", "subevent", "role", "causation", "ULTRA", "SimKGC", "ILP"]].values,
         sub_columns=[],
         multicol=[],
         resize_col=0.8
