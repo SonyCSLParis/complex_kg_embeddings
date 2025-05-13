@@ -1,6 +1,6 @@
 # From Symbols to Numbers: Measuring the Impact of Narrative Complexity on Embeddings
 
-Code submitted with the paper titled "From Symbols to Numbers: Measuring the Impact of Narrative Complexity on Embeddings" to ISWC 2025.
+Code submitted with the paper titled "Measuring the Impact of Narrative Complexity on Knowledge Graph Embeddings" to ISWC 2025.
 
 In this paper, we investigate how narrative semantic and syntactic levels impact embedding performance. This repo contains all the code to construct the KGs and to prepare the data for training with the following three methods: ULTRA, SimKGC, ILP.
 
